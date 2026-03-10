@@ -2,7 +2,7 @@
   "name": "qwerty-learner",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://ShiSi14-0716.github.io/qwerty-learner",
   "dependencies": {
     "@floating-ui/react": "^0.20.1",
     "@headlessui/react": "^1.7.13",
@@ -65,7 +65,9 @@
     "test:e2e": "playwright test",
     "lint": "eslint .",
     "prettier": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
@@ -112,6 +114,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.3.0",
     "git-last-commit": "^1.0.1",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.2",
