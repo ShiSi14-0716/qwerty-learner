@@ -205,3 +205,10 @@ body,
     background-position: 0% 50%;
   }
 }
+/* 隐藏 ruby 注音但保留汉字上方布局 */
+.invisible {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}

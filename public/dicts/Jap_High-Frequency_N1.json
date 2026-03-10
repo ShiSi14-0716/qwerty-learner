@@ -21,7 +21,7 @@
         "notation": "丘陵(きゅうりょう)"
     },
     {
-        "name": "ryoken",
+        "name": "ryokenn",
         "trans": [
             "⓪ 名  护照"
         ],
@@ -42,21 +42,21 @@
         "notation": "相方(あいかた)"
     },
     {
-        "name": "koukan",
+        "name": "koukann",
         "trans": [
             "⓪ 名  好感"
         ],
         "notation": "好感(こうかん)"
     },
     {
-        "name": "omonjiru",
+        "name": "omonnjiru",
         "trans": [
             "⓪ 他动2  重视，注重；尊重"
         ],
         "notation": "重(おも)んじる"
     },
     {
-        "name": "supesharu",
+        "name": "supesyaru",
         "trans": [
             "② 名·ナ形  特别，特殊；专门"
         ],
@@ -70,7 +70,7 @@
         "notation": "負債(ふさい)"
     },
     {
-        "name": "hanabanashii",
+        "name": "hanabanasii",
         "trans": [
             "⑤ イ形  华丽的，豪华的；壮烈的"
         ],
@@ -91,7 +91,7 @@
         "notation": "愛嬌(あいきょう)"
     },
     {
-        "name": "tadachini",
+        "name": "tadatini",
         "trans": [
             "① 副  立刻，马上；直接"
         ],
@@ -105,21 +105,21 @@
         "notation": "竿(さお)"
     },
     {
-        "name": "uchiwake",
+        "name": "utiwake",
         "trans": [
             "⓪ 名  明细，详细内容"
         ],
         "notation": "内訳(うちわけ)"
     },
     {
-        "name": "aikurushii",
+        "name": "aikurusii",
         "trans": [
             "⑤ イ形  天真可爱的"
         ],
         "notation": "愛(あい)くるしい"
     },
     {
-        "name": "goban",
+        "name": "gobann",
         "trans": [
             "⓪ 名  围棋盘"
         ],
@@ -161,7 +161,7 @@
         "notation": "ごまかす"
     },
     {
-        "name": "kyakuhon",
+        "name": "kyakuhonn",
         "trans": [
             "⓪ 名  脚本，剧本"
         ],
@@ -182,14 +182,14 @@
         "notation": "頑(かたく)な"
     },
     {
-        "name": "shinkou",
+        "name": "sinnkou",
         "trans": [
             "⓪ 名·自他动3  振兴"
         ],
         "notation": "振興(しんこう)"
     },
     {
-        "name": "chuusuu",
+        "name": "tyuusuu",
         "trans": [
             "⓪ 名  中枢；关键"
         ],
@@ -203,21 +203,21 @@
         "notation": "富(と)む"
     },
     {
-        "name": "hijoukin",
+        "name": "hijoukinn",
         "trans": [
             "② 名  兼职，兼任"
         ],
         "notation": "非常勤(ひじょうきん)"
     },
     {
-        "name": "heisha",
+        "name": "heisya",
         "trans": [
             "① 名  敝公司"
         ],
         "notation": "弊社(へいしゃ)"
     },
     {
-        "name": "sashikaeru",
+        "name": "sasikaeru",
         "trans": [
             "⓪ 他动2  更换，调换"
         ],
@@ -231,7 +231,7 @@
         "notation": "相性(あいしょう)"
     },
     {
-        "name": "kakushin",
+        "name": "kakusinn",
         "trans": [
             "⓪ 名·他动3  革新"
         ],
@@ -245,7 +245,7 @@
         "notation": "請(う)け合(あ)う"
     },
     {
-        "name": "kureyon",
+        "name": "kureyonn",
         "trans": [
             "② 名  蜡笔"
         ],
@@ -259,7 +259,7 @@
         "notation": "書評(しょひょう)"
     },
     {
-        "name": "tachisukumu",
+        "name": "tatisukumu",
         "trans": [
             "⓪ 自动1  （因吃惊、害怕等）呆立不动"
         ],
@@ -294,7 +294,7 @@
         "notation": "梢(こずえ)"
     },
     {
-        "name": "genkyuu",
+        "name": "gennkyuu",
         "trans": [
             "⓪ 名·自动3  提及，说到"
         ],
@@ -308,14 +308,14 @@
         "notation": "募(つの)る"
     },
     {
-        "name": "nanshoku",
+        "name": "nannshoku",
         "trans": [
             "⓪ 名  为难的神色"
         ],
         "notation": "難色(なんしょく)"
     },
     {
-        "name": "bankai",
+        "name": "bannkai",
         "trans": [
             "⓪ 名·他动3  挽回"
         ],
@@ -329,7 +329,7 @@
         "notation": "安(やす)っぽい"
     },
     {
-        "name": "rinri",
+        "name": "rinnri",
         "trans": [
             "① 名  伦理，人伦"
         ],
@@ -350,7 +350,7 @@
         "notation": "及(およ)ぶ"
     },
     {
-        "name": "sharin",
+        "name": "syarinn",
         "trans": [
             "⓪ 名  车轮"
         ],
@@ -420,7 +420,7 @@
         "notation": "間柄(あいだがら)"
     },
     {
-        "name": "senmu",
+        "name": "sennmu",
         "trans": [
             "① 名  专职；专务董事"
         ],
@@ -434,7 +434,7 @@
         "notation": "涸(か)れる"
     },
     {
-        "name": "genten",
+        "name": "gentenn",
         "trans": [
             "① 名  出发点；原点，基准点"
         ],
@@ -455,21 +455,21 @@
         "notation": "相次(あいつ)ぐ"
     },
     {
-        "name": "shikkyaku",
+        "name": "sikkyaku",
         "trans": [
             "⓪ 名·自动3  下台；垮台"
         ],
         "notation": "失脚(しっきゃく)"
     },
     {
-        "name": "taishitsu",
+        "name": "taisitsu",
         "trans": [
             "⓪ 名  体质；（组织、机构等的）素质"
         ],
         "notation": "体質(たいしつ)"
     },
     {
-        "name": "nukinderu",
+        "name": "nukinnderu",
         "trans": [
             "④ 自他动2  出类拔萃；选出"
         ],
@@ -483,7 +483,7 @@
         "notation": "人柄(ひとがら)"
     },
     {
-        "name": "aiduchi",
+        "name": "aiduti",
         "trans": [
             "⓪ 名  帮腔，随声附和"
         ],
@@ -518,14 +518,14 @@
         "notation": "相手取(あいてど)る"
     },
     {
-        "name": "shin'nen",
+        "name": "sin'nenn",
         "trans": [
             "① 名  信念"
         ],
         "notation": "信念(しんねん)"
     },
     {
-        "name": "hoshaku",
+        "name": "hosyaku",
         "trans": [
             "⓪ 名·他动3  保释"
         ],
@@ -553,14 +553,14 @@
         "notation": "仰向(あおむ)け"
     },
     {
-        "name": "shibashi",
+        "name": "sibasi",
         "trans": [
             "① 副  暂时，不久"
         ],
         "notation": "しばし"
     },
     {
-        "name": "koudan",
+        "name": "koudann",
         "trans": [
             "⓪ 名  讲台，讲坛"
         ],
@@ -581,7 +581,7 @@
         "notation": "あえて"
     },
     {
-        "name": "shoudan",
+        "name": "shoudann",
         "trans": [
             "⓪ 名·自动3  商业谈判，贸易谈判"
         ],
@@ -616,7 +616,7 @@
         "notation": "富豪(ふごう)"
     },
     {
-        "name": "mensuru",
+        "name": "mennsuru",
         "trans": [
             "③ 自动3  面对，朝向；面临"
         ],
@@ -630,7 +630,7 @@
         "notation": "定義(ていぎ)"
     },
     {
-        "name": "kanki",
+        "name": "kannki",
         "trans": [
             "① 名  寒气，寒冷的气候"
         ],
@@ -658,7 +658,7 @@
         "notation": "合間(あいま)"
     },
     {
-        "name": "nozomashii",
+        "name": "nozomasii",
         "trans": [
             "④ イ形  最理想的，最好的"
         ],
@@ -686,7 +686,7 @@
         "notation": "使(つか)いこなす"
     },
     {
-        "name": "keihin",
+        "name": "keihinn",
         "trans": [
             "⓪ 名  赠品；纪念品，礼品"
         ],
@@ -700,21 +700,21 @@
         "notation": "目先(めさき)"
     },
     {
-        "name": "uchikiru",
+        "name": "utikiru",
         "trans": [
             "③ 他动1  停止，中止；结束"
         ],
         "notation": "打(う)ち切(き)る"
     },
     {
-        "name": "aojashin",
+        "name": "aojasinn",
         "trans": [
             "③ 名  蓝图；初步计划"
         ],
         "notation": "青写真(あおじゃしん)"
     },
     {
-        "name": "kankou",
+        "name": "kannkou",
         "trans": [
             "⓪ 名·自动3  完工"
         ],
@@ -728,14 +728,14 @@
         "notation": "拒(こば)む"
     },
     {
-        "name": "chian",
+        "name": "tiann",
         "trans": [
             "⓪ 名  治安"
         ],
         "notation": "治安(ちあん)"
     },
     {
-        "name": "hanga-",
+        "name": "hannga-",
         "trans": [
             "① 名  衣架"
         ],
@@ -770,14 +770,14 @@
         "notation": "呆(ぼ)ける"
     },
     {
-        "name": "dabingu",
+        "name": "dabinngu",
         "trans": [
             "⓪ 名·他动3  复制，拷贝（磁盘、唱片等）"
         ],
         "notation": "ダビング"
     },
     {
-        "name": "kutouten",
+        "name": "kutoutenn",
         "trans": [
             "② 名  句号和顿号；标点符号"
         ],
@@ -805,7 +805,7 @@
         "notation": "追放(ついほう)"
     },
     {
-        "name": "shimiru",
+        "name": "simiru",
         "trans": [
             "⓪ 自动2  染上，沾染；刺，刺痛；浸透"
         ],
@@ -826,14 +826,14 @@
         "notation": "手形(てがた)"
     },
     {
-        "name": "pinto",
+        "name": "pinnto",
         "trans": [
             "⓪ 副  突然；绷紧；马上明白"
         ],
         "notation": "ぴんと"
     },
     {
-        "name": "hanpa",
+        "name": "hannpa",
         "trans": [
             "⓪ 名·ナ形  零头；不彻底；无用的人"
         ],
@@ -861,7 +861,7 @@
         "notation": "英字(えいじ)"
     },
     {
-        "name": "sanmyaku",
+        "name": "sannmyaku",
         "trans": [
             "⓪ 名  山脉"
         ],
@@ -931,7 +931,7 @@
         "notation": "小柄(こがら)"
     },
     {
-        "name": "sashikakaru",
+        "name": "sasikakaru",
         "trans": [
             "④ 自动1  靠近，路过；逼近，临近；垂悬"
         ],
@@ -959,42 +959,42 @@
         "notation": "患(わずら)う"
     },
     {
-        "name": "isan",
+        "name": "isann",
         "trans": [
             "⓪ 名  遗产"
         ],
         "notation": "遺産(いさん)"
     },
     {
-        "name": "oshikko",
+        "name": "osikko",
         "trans": [
             "② 名  撒尿，小便"
         ],
         "notation": "おしっこ"
     },
     {
-        "name": "tachiau",
+        "name": "tatiau",
         "trans": [
             "③ 自动1  遇见；在场，到场"
         ],
         "notation": "立(た)ち会(あ)う"
     },
     {
-        "name": "kikin",
+        "name": "kikinn",
         "trans": [
             "② 名  粮荒，饥荒；不足，缺乏"
         ],
         "notation": "飢饉(ききん)"
     },
     {
-        "name": "houchi",
+        "name": "houti",
         "trans": [
             "⓪ 名·他动3  置之不理，搁置"
         ],
         "notation": "放置(ほうち)"
     },
     {
-        "name": "tokotonmade",
+        "name": "tokotonnmade",
         "trans": [
             "③ 副  直到最后，一直到底"
         ],
@@ -1008,7 +1008,7 @@
         "notation": "ソックス"
     },
     {
-        "name": "kinzoku",
+        "name": "kinnzoku",
         "trans": [
             "⓪ 名·自动3  工龄，持续工作"
         ],
@@ -1029,7 +1029,7 @@
         "notation": "体当(たいあ)たり"
     },
     {
-        "name": "nikushin",
+        "name": "nikusinn",
         "trans": [
             "⓪ 名  亲人，骨肉至亲"
         ],
@@ -1071,7 +1071,7 @@
         "notation": "修業(しゅぎょう)"
     },
     {
-        "name": "kuichigai",
+        "name": "kuitigai",
         "trans": [
             "⓪ 名  分歧，不一致；交叉"
         ],
@@ -1176,7 +1176,7 @@
         "notation": "協調(きょうちょう)"
     },
     {
-        "name": "hikan",
+        "name": "hikann",
         "trans": [
             "⓪ 名·自他动3  悲观，失望"
         ],
@@ -1197,21 +1197,21 @@
         "notation": "体裁(ていさい)"
     },
     {
-        "name": "bakansu",
+        "name": "bakannsu",
         "trans": [
             "① 名  休假，假期"
         ],
         "notation": "バカンス"
     },
     {
-        "name": "misuborashii",
+        "name": "misuborasii",
         "trans": [
             "⑤ イ形  难看的，寒碜的"
         ],
         "notation": "みすぼらしい"
     },
     {
-        "name": "shussan",
+        "name": "shussann",
         "trans": [
             "⓪ 名·自他动3  分娩"
         ],
@@ -1239,14 +1239,14 @@
         "notation": "左利(ひだりき)き"
     },
     {
-        "name": "tenji",
+        "name": "tennji",
         "trans": [
             "⓪ 名·他动3  展示，陈列"
         ],
         "notation": "展示(てんじ)"
     },
     {
-        "name": "shibomu",
+        "name": "sibomu",
         "trans": [
             "⓪ 自动1  枯萎，凋谢；瘪"
         ],
@@ -1274,7 +1274,7 @@
         "notation": "怒(いか)り"
     },
     {
-        "name": "sugasugashii",
+        "name": "sugasugasii",
         "trans": [
             "⑤ イ形  神清气爽的"
         ],
@@ -1288,7 +1288,7 @@
         "notation": "ハイジャック"
     },
     {
-        "name": "mikon",
+        "name": "mikonn",
         "trans": [
             "⓪ 名  未婚"
         ],
@@ -1344,14 +1344,14 @@
         "notation": "弛(たゆ)む"
     },
     {
-        "name": "kakehashi",
+        "name": "kakehasi",
         "trans": [
             "② 名  桥梁"
         ],
         "notation": "架(か)け橋(はし)"
     },
     {
-        "name": "mansei",
+        "name": "mannsei",
         "trans": [
             "⓪ 名  慢性"
         ],
@@ -1372,7 +1372,7 @@
         "notation": "墜落(ついらく)"
     },
     {
-        "name": "shigaisen",
+        "name": "sigaisenn",
         "trans": [
             "⓪ 名  紫外线"
         ],
@@ -1393,7 +1393,7 @@
         "notation": "フェア"
     },
     {
-        "name": "kenji",
+        "name": "kennji",
         "trans": [
             "① 名  检察官"
         ],
@@ -1407,7 +1407,7 @@
         "notation": "呆(あき)れる"
     },
     {
-        "name": "endaka",
+        "name": "enndaka",
         "trans": [
             "⓪ 名  日元升值"
         ],
@@ -1435,7 +1435,7 @@
         "notation": "玄人(くろうと)"
     },
     {
-        "name": "donzoko",
+        "name": "donnzoko",
         "trans": [
             "⓪ 名  最底层，最穷困的状态"
         ],
@@ -1463,7 +1463,7 @@
         "notation": "陸上(りくじょう)"
     },
     {
-        "name": "iyashii",
+        "name": "iyasii",
         "trans": [
             "③ イ形  卑鄙的；低贱的；破旧的"
         ],
@@ -1498,7 +1498,7 @@
         "notation": "経歴(けいれき)"
     },
     {
-        "name": "honkan",
+        "name": "honkann",
         "trans": [
             "⓪ 名  主楼，正楼"
         ],
@@ -1512,14 +1512,14 @@
         "notation": "横(よこ)たわる"
     },
     {
-        "name": "shiraga",
+        "name": "siraga",
         "trans": [
             "③ 名  白头发"
         ],
         "notation": "白髪(しらが)"
     },
     {
-        "name": "onrain",
+        "name": "onrainn",
         "trans": [
             "③ 名  联机，在线"
         ],
@@ -1533,7 +1533,7 @@
         "notation": "いささか"
     },
     {
-        "name": "senshuu",
+        "name": "sennshuu",
         "trans": [
             "⓪ 名·他动3  专修，专攻"
         ],
@@ -1554,7 +1554,7 @@
         "notation": "沸(わ)き上(あ)がる"
     },
     {
-        "name": "bansou",
+        "name": "bannsou",
         "trans": [
             "⓪ 名·自动3  伴奏"
         ],
@@ -1575,21 +1575,21 @@
         "notation": "驕(おご)る"
     },
     {
-        "name": "imin",
+        "name": "iminn",
         "trans": [
             "⓪ 名·自动3  移民"
         ],
         "notation": "移民(いみん)"
     },
     {
-        "name": "daenkei",
+        "name": "daennkei",
         "trans": [
             "⓪ 名  椭圆形"
         ],
         "notation": "楕円形(だえんけい)"
     },
     {
-        "name": "mezamashii",
+        "name": "mezamasii",
         "trans": [
             "④ イ形  惊人的，异常显著的"
         ],
@@ -1603,7 +1603,7 @@
         "notation": "日照(ひで)り"
     },
     {
-        "name": "shiitake",
+        "name": "siitake",
         "trans": [
             "① 名  香菇"
         ],
@@ -1638,7 +1638,7 @@
         "notation": "上回(うわまわ)る"
     },
     {
-        "name": "kanshoku",
+        "name": "kannshoku",
         "trans": [
             "⓪ 名  触觉，触感；感觉"
         ],
@@ -1666,7 +1666,7 @@
         "notation": "有望(ゆうぼう)"
     },
     {
-        "name": "jisonshin",
+        "name": "jisonsinn",
         "trans": [
             "② 名  自尊心"
         ],
@@ -1687,7 +1687,7 @@
         "notation": "着手(ちゃくしゅ)"
     },
     {
-        "name": "genkyuu",
+        "name": "gennkyuu",
         "trans": [
             "⓪ 名·自他动3  减薪，降薪"
         ],
@@ -1701,14 +1701,14 @@
         "notation": "裁(さば)く"
     },
     {
-        "name": "kaunsera-",
+        "name": "kaunnsera-",
         "trans": [
             "② 名  （心理）咨询师；生活指导员"
         ],
         "notation": "カウンセラー"
     },
     {
-        "name": "chouhen",
+        "name": "chouhenn",
         "trans": [
             "⓪ 名  长篇"
         ],
@@ -1729,7 +1729,7 @@
         "notation": "鷹(たか)"
     },
     {
-        "name": "gunshuu",
+        "name": "gunnshuu",
         "trans": [
             "⓪ 名  群众"
         ],
@@ -1743,7 +1743,7 @@
         "notation": "誂(あつら)える"
     },
     {
-        "name": "sashiire",
+        "name": "sasiire",
         "trans": [
             "⓪ 名·他动3  插入，投入；送慰问品"
         ],
@@ -1764,7 +1764,7 @@
         "notation": "逃(のが)す"
     },
     {
-        "name": "bunshi",
+        "name": "bunnsi",
         "trans": [
             "① 名  分子"
         ],
@@ -1806,21 +1806,21 @@
         "notation": "発(はっ)する"
     },
     {
-        "name": "tenji",
+        "name": "tennji",
         "trans": [
             "⓪ 名  盲文"
         ],
         "notation": "点字(てんじ)"
     },
     {
-        "name": "kichoumen",
+        "name": "kichoumenn",
         "trans": [
             "④ ナ形  一丝不苟的，严谨的"
         ],
         "notation": "几帳面(きちょうめん)"
     },
     {
-        "name": "shitau",
+        "name": "sitau",
         "trans": [
             "⓪ 他动1  爱慕，思慕；敬仰；追随"
         ],
@@ -1834,7 +1834,7 @@
         "notation": "ミサイル"
     },
     {
-        "name": "akashi",
+        "name": "akasi",
         "trans": [
             "⓪ 名  证据，证明"
         ],
@@ -1869,7 +1869,7 @@
         "notation": "敗(やぶ)れる"
     },
     {
-        "name": "ton'ya",
+        "name": "tonn'ya",
         "trans": [
             "⓪ 名  批发商"
         ],
@@ -1890,7 +1890,7 @@
         "notation": "商(あきな)い"
     },
     {
-        "name": "kanaduchi",
+        "name": "kanaduti",
         "trans": [
             "③ 名  锤子，铁锤；不会游泳的人"
         ],
@@ -1904,7 +1904,7 @@
         "notation": "弊害(へいがい)"
     },
     {
-        "name": "manmarui",
+        "name": "mannmarui",
         "trans": [
             "④ イ形  圆溜溜的，圆滚滚的"
         ],
@@ -1918,14 +1918,14 @@
         "notation": "モーテル"
     },
     {
-        "name": "konpon",
+        "name": "konponn",
         "trans": [
             "⓪ 名  根本，根源"
         ],
         "notation": "根本(こんぽん)"
     },
     {
-        "name": "karonjiru",
+        "name": "karonnjiru",
         "trans": [
             "④ 他动2  轻视；忽视"
         ],
@@ -1981,21 +1981,21 @@
         "notation": "クレーム"
     },
     {
-        "name": "kaizokuban",
+        "name": "kaizokubann",
         "trans": [
             "⓪ 名  盗版"
         ],
         "notation": "海賊版(かいぞくばん)"
     },
     {
-        "name": "subashikoi",
+        "name": "subasikoi",
         "trans": [
             "④ イ形  敏捷的，灵活的"
         ],
         "notation": "すばしこい"
     },
     {
-        "name": "kinri",
+        "name": "kinnri",
         "trans": [
             "⓪ 名  利息，利率"
         ],
@@ -2051,14 +2051,14 @@
         "notation": "投入(とうにゅう)"
     },
     {
-        "name": "keisandakai",
+        "name": "keisanndakai",
         "trans": [
             "⑥ イ形  会算计的；打小算盘的，精打细算的"
         ],
         "notation": "計算高(けいさんだか)い"
     },
     {
-        "name": "uchiwa",
+        "name": "utiwa",
         "trans": [
             "② 名  团扇，蒲扇"
         ],
@@ -2107,7 +2107,7 @@
         "notation": "垢(あか)"
     },
     {
-        "name": "toushi",
+        "name": "tousi",
         "trans": [
             "⓪ 名·自他动3  投资"
         ],
@@ -2121,7 +2121,7 @@
         "notation": "蘇(よみがえ)る"
     },
     {
-        "name": "insupire-shon",
+        "name": "insupire-shonn",
         "trans": [
             "⑤ 名  灵感"
         ],
@@ -2163,14 +2163,14 @@
         "notation": "綻(ほころ)びる"
     },
     {
-        "name": "shinpan",
+        "name": "sinpann",
         "trans": [
             "⓪ 名·他动3  审判，裁判"
         ],
         "notation": "審判(しんぱん)"
     },
     {
-        "name": "ikan",
+        "name": "ikann",
         "trans": [
             "⓪ 名·ナ形  遗憾"
         ],
@@ -2191,14 +2191,14 @@
         "notation": "再度(さいど)"
     },
     {
-        "name": "chiri",
+        "name": "tiri",
         "trans": [
             "⓪ 名  灰尘；少许，丝毫"
         ],
         "notation": "塵(ちり)"
     },
     {
-        "name": "migurushii",
+        "name": "migurusii",
         "trans": [
             "④ イ形  难看的，寒碜的；丢脸的"
         ],
@@ -2233,7 +2233,7 @@
         "notation": "稲光(いなびかり)"
     },
     {
-        "name": "sakan",
+        "name": "sakann",
         "trans": [
             "⓪ 名  泥瓦匠"
         ],
@@ -2275,7 +2275,7 @@
         "notation": "小豆(あずき)"
     },
     {
-        "name": "buenryo",
+        "name": "buennryo",
         "trans": [
             "② 名·ナ形  不客气，直率"
         ],
@@ -2310,7 +2310,7 @@
         "notation": "さも"
     },
     {
-        "name": "uchimaku",
+        "name": "utimaku",
         "trans": [
             "⓪ 名  内幕，内情"
         ],
@@ -2359,14 +2359,14 @@
         "notation": "来場(らいじょう)"
     },
     {
-        "name": "gangu",
+        "name": "ganngu",
         "trans": [
             "① 名  玩具"
         ],
         "notation": "玩具(がんぐ)"
     },
     {
-        "name": "imaichi",
+        "name": "imaiti",
         "trans": [
             "② 副  差一点儿，再加把劲"
         ],
@@ -2387,7 +2387,7 @@
         "notation": "目録(もくろく)"
     },
     {
-        "name": "wazatorashii",
+        "name": "wazatorasii",
         "trans": [
             "⑤ イ形  故意似的，不自然的"
         ],
@@ -2415,7 +2415,7 @@
         "notation": "捌(さば)く"
     },
     {
-        "name": "guri-nsha",
+        "name": "guri-nnsya",
         "trans": [
             "② 名  一等车，软席车厢"
         ],
@@ -2429,7 +2429,7 @@
         "notation": "尾(お)"
     },
     {
-        "name": "itamashii",
+        "name": "itamasii",
         "trans": [
             "④ イ形  可怜的，凄惨的，令人痛心的"
         ],
@@ -2457,14 +2457,14 @@
         "notation": "聳(そび)える"
     },
     {
-        "name": "gengaku",
+        "name": "genngaku",
         "trans": [
             "⓪ 名·他动3  减少数额"
         ],
         "notation": "減額(げんがく)"
     },
     {
-        "name": "eisha",
+        "name": "eisya",
         "trans": [
             "⓪ 名·他动3  放映"
         ],
@@ -2485,7 +2485,7 @@
         "notation": "二枚目(にまいめ)"
     },
     {
-        "name": "hanran",
+        "name": "hanrann",
         "trans": [
             "⓪ 名·自动3  叛乱"
         ],
@@ -2520,7 +2520,7 @@
         "notation": "熟(こな)す"
     },
     {
-        "name": "shouchi",
+        "name": "shouti",
         "trans": [
             "⓪ 名·他动3  同意，许可；知道"
         ],
@@ -2562,14 +2562,14 @@
         "notation": "類(るい)する"
     },
     {
-        "name": "kankou",
+        "name": "kannkou",
         "trans": [
             "⓪ 名·他动3  出版；发行"
         ],
         "notation": "刊行(かんこう)"
     },
     {
-        "name": "endan",
+        "name": "endann",
         "trans": [
             "⓪ 名  亲事，婚事"
         ],
@@ -2590,7 +2590,7 @@
         "notation": "戯曲(ぎきょく)"
     },
     {
-        "name": "janpa-",
+        "name": "jannpa-",
         "trans": [
             "① 名  夹克衫，运动服"
         ],
@@ -2618,7 +2618,7 @@
         "notation": "入居(にゅうきょ)"
     },
     {
-        "name": "machidooshii",
+        "name": "matidoosii",
         "trans": [
             "⑤ イ形  急切等待的，盼望已久的"
         ],
@@ -2646,14 +2646,14 @@
         "notation": "赤(あか)らむ"
     },
     {
-        "name": "kanpouyaku",
+        "name": "kannpouyaku",
         "trans": [
             "③ 名  中药"
         ],
         "notation": "漢方薬(かんぽうやく)"
     },
     {
-        "name": "zumen",
+        "name": "zumenn",
         "trans": [
             "⓪ 名  图纸，设计图"
         ],
@@ -2688,7 +2688,7 @@
         "notation": "鍛(きた)える"
     },
     {
-        "name": "iwakan",
+        "name": "iwakann",
         "trans": [
             "② 名  别扭，违和感"
         ],
@@ -2737,7 +2737,7 @@
         "notation": "胡麻(ごま)"
     },
     {
-        "name": "shihan",
+        "name": "sihann",
         "trans": [
             "⓪ 名·他动3  在市面上出售"
         ],
@@ -2751,7 +2751,7 @@
         "notation": "早(はや)いこと"
     },
     {
-        "name": "kamihanki",
+        "name": "kamihannki",
         "trans": [
             "③ 名  上半期，上半年度"
         ],
@@ -2765,7 +2765,7 @@
         "notation": "目論見(もくろみ)"
     },
     {
-        "name": "uchikomu",
+        "name": "utikomu",
         "trans": [
             "⓪ 自他动1  热衷，专心致志；打进，砸进"
         ],
@@ -2807,7 +2807,7 @@
         "notation": "暁(あかつき)"
     },
     {
-        "name": "gunshuu",
+        "name": "gunnshuu",
         "trans": [
             "⓪ 名·自动3  人群；聚集，群集"
         ],
@@ -2870,7 +2870,7 @@
         "notation": "賄賂(わいろ)"
     },
     {
-        "name": "iibun",
+        "name": "iibunn",
         "trans": [
             "⓪ 名  主张；不满，意见"
         ],
@@ -2891,7 +2891,7 @@
         "notation": "採掘(さいくつ)"
     },
     {
-        "name": "chuufuku",
+        "name": "tyuufuku",
         "trans": [
             "⓪ 名  半山腰"
         ],
@@ -2905,7 +2905,7 @@
         "notation": "長引(ながび)く"
     },
     {
-        "name": "hikanteki",
+        "name": "hikannteki",
         "trans": [
             "⓪ ナ形  悲观的"
         ],
@@ -2926,14 +2926,14 @@
         "notation": "野外(やがい)"
     },
     {
-        "name": "raisensu",
+        "name": "raisennsu",
         "trans": [
             "① 名  许可；执照，许可证"
         ],
         "notation": "ライセンス"
     },
     {
-        "name": "wazurawashii",
+        "name": "wazurawasii",
         "trans": [
             "⑤ イ形  烦琐的，麻烦的"
         ],
@@ -2947,21 +2947,21 @@
         "notation": "植木(うえき)"
     },
     {
-        "name": "gian",
+        "name": "giann",
         "trans": [
             "⓪ 名  议案"
         ],
         "notation": "議案(ぎあん)"
     },
     {
-        "name": "shikujiru",
+        "name": "sikujiru",
         "trans": [
             "③ 他动1  失败；被解雇"
         ],
         "notation": "しくじる"
     },
     {
-        "name": "tsuunen",
+        "name": "tsuunenn",
         "trans": [
             "① 名  普遍的想法，共同观念"
         ],
@@ -2989,7 +2989,7 @@
         "notation": "目当(めあ)て"
     },
     {
-        "name": "youin",
+        "name": "youinn",
         "trans": [
             "⓪ 名  主要原因"
         ],
@@ -3038,7 +3038,7 @@
         "notation": "無愛想(ぶあいそう)"
     },
     {
-        "name": "mijinmo",
+        "name": "mijinnmo",
         "trans": [
             "⓪ 副  （后接否定）丝毫也⋯⋯"
         ],
@@ -3080,7 +3080,7 @@
         "notation": "誠意(せいい)"
     },
     {
-        "name": "chirachira",
+        "name": "tiratira",
         "trans": [
             "① 副·自动3  纷纷扬扬；时隐时现；一闪一闪；眼睛发花"
         ],
@@ -3115,7 +3115,7 @@
         "notation": "惑星(わくせい)"
     },
     {
-        "name": "shishuu",
+        "name": "sishuu",
         "trans": [
             "⓪ 名·他动3  刺绣"
         ],
@@ -3164,21 +3164,21 @@
         "notation": "強力(きょうりょく)"
     },
     {
-        "name": "shirizoku",
+        "name": "sirizoku",
         "trans": [
             "③ 自动1  后退；辞职；退出"
         ],
         "notation": "退(しりぞ)く"
     },
     {
-        "name": "tounin",
+        "name": "touninn",
         "trans": [
             "① 名  当事人，本人"
         ],
         "notation": "当人(とうにん)"
     },
     {
-        "name": "nyuansu",
+        "name": "nyuannsu",
         "trans": [
             "① 名  语气，语感；微妙的差别"
         ],
@@ -3248,21 +3248,21 @@
         "notation": "軒並(のきな)み"
     },
     {
-        "name": "muron",
+        "name": "muronn",
         "trans": [
             "⓪ 副  不用说，当然"
         ],
         "notation": "無論(むろん)"
     },
     {
-        "name": "fikushon",
+        "name": "fikushonn",
         "trans": [
             "① 名  小说；虚构，杜撰"
         ],
         "notation": "フィクション"
     },
     {
-        "name": "iden",
+        "name": "idenn",
         "trans": [
             "⓪ 名·自动3  遗传"
         ],
@@ -3346,21 +3346,21 @@
         "notation": "危害(きがい)"
     },
     {
-        "name": "shian",
+        "name": "siann",
         "trans": [
             "⓪ 名  试行方案"
         ],
         "notation": "試案(しあん)"
     },
     {
-        "name": "chikau",
+        "name": "tikau",
         "trans": [
             "② 自动1  发誓，立誓"
         ],
         "notation": "誓(ちか)う"
     },
     {
-        "name": "nikushimi",
+        "name": "nikusimi",
         "trans": [
             "⓪ 名  憎恶，憎恨"
         ],
@@ -3598,7 +3598,7 @@
         "notation": "退化(たいか)"
     },
     {
-        "name": "nagekawashii",
+        "name": "nagekawasii",
         "trans": [
             "⑤ イ形  可叹的，可悲的"
         ],
@@ -3626,7 +3626,7 @@
         "notation": "揺(ゆ)さぶる"
     },
     {
-        "name": "rikishi",
+        "name": "rikisi",
         "trans": [
             "① 名  大力士；相扑运动员"
         ],
@@ -3647,7 +3647,7 @@
         "notation": "食(く)い止(と)める"
     },
     {
-        "name": "suigen",
+        "name": "suigenn",
         "trans": [
             "⓪ 名  水源"
         ],
@@ -3675,7 +3675,7 @@
         "notation": "ファイト"
     },
     {
-        "name": "mukuchi",
+        "name": "mukuti",
         "trans": [
             "① 名·ナ形  沉默寡言"
         ],
@@ -3710,7 +3710,7 @@
         "notation": "疎(うと)い"
     },
     {
-        "name": "keien",
+        "name": "keienn",
         "trans": [
             "⓪ 名·他动3  敬而远之，回避"
         ],
@@ -3731,7 +3731,7 @@
         "notation": "手(て)がける"
     },
     {
-        "name": "neuchi",
+        "name": "neuti",
         "trans": [
             "⓪ 名  价格；价值"
         ],
@@ -3752,7 +3752,7 @@
         "notation": "めきめき"
     },
     {
-        "name": "yougisha",
+        "name": "yougisya",
         "trans": [
             "③ 名  嫌疑人"
         ],
@@ -3822,7 +3822,7 @@
         "notation": "行方(ゆくえ)"
     },
     {
-        "name": "rounyakunan'nyo",
+        "name": "rounyakunann'nyo",
         "trans": [
             "⑤ 名  男女老少"
         ],
@@ -3857,14 +3857,14 @@
         "notation": "ちょくちょく"
     },
     {
-        "name": "napukin",
+        "name": "napukinn",
         "trans": [
             "① 名  餐巾"
         ],
         "notation": "ナプキン"
     },
     {
-        "name": "fudangi",
+        "name": "fudanngi",
         "trans": [
             "② 名  日常穿的衣服，便装"
         ],
@@ -3885,7 +3885,7 @@
         "notation": "余興(よきょう)"
     },
     {
-        "name": "rifujin",
+        "name": "rifujinn",
         "trans": [
             "② 名·ナ形  不讲理，蛮横无理"
         ],
@@ -3906,7 +3906,7 @@
         "notation": "片思(かたおも)い"
     },
     {
-        "name": "sashizu",
+        "name": "sasizu",
         "trans": [
             "① 名·他动3  指示，吩咐；指使，命令"
         ],
@@ -3920,7 +3920,7 @@
         "notation": "たわいない"
     },
     {
-        "name": "ninchishou",
+        "name": "ninntishou",
         "trans": [
             "⓪ 名  痴呆症"
         ],
@@ -3969,14 +3969,14 @@
         "notation": "生真面目(きまじめ)"
     },
     {
-        "name": "shibutoi",
+        "name": "sibutoi",
         "trans": [
             "③ イ形  顽固的；顽强的"
         ],
         "notation": "しぶとい"
     },
     {
-        "name": "cha-mingu",
+        "name": "cha-minngu",
         "trans": [
             "① ナ形  有魅力的，迷人的"
         ],
@@ -3997,7 +3997,7 @@
         "notation": "ひいては"
     },
     {
-        "name": "migonashi",
+        "name": "migonasi",
         "trans": [
             "⓪ 名  举止，动作"
         ],
@@ -4018,7 +4018,7 @@
         "notation": "請(う)け負(お)う"
     },
     {
-        "name": "ku-pon",
+        "name": "ku-ponn",
         "trans": [
             " ① 名  优惠券；联票，通票"
         ],
@@ -4046,7 +4046,7 @@
         "notation": "寝相(ねぞう)"
     },
     {
-        "name": "fuan'nai",
+        "name": "fuann'nai",
         "trans": [
             "② 名·ナ形  不熟悉，生疏"
         ],
@@ -4074,7 +4074,7 @@
         "notation": "類型(るいけい)"
     },
     {
-        "name": "enjiru",
+        "name": "ennjiru",
         "trans": [
             "③ 他动2  扮演；造成"
         ],
@@ -4102,7 +4102,7 @@
         "notation": "出(で)くわす"
     },
     {
-        "name": "ne-mingu",
+        "name": "ne-minngu",
         "trans": [
             "⓪ 名  命名"
         ],
@@ -4116,7 +4116,7 @@
         "notation": "平常(へいじょう)"
     },
     {
-        "name": "memagurushii",
+        "name": "memagurusii",
         "trans": [
             "⑤ イ形  眼花缭乱的，瞬息万变的"
         ],
@@ -4193,7 +4193,7 @@
         "notation": "誘拐(ゆうかい)"
     },
     {
-        "name": "roushi",
+        "name": "rousi",
         "trans": [
             "① 名  工人与雇主，劳资（双方）"
         ],
@@ -4228,7 +4228,7 @@
         "notation": "大概(たいがい)"
     },
     {
-        "name": "naishi",
+        "name": "naisi",
         "trans": [
             "① 接续  至，乃至；或者"
         ],
@@ -4249,7 +4249,7 @@
         "notation": "前書(まえが)き"
     },
     {
-        "name": "yashiki",
+        "name": "yasiki",
         "trans": [
             "③ 名  宅邸，住宅；房屋和地产"
         ],
@@ -4277,14 +4277,14 @@
         "notation": "義理(ぎり)"
     },
     {
-        "name": "shidekasu",
+        "name": "sidekasu",
         "trans": [
             "③ 他动1  做出，干出（不像话的事）"
         ],
         "notation": "しでかす"
     },
     {
-        "name": "che-n",
+        "name": "che-nn",
         "trans": [
             "① 名  链子，链条；连锁组织"
         ],
@@ -4326,7 +4326,7 @@
         "notation": "利己的(りこてき)"
     },
     {
-        "name": "ushirodate",
+        "name": "usirodate",
         "trans": [
             "⓪ 名  后盾，靠山"
         ],
@@ -4354,7 +4354,7 @@
         "notation": "熱狂(ねっきょう)"
     },
     {
-        "name": "puraibashi-",
+        "name": "puraibasi-",
         "trans": [
             "② 名  隐私，私生活"
         ],
@@ -4368,7 +4368,7 @@
         "notation": "むかつく"
     },
     {
-        "name": "yuukan",
+        "name": "yuukann",
         "trans": [
             "⓪ ナ形  勇敢的"
         ],
@@ -4424,14 +4424,14 @@
         "notation": "別居(べっきょ)"
     },
     {
-        "name": "menjiru",
+        "name": "mennjiru",
         "trans": [
             "⓪ 他动2  免除，免去；免职；看在⋯⋯的面子上"
         ],
         "notation": "免(めん)じる"
     },
     {
-        "name": "yousha",
+        "name": "yousya",
         "trans": [
             "① 名·他动3  宽恕，原谅；姑息"
         ],
@@ -4487,7 +4487,7 @@
         "notation": "廃棄(はいき)"
     },
     {
-        "name": "mizumizushii",
+        "name": "mizumizusii",
         "trans": [
             "⑤ イ形  水灵灵的，娇嫩的"
         ],
@@ -4529,7 +4529,7 @@
         "notation": "持病(じびょう)"
     },
     {
-        "name": "chiratto",
+        "name": "tiratto",
         "trans": [
             "② 副  一晃，一闪；隐约（听到）"
         ],
@@ -4571,21 +4571,21 @@
         "notation": "理屈(りくつ)"
     },
     {
-        "name": "uyauyashii",
+        "name": "uyauyasii",
         "trans": [
             "⑤ イ形  恭敬的，有礼貌的"
         ],
         "notation": "恭(うやうや)しい"
     },
     {
-        "name": "guchi",
+        "name": "guti",
         "trans": [
             "⓪ 名  抱怨，牢骚"
         ],
         "notation": "愚痴(ぐち)"
     },
     {
-        "name": "jakkan",
+        "name": "jakkann",
         "trans": [
             "⓪ 名·副  若干，一些"
         ],
@@ -4599,21 +4599,21 @@
         "notation": "情(なさ)け深(ぶか)い"
     },
     {
-        "name": "hankan",
+        "name": "hankann",
         "trans": [
             "⓪ 名  反感"
         ],
         "notation": "反感(はんかん)"
     },
     {
-        "name": "michidure",
+        "name": "mitidure",
         "trans": [
             "⓪ 名  旅伴，同行者"
         ],
         "notation": "道連(みちづ)れ"
     },
     {
-        "name": "yashinau",
+        "name": "yasinau",
         "trans": [
             "③ 他动1  养育；培养；疗养"
         ],
@@ -4641,7 +4641,7 @@
         "notation": "あくどい"
     },
     {
-        "name": "kangen",
+        "name": "kangenn",
         "trans": [
             "⓪ 名·自他动3  还原，恢复原状"
         ],
@@ -4655,7 +4655,7 @@
         "notation": "査証(さしょう)"
     },
     {
-        "name": "tachikiru",
+        "name": "tatikiru",
         "trans": [
             "③ 他动1  切断；断绝（关系）"
         ],
@@ -4711,7 +4711,7 @@
         "notation": "聞(き)き上手(じょうず)"
     },
     {
-        "name": "shisa",
+        "name": "sisa",
         "trans": [
             "① 名·他动3  暗示，启发"
         ],
@@ -4753,7 +4753,7 @@
         "notation": "略奪(りゃくだつ)"
     },
     {
-        "name": "wanpata-n",
+        "name": "wanpata-nn",
         "trans": [
             "④ 名·ナ形  千篇一律，一个模子"
         ],
@@ -4767,21 +4767,21 @@
         "notation": "受(う)け入(い)れる"
     },
     {
-        "name": "assen",
+        "name": "assenn",
         "trans": [
             "⓪ 名·他动3  斡旋；帮助；介绍"
         ],
         "notation": "斡旋(あっせん)"
     },
     {
-        "name": "kanshou",
+        "name": "kannshou",
         "trans": [
             "⓪ 名·自动3  完全胜利，完胜"
         ],
         "notation": "完勝(かんしょう)"
     },
     {
-        "name": "sashitsukaeru",
+        "name": "sasitsukaeru",
         "trans": [
             "⑤ 自动2  妨碍，有影响；不方便"
         ],
@@ -4816,7 +4816,7 @@
         "notation": "間際(まぎわ)"
     },
     {
-        "name": "yashin",
+        "name": "yasinn",
         "trans": [
             "① 名  野心"
         ],
@@ -4844,7 +4844,7 @@
         "notation": "ギャラ"
     },
     {
-        "name": "shanimuni",
+        "name": "syanimuni",
         "trans": [
             "⓪ 副  胡乱，盲目；一个劲儿"
         ],
@@ -4858,7 +4858,7 @@
         "notation": "区切(くぎ)る"
     },
     {
-        "name": "shiren",
+        "name": "sirenn",
         "trans": [
             "① 名  考验，锻炼"
         ],
@@ -4872,7 +4872,7 @@
         "notation": "焚(た)き火(び)"
     },
     {
-        "name": "namanamashii",
+        "name": "namanamasii",
         "trans": [
             "⑤ イ形  生动的，活生生的，栩栩如生的"
         ],
@@ -4928,7 +4928,7 @@
         "notation": "情緒(じょうちょ/じょうしょ)"
     },
     {
-        "name": "taimingu",
+        "name": "taiminngu",
         "trans": [
             "⓪ 名  时机"
         ],
@@ -4942,7 +4942,7 @@
         "notation": "照(て)れくさい"
     },
     {
-        "name": "netsuben",
+        "name": "netsubenn",
         "trans": [
             "⓪ 名  热情洋溢的讲话"
         ],
@@ -4963,7 +4963,7 @@
         "notation": "上向(うわむ)く"
     },
     {
-        "name": "gaikan",
+        "name": "gaikann",
         "trans": [
             "⓪ 名  外观，外表"
         ],
@@ -4977,7 +4977,7 @@
         "notation": "サバイバル"
     },
     {
-        "name": "tachinoku",
+        "name": "tatinoku",
         "trans": [
             "③ 自动1  走开，离开；搬走"
         ],
@@ -4991,7 +4991,7 @@
         "notation": "手頃(てごろ)"
     },
     {
-        "name": "naishin",
+        "name": "naisinn",
         "trans": [
             "⓪ 名·副  内心，心中"
         ],
@@ -5033,7 +5033,7 @@
         "notation": "酪農(らくのう)"
     },
     {
-        "name": "watakushigoto",
+        "name": "watakusigoto",
         "trans": [
             "⓪ 名  私事"
         ],
@@ -5047,7 +5047,7 @@
         "notation": "偽(いつわ)る"
     },
     {
-        "name": "kusshi",
+        "name": "kussi",
         "trans": [
             "① 名·自动3  屈指可数，数一数二"
         ],
@@ -5061,7 +5061,7 @@
         "notation": "樹立(じゅりつ)"
     },
     {
-        "name": "decchiageru",
+        "name": "dectiageru",
         "trans": [
             "⑤ 他动2  捏造，编造；拼凑出"
         ],
@@ -5082,7 +5082,7 @@
         "notation": "不得手(ふえて)"
     },
     {
-        "name": "magirawashii",
+        "name": "magirawasii",
         "trans": [
             "⑤ イ形  容易混淆的，不易分辨的"
         ],
@@ -5103,35 +5103,35 @@
         "notation": "異動(いどう)"
     },
     {
-        "name": "shikakeru",
+        "name": "sikakeru",
         "trans": [
             "③ 他动2  开始做；做到中途；挑衅；布置，设置"
         ],
         "notation": "仕掛(しか)ける"
     },
     {
-        "name": "eshaku",
+        "name": "esyaku",
         "trans": [
             "① 名·自动3  点头致意，打招呼"
         ],
         "notation": "会釈(えしゃく)"
     },
     {
-        "name": "sensu",
+        "name": "sennsu",
         "trans": [
             "⓪ 名  扇子"
         ],
         "notation": "扇子(せんす)"
     },
     {
-        "name": "torishiraberu",
+        "name": "torisiraberu",
         "trans": [
             "⑤ 他动2  调查；审讯，审问"
         ],
         "notation": "取(と)り調(しら)べる"
     },
     {
-        "name": "batsugun",
+        "name": "batsugunn",
         "trans": [
             "⓪ 名·ナ形  超群，突出，出众"
         ],
@@ -5173,14 +5173,14 @@
         "notation": "与(あずか)る"
     },
     {
-        "name": "opushon",
+        "name": "opushonn",
         "trans": [
             "① 名  选择"
         ],
         "notation": "オプション"
     },
     {
-        "name": "gunbi",
+        "name": "gunnbi",
         "trans": [
             "① 名  军备"
         ],
@@ -5194,14 +5194,14 @@
         "notation": "妨(さまた)げる"
     },
     {
-        "name": "sochi",
+        "name": "soti",
         "trans": [
             "① 名·他动3  措施，处理"
         ],
         "notation": "措置(そち)"
     },
     {
-        "name": "chouhon'nin",
+        "name": "chouhon'ninn",
         "trans": [
             "③ 名  罪魁祸首，肇事者"
         ],
@@ -5236,7 +5236,7 @@
         "notation": "委(ゆだ)ねる"
     },
     {
-        "name": "rakkan",
+        "name": "rakkann",
         "trans": [
             "⓪ 名·他动3  乐观"
         ],
@@ -5271,21 +5271,21 @@
         "notation": "幼馴染(おさななじみ)"
     },
     {
-        "name": "tsutsushimu",
+        "name": "tsutsusimu",
         "trans": [
             "③ 他动1  谨慎，慎重；节制"
         ],
         "notation": "慎(つつし)む"
     },
     {
-        "name": "ichidaiji",
+        "name": "itidaiji",
         "trans": [
             "③ 名  一件大事"
         ],
         "notation": "一大事(いちだいじ)"
     },
     {
-        "name": "shikke",
+        "name": "sikke",
         "trans": [
             "⓪ 名  湿气，潮气"
         ],
@@ -5327,7 +5327,7 @@
         "notation": "猶予(ゆうよ)"
     },
     {
-        "name": "rijun",
+        "name": "rijunn",
         "trans": [
             "⓪ 名  利润"
         ],
@@ -5341,7 +5341,7 @@
         "notation": "言(い)いよどむ"
     },
     {
-        "name": "kaiun",
+        "name": "kaiunn",
         "trans": [
             "⓪ 名  海运"
         ],
@@ -5355,7 +5355,7 @@
         "notation": "固有(こゆう)"
     },
     {
-        "name": "junjiru",
+        "name": "junnjiru",
         "trans": [
             "⓪ 自动2  以⋯⋯为标准；按照⋯⋯看待"
         ],
@@ -5369,14 +5369,14 @@
         "notation": "棚上(たなあ)げ"
     },
     {
-        "name": "ashidori",
+        "name": "asidori",
         "trans": [
             "⓪ 名  脚步，步伐；踪迹"
         ],
         "notation": "足取(あしど)り"
     },
     {
-        "name": "haradatashii",
+        "name": "haradatasii",
         "trans": [
             "⑤ イ形  令人气愤的"
         ],
@@ -5411,7 +5411,7 @@
         "notation": "協定(きょうてい)"
     },
     {
-        "name": "janbo",
+        "name": "jannbo",
         "trans": [
             "① 名·ナ形  巨大，特大"
         ],
@@ -5425,7 +5425,7 @@
         "notation": "貫(つらぬ)く"
     },
     {
-        "name": "keigen",
+        "name": "keigenn",
         "trans": [
             "⓪ 名·他动3  减轻"
         ],
@@ -5446,7 +5446,7 @@
         "notation": "遅(おく)らせる"
     },
     {
-        "name": "kokuchi",
+        "name": "kokuti",
         "trans": [
             "⓪ 名·他动3  告知，通报"
         ],
@@ -5474,7 +5474,7 @@
         "notation": "マイクロ～"
     },
     {
-        "name": "yuushi",
+        "name": "yuusi",
         "trans": [
             "① 名·自动3  融资，贷款"
         ],
@@ -5495,7 +5495,7 @@
         "notation": "却下(きゃっか)"
     },
     {
-        "name": "akushitsu",
+        "name": "akusitsu",
         "trans": [
             "⓪ 名·ナ形  质量差；性质恶劣"
         ],
@@ -5530,14 +5530,14 @@
         "notation": "禿(は)げる"
     },
     {
-        "name": "henjou",
+        "name": "hennjou",
         "trans": [
             "⓪ 名·他动3  归还，奉还"
         ],
         "notation": "返上(へんじょう)"
     },
     {
-        "name": "resepushon",
+        "name": "resepushonn",
         "trans": [
             "② 名  招待会，欢迎会，宴会"
         ],
@@ -5551,7 +5551,7 @@
         "notation": "奥深(おくぶかい/おくふか)い"
     },
     {
-        "name": "atoshimatsu",
+        "name": "atosimatsu",
         "trans": [
             "③ 名  善后，收拾"
         ],
@@ -5565,7 +5565,7 @@
         "notation": "開拓(かいたく)"
     },
     {
-        "name": "sashite",
+        "name": "sasite",
         "trans": [
             "① 副  （后接否定）那么，那样"
         ],
@@ -5621,7 +5621,7 @@
         "notation": "授(さず)ける"
     },
     {
-        "name": "taikin",
+        "name": "taikinn",
         "trans": [
             "⓪ 名  巨款"
         ],
@@ -5649,7 +5649,7 @@
         "notation": "息抜(いきぬ)き"
     },
     {
-        "name": "kimarimonku",
+        "name": "kimarimonnku",
         "trans": [
             "④ 名  口头禅，老一套的话"
         ],
@@ -5663,14 +5663,14 @@
         "notation": "惚(ほう)ける"
     },
     {
-        "name": "shiire",
+        "name": "siire",
         "trans": [
             "⓪ 名  进货，采购"
         ],
         "notation": "仕入(しい)れ"
     },
     {
-        "name": "chuujitsu",
+        "name": "tyuujitsu",
         "trans": [
             "⓪ 名·ナ形  忠实，忠诚；照原样"
         ],
@@ -5719,21 +5719,21 @@
         "notation": "得手(えて)"
     },
     {
-        "name": "kuichigau",
+        "name": "kuitigau",
         "trans": [
             "④ 自动1  有分歧，不一致；错位"
         ],
         "notation": "食(く)い違(ちが)う"
     },
     {
-        "name": "shusshi",
+        "name": "shussi",
         "trans": [
             "⓪ 名·自动3  出资，投资"
         ],
         "notation": "出資(しゅっし)"
     },
     {
-        "name": "douin",
+        "name": "douinn",
         "trans": [
             "⓪ 名·他动3  动员；调动（积极性）"
         ],
@@ -5754,7 +5754,7 @@
         "notation": "おさらい"
     },
     {
-        "name": "shishoku",
+        "name": "sishoku",
         "trans": [
             "⓪ 名·他动3  试吃，品尝"
         ],
@@ -5789,7 +5789,7 @@
         "notation": "敵(かな)う"
     },
     {
-        "name": "shitsuke",
+        "name": "sitsuke",
         "trans": [
             "⓪ 名  教养，教育；管教"
         ],
@@ -5803,7 +5803,7 @@
         "notation": "妥協(だきょう)"
     },
     {
-        "name": "nandakanda",
+        "name": "nandakannda",
         "trans": [
             "④ 连语  这样那样，这个那个"
         ],
@@ -5824,14 +5824,14 @@
         "notation": "勢(いきお)い"
     },
     {
-        "name": "omokurushii",
+        "name": "omokurusii",
         "trans": [
             "⑤ イ形  沉闷的，郁闷的，不舒畅的"
         ],
         "notation": "重苦(おもくる)しい"
     },
     {
-        "name": "genkou",
+        "name": "gennkou",
         "trans": [
             "⓪ 名  现行，正在实行"
         ],
@@ -5873,7 +5873,7 @@
         "notation": "煌(きらめ)く"
     },
     {
-        "name": "soshi",
+        "name": "sosi",
         "trans": [
             "① 名·他动3  阻止"
         ],
@@ -5922,14 +5922,14 @@
         "notation": "空爆(くうばく)"
     },
     {
-        "name": "shinpi",
+        "name": "sinnpi",
         "trans": [
             "① 名·ナ形  神秘"
         ],
         "notation": "神秘(しんぴ)"
     },
     {
-        "name": "nan'narito",
+        "name": "nann'narito",
         "trans": [
             "① 副  无论什么，不管什么"
         ],
@@ -5943,7 +5943,7 @@
         "notation": "薄弱(はくじゃく)"
     },
     {
-        "name": "meichuu",
+        "name": "meityuu",
         "trans": [
             "⓪ 名·自动3  命中（目标）"
         ],
@@ -5971,7 +5971,7 @@
         "notation": "塊(かたまり)"
     },
     {
-        "name": "konomashii",
+        "name": "konomasii",
         "trans": [
             "④ イ形  可喜的，令人满意的"
         ],
@@ -5985,7 +5985,7 @@
         "notation": "対抗(たいこう)"
     },
     {
-        "name": "nemawashi",
+        "name": "nemawasi",
         "trans": [
             "② 名·他动3  事先疏通，做事前工作"
         ],
@@ -5999,7 +5999,7 @@
         "notation": "控(ひか)える"
     },
     {
-        "name": "michi",
+        "name": "miti",
         "trans": [
             "① 名  未知"
         ],
@@ -6013,14 +6013,14 @@
         "notation": "流暢(りゅうちょう)"
     },
     {
-        "name": "uchiyaburu",
+        "name": "utiyaburu",
         "trans": [
             "④ 他动1  打破，破坏；打败，击败"
         ],
         "notation": "打(う)ち破(やぶ)る"
     },
     {
-        "name": "kaodachi",
+        "name": "kaodati",
         "trans": [
             "⓪ 名  容貌，五官"
         ],
@@ -6034,7 +6034,7 @@
         "notation": "裁縫(さいほう)"
     },
     {
-        "name": "shocchuu",
+        "name": "shoctyuu",
         "trans": [
             "① 副  经常，总是"
         ],
@@ -6048,7 +6048,7 @@
         "notation": "ディスプレー"
     },
     {
-        "name": "hitojichi",
+        "name": "hitojiti",
         "trans": [
             "⓪ 名  人质"
         ],
@@ -6069,7 +6069,7 @@
         "notation": "木耳(きくらげ)"
     },
     {
-        "name": "shibutsu",
+        "name": "sibutsu",
         "trans": [
             "⓪ 名  私人物品"
         ],
@@ -6104,7 +6104,7 @@
         "notation": "立(た)て替(か)える"
     },
     {
-        "name": "batontacchi",
+        "name": "batonntacti",
         "trans": [
             "④ 名·他动3  递交接力棒；交接（工作）"
         ],
@@ -6118,7 +6118,7 @@
         "notation": "見所(みどころ)"
     },
     {
-        "name": "yayakoshii",
+        "name": "yayakosii",
         "trans": [
             "④ イ形  麻烦的；复杂的；难办的"
         ],
@@ -6146,7 +6146,7 @@
         "notation": "据(す)える"
     },
     {
-        "name": "denshou",
+        "name": "dennshou",
         "trans": [
             "⓪ 名·他动3  代代相传，传承"
         ],
@@ -6209,7 +6209,7 @@
         "notation": "言(い)い渡(わた)す"
     },
     {
-        "name": "shikou",
+        "name": "sikou",
         "trans": [
             "⓪ 名·他动3  实施，实行"
         ],
@@ -6230,14 +6230,14 @@
         "notation": "辿(たど)る"
     },
     {
-        "name": "naisen",
+        "name": "naisenn",
         "trans": [
             "⓪ 名  内线电话"
         ],
         "notation": "内線(ないせん)"
     },
     {
-        "name": "pinchi",
+        "name": "pinnti",
         "trans": [
             "① 名  紧急关头，危机"
         ],
@@ -6272,42 +6272,42 @@
         "notation": "恐(おそ)れ入(い)る"
     },
     {
-        "name": "itten",
+        "name": "ittenn",
         "trans": [
             "⓪ 名·自动3  突然一变，一转"
         ],
         "notation": "一転(いってん)"
     },
     {
-        "name": "soshitsu",
+        "name": "sositsu",
         "trans": [
             "⓪ 名  素质；天分，资质"
         ],
         "notation": "素質(そしつ)"
     },
     {
-        "name": "kicchiri",
+        "name": "kictiri",
         "trans": [
             "③ 副  正好，恰好；（大小）正合适；严实，没有空隙"
         ],
         "notation": "きっちり"
     },
     {
-        "name": "engi",
+        "name": "enngi",
         "trans": [
             "⓪ 名  起源，由来；兆头"
         ],
         "notation": "縁起(えんぎ)"
     },
     {
-        "name": "ashigakari",
+        "name": "asigakari",
         "trans": [
             "③ 名  立足点；线索"
         ],
         "notation": "足掛(あしが)かり"
     },
     {
-        "name": "kando",
+        "name": "kanndo",
         "trans": [
             "① 名  灵敏度，灵敏性"
         ],
@@ -6321,14 +6321,14 @@
         "notation": "摩(さす)る"
     },
     {
-        "name": "tassha",
+        "name": "tassya",
         "trans": [
             "⓪ 名·ナ形  精通，熟练；健康，健壮"
         ],
         "notation": "達者(たっしゃ)"
     },
     {
-        "name": "nagamochi",
+        "name": "nagamoti",
         "trans": [
             "③ 名·自动3  耐用，持久"
         ],
@@ -6370,7 +6370,7 @@
         "notation": "キャラクター"
     },
     {
-        "name": "shikaeshi",
+        "name": "sikaesi",
         "trans": [
             "⓪ 名·自动3  重做；报复，报仇"
         ],
@@ -6384,7 +6384,7 @@
         "notation": "ちょいちょい"
     },
     {
-        "name": "nichiya",
+        "name": "nitiya",
         "trans": [
             "⓪ 名·副  日夜；经常不断地，总是"
         ],
@@ -6405,7 +6405,7 @@
         "notation": "見落(みお)とす"
     },
     {
-        "name": "youjin",
+        "name": "youjinn",
         "trans": [
             "① 名·自动3  提防，小心"
         ],
@@ -6419,21 +6419,21 @@
         "notation": "リーダー"
     },
     {
-        "name": "ushirometai",
+        "name": "usirometai",
         "trans": [
             "⑤ イ形  内疚的，亏心的"
         ],
         "notation": "後(うし)ろめたい"
     },
     {
-        "name": "kuchikomi",
+        "name": "kutikomi",
         "trans": [
             "⓪ 名  小道消息，口口相传"
         ],
         "notation": "口(くち)コミ"
     },
     {
-        "name": "suishin",
+        "name": "suisinn",
         "trans": [
             "⓪ 名·他动3  推进，推动"
         ],
@@ -6524,14 +6524,14 @@
         "notation": "別途(べっと)"
     },
     {
-        "name": "moushiireru",
+        "name": "mousiireru",
         "trans": [
             "⑤ 他动2  提议，要求"
         ],
         "notation": "申(もう)し入(い)れる"
     },
     {
-        "name": "renjuu/renchuu",
+        "name": "renjuu/renntyuu",
         "trans": [
             "⓪ 名  伙伴，同伙"
         ],
@@ -6566,7 +6566,7 @@
         "notation": "糊(のり)"
     },
     {
-        "name": "uchidasu",
+        "name": "utidasu",
         "trans": [
             "③ 他动1  提出（想法、主张等）"
         ],
@@ -6629,21 +6629,21 @@
         "notation": "養成(ようせい)"
     },
     {
-        "name": "asamashii",
+        "name": "asamasii",
         "trans": [
             "④ イ形  卑鄙的；可耻的；可叹的；凄惨的"
         ],
         "notation": "浅(あさ)ましい"
     },
     {
-        "name": "kyouson",
+        "name": "kyousonn",
         "trans": [
             "⓪ 名·自动3  共存，共处"
         ],
         "notation": "共存(きょうそん)"
     },
     {
-        "name": "shutten",
+        "name": "shuttenn",
         "trans": [
             "⓪ 名·自动3  开（分）店"
         ],
@@ -6664,7 +6664,7 @@
         "notation": "デビュー"
     },
     {
-        "name": "nankou",
+        "name": "nannkou",
         "trans": [
             "⓪ 名·自动3  难以航行；难以进展"
         ],
@@ -6699,7 +6699,7 @@
         "notation": "いかなる"
     },
     {
-        "name": "gouin",
+        "name": "gouinn",
         "trans": [
             "⓪ ナ形  强行的；强制的；蛮干的"
         ],
@@ -6713,21 +6713,21 @@
         "notation": "顔負(かおま)け"
     },
     {
-        "name": "shigamitsuku",
+        "name": "sigamitsuku",
         "trans": [
             "④ 自动1  紧紧抱住；抓住不放手"
         ],
         "notation": "しがみつく"
     },
     {
-        "name": "zenkai",
+        "name": "zennkai",
         "trans": [
             "⓪ 名·自动3  痊愈"
         ],
         "notation": "全快(ぜんかい)"
     },
     {
-        "name": "chokumen",
+        "name": "chokumenn",
         "trans": [
             "⓪ 名·自动3  直面，面对"
         ],
@@ -6741,7 +6741,7 @@
         "notation": "咎(とが)める"
     },
     {
-        "name": "natsuin",
+        "name": "natsuinn",
         "trans": [
             "⓪ 名·自动3  盖章"
         ],
@@ -6776,7 +6776,7 @@
         "notation": "流通(りゅうつう)"
     },
     {
-        "name": "uruwashii",
+        "name": "uruwasii",
         "trans": [
             "④ イ形  优美的；心情好的；暖心的，感人的"
         ],
@@ -6804,21 +6804,21 @@
         "notation": "拗(こじ)らせる"
     },
     {
-        "name": "shitagokoro",
+        "name": "sitagokoro",
         "trans": [
             "③ 名  内心；企图，预谋"
         ],
         "notation": "下心(したごころ)"
     },
     {
-        "name": "suro-gan",
+        "name": "suro-gann",
         "trans": [
             "② 名  标语，口号"
         ],
         "notation": "スローガン"
     },
     {
-        "name": "soretohanashini",
+        "name": "soretohanasini",
         "trans": [
             "③ 连语·副  拐弯抹角地，婉转地"
         ],
@@ -6832,7 +6832,7 @@
         "notation": "着色(ちゃくしょく)"
     },
     {
-        "name": "donkan",
+        "name": "donkann",
         "trans": [
             "⓪ 名·ナ形  感觉迟钝"
         ],
@@ -6888,7 +6888,7 @@
         "notation": "ずらっと/ずらりと"
     },
     {
-        "name": "chiiku",
+        "name": "tiiku",
         "trans": [
             "① 名  智育，提升智力的教育"
         ],
@@ -6909,14 +6909,14 @@
         "notation": "交(まじ)わる"
     },
     {
-        "name": "rachi/racchi",
+        "name": "rati/racti",
         "trans": [
             "① 名·他动3  强行拉走；绑架"
         ],
         "notation": "拉致(らち/らっち)"
     },
     {
-        "name": "uten",
+        "name": "utenn",
         "trans": [
             "① 名  雨天"
         ],
@@ -6937,7 +6937,7 @@
         "notation": "アフターサービス"
     },
     {
-        "name": "shikkou",
+        "name": "sikkou",
         "trans": [
             "⓪ 名·他动3  执行"
         ],
@@ -6972,14 +6972,14 @@
         "notation": "貪(むさぼ)る"
     },
     {
-        "name": "ikken",
+        "name": "ikkenn",
         "trans": [
             "⓪ 名·他动3·副  （值得）一看；看一眼；乍一看"
         ],
         "notation": "一見(いっけん)"
     },
     {
-        "name": "kanben",
+        "name": "kanbenn",
         "trans": [
             "① 名·他动3  原谅，饶恕"
         ],
@@ -7000,7 +7000,7 @@
         "notation": "所持(しょじ)"
     },
     {
-        "name": "ashiba",
+        "name": "asiba",
         "trans": [
             "③ 名  立脚点；基础；交通的方便性"
         ],
@@ -7063,7 +7063,7 @@
         "notation": "いかに"
     },
     {
-        "name": "shikisai",
+        "name": "sikisai",
         "trans": [
             "⓪ 名  色彩；倾向，特色"
         ],
@@ -7084,7 +7084,7 @@
         "notation": "幅広(はばひろ)い"
     },
     {
-        "name": "benkai",
+        "name": "bennkai",
         "trans": [
             "⓪ 名·自他动3  辩解，分辩"
         ],
@@ -7126,7 +7126,7 @@
         "notation": "頗(すこぶ)る"
     },
     {
-        "name": "keisha",
+        "name": "keisya",
         "trans": [
             "⓪ 名·自动3  倾斜，坡度；倾向"
         ],
@@ -7168,7 +7168,7 @@
         "notation": "解(ほど)ける"
     },
     {
-        "name": "manneri",
+        "name": "mannneri",
         "trans": [
             "⓪ 名  因循守旧，墨守成规，千篇一律，老一套"
         ],
@@ -7196,7 +7196,7 @@
         "notation": "垣根(かきね)"
     },
     {
-        "name": "shimyure-shon",
+        "name": "simyure-shonn",
         "trans": [
             "③ 名·他动3  模拟，仿真"
         ],
@@ -7217,7 +7217,7 @@
         "notation": "妥結(だけつ)"
     },
     {
-        "name": "hankyou",
+        "name": "hannkyou",
         "trans": [
             "⓪ 名·自动3  反应，反响；回响"
         ],
@@ -7231,7 +7231,7 @@
         "notation": "見極(みきわ)める"
     },
     {
-        "name": "atomawashi",
+        "name": "atomawasi",
         "trans": [
             "③ 名  推后，推迟"
         ],
@@ -7252,7 +7252,7 @@
         "notation": "顧(かえり)みる"
     },
     {
-        "name": "shiki",
+        "name": "siki",
         "trans": [
             "② 名·他动3  指挥"
         ],
@@ -7308,7 +7308,7 @@
         "notation": "領域(りょういき)"
     },
     {
-        "name": "uttoushii",
+        "name": "uttousii",
         "trans": [
             "⑤ イ形  郁闷的，阴郁的；不痛快的"
         ],
@@ -7322,7 +7322,7 @@
         "notation": "クール"
     },
     {
-        "name": "shishou",
+        "name": "sishou",
         "trans": [
             "⓪ 名  故障，障碍"
         ],
@@ -7336,14 +7336,14 @@
         "notation": "挙(こぞ)って"
     },
     {
-        "name": "tenka",
+        "name": "tennka",
         "trans": [
             "⓪ 名·他动3  转嫁，推卸（责任）"
         ],
         "notation": "転嫁(てんか)"
     },
     {
-        "name": "haken",
+        "name": "hakenn",
         "trans": [
             "⓪ 名  霸权；冠军"
         ],
@@ -7357,14 +7357,14 @@
         "notation": "踏(ふ)み込(こ)む"
     },
     {
-        "name": "manazashi",
+        "name": "manazasi",
         "trans": [
             "⓪ 名  目光，眼神"
         ],
         "notation": "眼差(まなざ)し"
     },
     {
-        "name": "yochi",
+        "name": "yoti",
         "trans": [
             "① 名  余地"
         ],
@@ -7385,7 +7385,7 @@
         "notation": "開業(かいぎょう)"
     },
     {
-        "name": "kontakuto",
+        "name": "konntakuto",
         "trans": [
             "① 名  接触，联络；“コンタクトレンズ”（隐形眼镜）的缩略语"
         ],
@@ -7399,14 +7399,14 @@
         "notation": "廃(すた)れる"
     },
     {
-        "name": "chuuritsu",
+        "name": "tyuuritsu",
         "trans": [
             "⓪ 名·自动3  中立（立场）"
         ],
         "notation": "中立(ちゅうりつ)"
     },
     {
-        "name": "toshigoro",
+        "name": "tosigoro",
         "trans": [
             "⓪ 名  适龄；大约的年龄"
         ],
@@ -7441,14 +7441,14 @@
         "notation": "まるきり/まるっきり"
     },
     {
-        "name": "yokomichi",
+        "name": "yokomiti",
         "trans": [
             "⓪ 名  岔路；岔开（话题），偏离正题"
         ],
         "notation": "横道(よこみち)"
     },
     {
-        "name": "shussha",
+        "name": "shussya",
         "trans": [
             "⓪ 名·自动3  上班"
         ],
@@ -7462,7 +7462,7 @@
         "notation": "ぐったり"
     },
     {
-        "name": "ichidou",
+        "name": "itidou",
         "trans": [
             "③ 名  全体，大家"
         ],
@@ -7476,7 +7476,7 @@
         "notation": "ストライキ"
     },
     {
-        "name": "shinobu",
+        "name": "sinobu",
         "trans": [
             "② 自他动1  忍耐，忍受；偷偷地"
         ],
@@ -7518,7 +7518,7 @@
         "notation": "興行(こうぎょう)"
     },
     {
-        "name": "shibui",
+        "name": "sibui",
         "trans": [
             "② イ形  味道涩的；怏怏不乐的；雅致的；吝啬的"
         ],
@@ -7553,7 +7553,7 @@
         "notation": "放棄(ほうき)"
     },
     {
-        "name": "michinori",
+        "name": "mitinori",
         "trans": [
             "⓪ 名  路程，距离"
         ],
@@ -7581,14 +7581,14 @@
         "notation": "レール"
     },
     {
-        "name": "uchiakeru",
+        "name": "utiakeru",
         "trans": [
             "④ 他动2  坦率说出，开诚布公"
         ],
         "notation": "打(う)ち明(あ)ける"
     },
     {
-        "name": "gendou",
+        "name": "genndou",
         "trans": [
             "⓪ 名  言行，语言和行动"
         ],
@@ -7602,7 +7602,7 @@
         "notation": "差額(さがく)"
     },
     {
-        "name": "sewashii",
+        "name": "sewasii",
         "trans": [
             "③ イ形  忙碌的；匆忙的"
         ],
@@ -7616,7 +7616,7 @@
         "notation": "着陸(ちゃくりく)"
     },
     {
-        "name": "dengon",
+        "name": "dengonn",
         "trans": [
             "⓪ 名·他动3  传话，口信；带口信"
         ],
@@ -7630,7 +7630,7 @@
         "notation": "ぐっしょり"
     },
     {
-        "name": "ereganto",
+        "name": "eregannto",
         "trans": [
             "① ナ形  优雅的，高雅的"
         ],
@@ -7665,14 +7665,14 @@
         "notation": "最寄(もよ)り"
     },
     {
-        "name": "nanra",
+        "name": "nannra",
         "trans": [
             "① 副  （后接否定）任何；丝毫"
         ],
         "notation": "なんら"
     },
     {
-        "name": "henken",
+        "name": "henkenn",
         "trans": [
             "⓪ 名  偏见"
         ],
@@ -7700,7 +7700,7 @@
         "notation": "粗筋(あらすじ)"
     },
     {
-        "name": "ichiban'nori",
+        "name": "itibann'nori",
         "trans": [
             "③ 名·自动3  最先到场"
         ],
@@ -7721,14 +7721,14 @@
         "notation": "奉(たてまつ)る"
     },
     {
-        "name": "shounin",
+        "name": "shouninn",
         "trans": [
             "⓪ 名·他动3  承认；批准"
         ],
         "notation": "承認(しょうにん)"
     },
     {
-        "name": "kanketsu",
+        "name": "kannketsu",
         "trans": [
             "⓪ 名·自动3  完结，结束"
         ],
@@ -7742,7 +7742,7 @@
         "notation": "徹(てっ)する"
     },
     {
-        "name": "sensui",
+        "name": "sennsui",
         "trans": [
             "⓪ 名·自动3  潜水"
         ],
@@ -7756,7 +7756,7 @@
         "notation": "グローバル"
     },
     {
-        "name": "kamoshidasu",
+        "name": "kamosidasu",
         "trans": [
             "④ 他动1  营造（感觉和气氛）"
         ],
@@ -7770,14 +7770,14 @@
         "notation": "公的(こうてき)"
     },
     {
-        "name": "taimen",
+        "name": "taimenn",
         "trans": [
             "⓪ 名·自动3  会面，见面"
         ],
         "notation": "対面(たいめん)"
     },
     {
-        "name": "shindoi",
+        "name": "sinndoi",
         "trans": [
             "③ イ形  费劲的，吃力的；累的"
         ],
@@ -7791,7 +7791,7 @@
         "notation": "入手(にゅうしゅ)"
     },
     {
-        "name": "sutenresu",
+        "name": "sutennresu",
         "trans": [
             "② 名  不锈钢"
         ],
@@ -7833,14 +7833,14 @@
         "notation": "裕福(ゆうふく)"
     },
     {
-        "name": "ichimoku",
+        "name": "itimoku",
         "trans": [
             "⓪ 名·自他动3  （看）一眼，一看；围棋的一个棋子"
         ],
         "notation": "一目(いちもく)"
     },
     {
-        "name": "gasshiri",
+        "name": "gassiri",
         "trans": [
             "③ 副·自动3  结实；健壮；严密，紧密"
         ],
@@ -7854,7 +7854,7 @@
         "notation": "口述(こうじゅつ)"
     },
     {
-        "name": "sho-uindo-",
+        "name": "sho-uinndo-",
         "trans": [
             "④ 名  橱窗，陈列窗"
         ],
@@ -7868,7 +7868,7 @@
         "notation": "損(そこ)なう"
     },
     {
-        "name": "denaoshi",
+        "name": "denaosi",
         "trans": [
             "⓪ 名·他动3  重新开始"
         ],
@@ -7910,14 +7910,14 @@
         "notation": "蹴飛(けと)ばす"
     },
     {
-        "name": "asaichi",
+        "name": "asaiti",
         "trans": [
             "② 名  一大早，早上头一件事"
         ],
         "notation": "朝一(あさいち)"
     },
     {
-        "name": "jinkaku",
+        "name": "jinnkaku",
         "trans": [
             "⓪ 名  人格"
         ],
@@ -7966,14 +7966,14 @@
         "notation": "会得(えとく)"
     },
     {
-        "name": "uchitokeru",
+        "name": "utitokeru",
         "trans": [
             "⓪ 自动2  亲密，融洽，无隔阂"
         ],
         "notation": "打(う)ち解(と)ける"
     },
     {
-        "name": "komon",
+        "name": "komonn",
         "trans": [
             "① 名  顾问"
         ],
@@ -7987,35 +7987,35 @@
         "notation": "執着(しゅうじゃく/しゅうちゃく)"
     },
     {
-        "name": "sazokashi",
+        "name": "sazokasi",
         "trans": [
             "① 副  想必，一定"
         ],
         "notation": "さぞかし"
     },
     {
-        "name": "kenbi",
+        "name": "kennbi",
         "trans": [
             "① 名·他动3  兼备，兼具"
         ],
         "notation": "兼備(けんび)"
     },
     {
-        "name": "apuro-chi",
+        "name": "apuro-ti",
         "trans": [
             "③ 名·自动3  接近；研究"
         ],
         "notation": "アプローチ"
     },
     {
-        "name": "kuchiru",
+        "name": "kutiru",
         "trans": [
             "② 自动2  腐朽，腐烂；衰败，衰亡"
         ],
         "notation": "朽(く)ちる"
     },
     {
-        "name": "sanbi",
+        "name": "sannbi",
         "trans": [
             "① 名·他动3  赞美"
         ],
@@ -8029,7 +8029,7 @@
         "notation": "独学(どくがく)"
     },
     {
-        "name": "furumekashii",
+        "name": "furumekasii",
         "trans": [
             "⑤ イ形  古色古香的；陈旧的"
         ],
@@ -8050,21 +8050,21 @@
         "notation": "踵(かかと)"
     },
     {
-        "name": "unzari",
+        "name": "unnzari",
         "trans": [
             "③ 副·自动3  厌倦，厌烦，腻烦"
         ],
         "notation": "うんざり"
     },
     {
-        "name": "shishunki",
+        "name": "sishunnki",
         "trans": [
             "② 名  青春期"
         ],
         "notation": "思春期(ししゅんき)"
     },
     {
-        "name": "sensu",
+        "name": "sennsu",
         "trans": [
             "① 名  感觉；审美能力"
         ],
@@ -8099,7 +8099,7 @@
         "notation": "ともあれ"
     },
     {
-        "name": "nengan",
+        "name": "nengann",
         "trans": [
             "⓪ 名·他动3  愿望，心愿"
         ],
@@ -8141,7 +8141,7 @@
         "notation": "値(あたい)する"
     },
     {
-        "name": "shinausu",
+        "name": "sinausu",
         "trans": [
             "⓪ 名·ナ形  缺货"
         ],
@@ -8162,14 +8162,14 @@
         "notation": "何気(なにげ)ない"
     },
     {
-        "name": "hangeki",
+        "name": "hanngeki",
         "trans": [
             "⓪ 名·自动3  反击，还击"
         ],
         "notation": "反撃(はんげき)"
     },
     {
-        "name": "benshou",
+        "name": "bennshou",
         "trans": [
             "⓪ 名·他动3  赔偿"
         ],
@@ -8197,7 +8197,7 @@
         "notation": "了解(りょうかい)"
     },
     {
-        "name": "imashimo",
+        "name": "imasimo",
         "trans": [
             "① 副  现在正要"
         ],
@@ -8267,14 +8267,14 @@
         "notation": "覚束(おぼつか)ない"
     },
     {
-        "name": "inta-chenji",
+        "name": "inta-chennji",
         "trans": [
             "⑤ 名  高速公路出入口"
         ],
         "notation": "インターチェンジ"
     },
     {
-        "name": "kondate",
+        "name": "konndate",
         "trans": [
             "⓪ 名  菜单，食谱"
         ],
@@ -8337,7 +8337,7 @@
         "notation": "名簿(めいぼ)"
     },
     {
-        "name": "engi",
+        "name": "enngi",
         "trans": [
             "① 名·自动3  演技；花招儿，把戏"
         ],
@@ -8379,7 +8379,7 @@
         "notation": "出来物(できもの)"
     },
     {
-        "name": "hankou",
+        "name": "hannkou",
         "trans": [
             "⓪ 名  罪行"
         ],
@@ -8393,7 +8393,7 @@
         "notation": "潔(いさぎよ)い"
     },
     {
-        "name": "kabin",
+        "name": "kabinn",
         "trans": [
             "⓪ 名·ナ形  过敏；过于敏感"
         ],
@@ -8421,7 +8421,7 @@
         "notation": "定(さだ)める"
     },
     {
-        "name": "youjinbukai",
+        "name": "youjinnbukai",
         "trans": [
             "⑥ イ形  小心谨慎的"
         ],
@@ -8435,7 +8435,7 @@
         "notation": "虐待(ぎゃくたい)"
     },
     {
-        "name": "shikumu",
+        "name": "sikumu",
         "trans": [
             "② 他动1  策划，谋划；构思（小说等）"
         ],
@@ -8463,7 +8463,7 @@
         "notation": "快(こころよ)い"
     },
     {
-        "name": "denpyou",
+        "name": "dennpyou",
         "trans": [
             "⓪ 名  发票，单据"
         ],
@@ -8484,7 +8484,7 @@
         "notation": "ずるずる"
     },
     {
-        "name": "kenmei",
+        "name": "kennmei",
         "trans": [
             "⓪ ナ形  贤明的，高明的"
         ],
@@ -8512,7 +8512,7 @@
         "notation": "破格(はかく)"
     },
     {
-        "name": "mizumashi",
+        "name": "mizumasi",
         "trans": [
             "⓪ 名·自他动3  掺水；弄虚作假"
         ],
@@ -8533,7 +8533,7 @@
         "notation": "メス"
     },
     {
-        "name": "ryoukin",
+        "name": "ryoukinn",
         "trans": [
             "① 名  费用；手续费"
         ],
@@ -8547,7 +8547,7 @@
         "notation": "今更(いまさら)"
     },
     {
-        "name": "kiken",
+        "name": "kikenn",
         "trans": [
             "⓪ 名·他动3  弃权"
         ],
@@ -8568,7 +8568,7 @@
         "notation": "据(す)え付(つ)ける"
     },
     {
-        "name": "shikaku",
+        "name": "sikaku",
         "trans": [
             "⓪ 名  视觉"
         ],
@@ -8610,7 +8610,7 @@
         "notation": "ダブる"
     },
     {
-        "name": "shinkou",
+        "name": "sinnkou",
         "trans": [
             "⓪ 名  新兴"
         ],
@@ -8624,7 +8624,7 @@
         "notation": "突入(とつにゅう)"
     },
     {
-        "name": "netamashii",
+        "name": "netamasii",
         "trans": [
             "④ イ形  令人嫉妒的"
         ],
@@ -8701,7 +8701,7 @@
         "notation": "ケーブル"
     },
     {
-        "name": "senkou",
+        "name": "sennkou",
         "trans": [
             "⓪ 名·自动3  先行，领先；优先实行"
         ],
@@ -8715,7 +8715,7 @@
         "notation": "だらだら"
     },
     {
-        "name": "tenkyo",
+        "name": "tennkyo",
         "trans": [
             "⓪ 名·自动3  迁居，搬家"
         ],
@@ -8785,14 +8785,14 @@
         "notation": "リスク"
     },
     {
-        "name": "un'ei",
+        "name": "unn'ei",
         "trans": [
             "⓪ 名·他动3  运营，经营，管理"
         ],
         "notation": "運営(うんえい)"
     },
     {
-        "name": "utagawashii",
+        "name": "utagawasii",
         "trans": [
             "⑤ イ形  不确定的，有疑问的；可疑的"
         ],
@@ -8806,7 +8806,7 @@
         "notation": "亀裂(きれつ)"
     },
     {
-        "name": "shounin",
+        "name": "shouninn",
         "trans": [
             "⓪ 名  证人"
         ],
@@ -8834,7 +8834,7 @@
         "notation": "ひったくり"
     },
     {
-        "name": "masashiku",
+        "name": "masasiku",
         "trans": [
             "② 副  的确，确实"
         ],
@@ -8862,7 +8862,7 @@
         "notation": "居残(いのこ)る"
     },
     {
-        "name": "kigen",
+        "name": "kigenn",
         "trans": [
             "⓪ 名  心情，情绪"
         ],
@@ -8876,7 +8876,7 @@
         "notation": "債務(さいむ)"
     },
     {
-        "name": "takumashii",
+        "name": "takumasii",
         "trans": [
             "④ イ形  健壮的，强壮的；旺盛的"
         ],
@@ -8904,14 +8904,14 @@
         "notation": "丸(まる)める"
     },
     {
-        "name": "yogen",
+        "name": "yogenn",
         "trans": [
             "⓪ 名·他动3  预言"
         ],
         "notation": "予言(よげん)"
     },
     {
-        "name": "ashibumi",
+        "name": "asibumi",
         "trans": [
             "③ 名·自动3  踏步；停顿，停滞不前"
         ],
@@ -8946,14 +8946,14 @@
         "notation": "引(ひ)っ掻(か)く"
     },
     {
-        "name": "nenkan",
+        "name": "nenkann",
         "trans": [
             "⓪ 名  年鉴"
         ],
         "notation": "年鑑(ねんかん)"
     },
     {
-        "name": "mugon",
+        "name": "mugonn",
         "trans": [
             "⓪ 名  无言，沉默"
         ],
@@ -8974,7 +8974,7 @@
         "notation": "迂回(うかい)"
     },
     {
-        "name": "kuesuchonma-ku",
+        "name": "kuesuchonnma-ku",
         "trans": [
             "⑥ 名  问号"
         ],
@@ -8988,7 +8988,7 @@
         "notation": "好(す)く"
     },
     {
-        "name": "tsuukan",
+        "name": "tsuukann",
         "trans": [
             "⓪ 名·他动3  痛感，深切地感觉到"
         ],
@@ -9009,7 +9009,7 @@
         "notation": "ふらふら"
     },
     {
-        "name": "mitooshi",
+        "name": "mitoosi",
         "trans": [
             "⓪ 名  眺望；（对前景的）预料，推测"
         ],
@@ -9044,14 +9044,14 @@
         "notation": "精巧(せいこう)"
     },
     {
-        "name": "teatarishidai",
+        "name": "teatarisidai",
         "trans": [
             "⑤ 副  随手抓到什么算什么"
         ],
         "notation": "手(て)あたり次第(しだい)"
     },
     {
-        "name": "nouhin",
+        "name": "nouhinn",
         "trans": [
             "⓪ 名·他动3  交的货，交付的物品；交货，交付"
         ],
@@ -9072,7 +9072,7 @@
         "notation": "めちゃくちゃ"
     },
     {
-        "name": "ichimatsu",
+        "name": "itimatsu",
         "trans": [
             "⓪ 名  一缕，一丝；一片"
         ],
@@ -9093,14 +9093,14 @@
         "notation": "添(そ)える"
     },
     {
-        "name": "houchi",
+        "name": "houti",
         "trans": [
             "⓪ 名·他动3  报告，通知"
         ],
         "notation": "報知(ほうち)"
     },
     {
-        "name": "asameshimae",
+        "name": "asamesimae",
         "trans": [
             "⑤ 名  轻而易举，极其容易"
         ],
@@ -9121,21 +9121,21 @@
         "notation": "察(さっ)する"
     },
     {
-        "name": "daitan",
+        "name": "daitann",
         "trans": [
             "③ 名·ナ形  大胆，勇敢"
         ],
         "notation": "大胆(だいたん)"
     },
     {
-        "name": "nairan",
+        "name": "nairann",
         "trans": [
             "⓪ 名  内乱"
         ],
         "notation": "内乱(ないらん)"
     },
     {
-        "name": "bakabakashii",
+        "name": "bakabakasii",
         "trans": [
             "⑤ イ形  无聊的；荒谬的，愚蠢的"
         ],
@@ -9163,7 +9163,7 @@
         "notation": "じろじろ"
     },
     {
-        "name": "moushibun",
+        "name": "mousibunn",
         "trans": [
             "⓪ 名  缺陷，缺点；理由，意见"
         ],
@@ -9205,7 +9205,7 @@
         "notation": "懲(こ)りる"
     },
     {
-        "name": "oushin",
+        "name": "ousinn",
         "trans": [
             "⓪ 名·他动3  出诊"
         ],
@@ -9261,7 +9261,7 @@
         "notation": "無罪(むざい)"
     },
     {
-        "name": "yanwari",
+        "name": "yannwari",
         "trans": [
             "③ 副·自动3  柔软地；委婉地，温和地"
         ],
@@ -9317,7 +9317,7 @@
         "notation": "エキストラ"
     },
     {
-        "name": "akunin",
+        "name": "akuninn",
         "trans": [
             "⓪ 名  坏人"
         ],
@@ -9331,14 +9331,14 @@
         "notation": "がっくり"
     },
     {
-        "name": "san'nyuu",
+        "name": "sann'nyuu",
         "trans": [
             "⓪ 名  进入，进来"
         ],
         "notation": "参入(さんにゅう)"
     },
     {
-        "name": "chuusen",
+        "name": "tyuusenn",
         "trans": [
             "⓪ 名·自动3  抽签"
         ],
@@ -9394,7 +9394,7 @@
         "notation": "荒(あ)らす"
     },
     {
-        "name": "kakudan",
+        "name": "kakudann",
         "trans": [
             "⓪ 名·ナ形  格外，特别"
         ],
@@ -9443,28 +9443,28 @@
         "notation": "瞬(まばた)き"
     },
     {
-        "name": "mochikiri",
+        "name": "motikiri",
         "trans": [
             "⓪ 名  始终谈论一件事；热门话题"
         ],
         "notation": "持(も)ち切(き)り"
     },
     {
-        "name": "niganigashii",
+        "name": "niganigasii",
         "trans": [
             "⑤ イ形  非常讨厌的；别扭的"
         ],
         "notation": "苦々しい(にがにがしい)"
     },
     {
-        "name": "chien",
+        "name": "tienn",
         "trans": [
             "⓪ 名·自动3  延迟，误点"
         ],
         "notation": "遅延(ちえん)"
     },
     {
-        "name": "shihyou",
+        "name": "sihyou",
         "trans": [
             "⓪ 名  指标"
         ],
@@ -9527,7 +9527,7 @@
         "notation": "振(ふ)り替(か)え"
     },
     {
-        "name": "musen",
+        "name": "musenn",
         "trans": [
             "⓪ 名  无线；无线电"
         ],
@@ -9548,7 +9548,7 @@
         "notation": "明瞭(めいりょう)"
     },
     {
-        "name": "henkan",
+        "name": "hennkann",
         "trans": [
             "⓪ 名·他动3  返还，归还"
         ],
@@ -9562,49 +9562,49 @@
         "notation": "出回(でまわ)る"
     },
     {
-        "name": "zensei",
+        "name": "zennsei",
         "trans": [
             "⓪ 名  全盛，鼎盛"
         ],
         "notation": "全盛(ぜんせい)"
     },
     {
-        "name": "genkei",
+        "name": "gennkei",
         "trans": [
             "⓪ 名  原样，原状"
         ],
         "notation": "原形(げんけい)"
     },
     {
-        "name": "oshimu",
+        "name": "osimu",
         "trans": [
             "② 他动1  吝惜，舍不得；惋惜；爱惜，珍惜"
         ],
         "notation": "惜(お)しむ"
     },
     {
-        "name": "inta-fon",
+        "name": "inta-fonn",
         "trans": [
             "③ 名  内线电话，对讲机"
         ],
         "notation": "インターフォン"
     },
     {
-        "name": "shuen",
+        "name": "shuenn",
         "trans": [
             "⓪ 名·自动3  主演"
         ],
         "notation": "主演(しゅえん)"
     },
     {
-        "name": "ashikarazu",
+        "name": "asikarazu",
         "trans": [
             "③ 副  不要见怪，原谅"
         ],
         "notation": "悪(あ)しからず"
     },
     {
-        "name": "kaiken",
+        "name": "kaikenn",
         "trans": [
             "⓪ 名·自动3  会见，接见"
         ],
@@ -9618,7 +9618,7 @@
         "notation": "財務(ざいむ)"
     },
     {
-        "name": "shinogu",
+        "name": "sinogu",
         "trans": [
             "② 他动1  忍耐，忍受；应付；凌驾，超过"
         ],
@@ -9667,21 +9667,21 @@
         "notation": "未(いま)だ"
     },
     {
-        "name": "gyouten",
+        "name": "gyoutenn",
         "trans": [
             "⓪ 名·自动3  非常吃惊，大吃一惊"
         ],
         "notation": "仰天(ぎょうてん)"
     },
     {
-        "name": "shikitari",
+        "name": "sikitari",
         "trans": [
             "⓪ 名  惯例，常规"
         ],
         "notation": "しきたり"
     },
     {
-        "name": "chinamini",
+        "name": "tinamini",
         "trans": [
             "⓪ 接续  顺便，附带"
         ],
@@ -9709,14 +9709,14 @@
         "notation": "見逃(みのが)す"
     },
     {
-        "name": "ekizochikku",
+        "name": "ekizotikku",
         "trans": [
             "④ ナ形  异国情调的"
         ],
         "notation": "エキゾチック"
     },
     {
-        "name": "kukan",
+        "name": "kukann",
         "trans": [
             "② 名  区间，段"
         ],
@@ -9737,7 +9737,7 @@
         "notation": "筒(つつ)"
     },
     {
-        "name": "nenshutsu",
+        "name": "nennshutsu",
         "trans": [
             "⓪ 名·他动3  想出（方案）；挤出，筹措出来"
         ],
@@ -9751,7 +9751,7 @@
         "notation": "ぶかぶか"
     },
     {
-        "name": "muchi",
+        "name": "muti",
         "trans": [
             "① 名·ナ形  无知"
         ],
@@ -9779,7 +9779,7 @@
         "notation": "形態(けいたい)"
     },
     {
-        "name": "shizuku",
+        "name": "sizuku",
         "trans": [
             "③ 名  水滴，水珠"
         ],
@@ -9800,7 +9800,7 @@
         "notation": "セクハラ"
     },
     {
-        "name": "ichimen",
+        "name": "itimenn",
         "trans": [
             "⓪ 名·副  一面；另一面；全体，整个"
         ],
@@ -9849,14 +9849,14 @@
         "notation": "辞退(じたい)"
     },
     {
-        "name": "kosuchu-mu",
+        "name": "kosutyu-mu",
         "trans": [
             "① 名  服装，装束；戏装"
         ],
         "notation": "コスチューム"
     },
     {
-        "name": "hakarishirenai",
+        "name": "hakarisirenai",
         "trans": [
             "⓪ イ形  不可估量的"
         ],
@@ -9884,7 +9884,7 @@
         "notation": "休(やす)める"
     },
     {
-        "name": "soushitsu",
+        "name": "sousitsu",
         "trans": [
             "⓪ 名·他动3  丧失"
         ],
@@ -9912,7 +9912,7 @@
         "notation": "喜劇(きげき)"
     },
     {
-        "name": "koma-sharu",
+        "name": "koma-syaru",
         "trans": [
             "② 名  商业，商务；商业广告"
         ],
@@ -9926,7 +9926,7 @@
         "notation": "煽(おだ)てる"
     },
     {
-        "name": "shikijou",
+        "name": "sikijou",
         "trans": [
             "⓪ 名  举行仪式的场所"
         ],
@@ -9947,7 +9947,7 @@
         "notation": "気遣(きづか)う"
     },
     {
-        "name": "nishibi",
+        "name": "nisibi",
         "trans": [
             "⓪ 名  夕阳"
         ],
@@ -10010,7 +10010,7 @@
         "notation": "突(つ)く"
     },
     {
-        "name": "jouen",
+        "name": "jouenn",
         "trans": [
             "⓪ 名·自动3  上演，演出"
         ],
@@ -10045,7 +10045,7 @@
         "notation": "リハビリ"
     },
     {
-        "name": "oshiageru",
+        "name": "osiageru",
         "trans": [
             "④ 他动2  推上去，顶上去；推举，提拔"
         ],
@@ -10080,7 +10080,7 @@
         "notation": "デリケート"
     },
     {
-        "name": "nen'iri",
+        "name": "nenn'iri",
         "trans": [
             "⓪ 名·ナ形  周到，细致"
         ],
@@ -10115,14 +10115,14 @@
         "notation": "いっそ"
     },
     {
-        "name": "kouen",
+        "name": "kouenn",
         "trans": [
             "⓪ 名·自他动3  演讲，讲话"
         ],
         "notation": "講演(こうえん)"
     },
     {
-        "name": "soukan",
+        "name": "soukann",
         "trans": [
             "⓪ 名·他动3  创刊"
         ],
@@ -10157,14 +10157,14 @@
         "notation": "漏(も)らす"
     },
     {
-        "name": "shijou",
+        "name": "sijou",
         "trans": [
             "⓪ 名  个人感情；私心"
         ],
         "notation": "私情(しじょう)"
     },
     {
-        "name": "seisan",
+        "name": "seisann",
         "trans": [
             "⓪ 名·他动3  细算；补票"
         ],
@@ -10185,7 +10185,7 @@
         "notation": "会合(かいごう)"
     },
     {
-        "name": "sapurimento",
+        "name": "sapurimennto",
         "trans": [
             "① 名  营养补品；增刊；附录"
         ],
@@ -10199,14 +10199,14 @@
         "notation": "弄(いじ)る"
     },
     {
-        "name": "sossen",
+        "name": "sossenn",
         "trans": [
             "⓪ 名·自动3  率先，带头"
         ],
         "notation": "率先(そっせん)"
     },
     {
-        "name": "kougen",
+        "name": "kougenn",
         "trans": [
             "⓪ 名·他动3  公开说，声明"
         ],
@@ -10227,7 +10227,7 @@
         "notation": "鳴(な)り物入(ものい)り"
     },
     {
-        "name": "barie-shon",
+        "name": "barie-shonn",
         "trans": [
             "③ 名  变化"
         ],
@@ -10241,21 +10241,21 @@
         "notation": "まとまる"
     },
     {
-        "name": "rentai",
+        "name": "renntai",
         "trans": [
             "⓪ 名·自动3  联合，合作；（法律上）连带，共同负责"
         ],
         "notation": "連帯(れんたい)"
     },
     {
-        "name": "interi",
+        "name": "innteri",
         "trans": [
             "⓪ 名  知识分子"
         ],
         "notation": "インテリ"
     },
     {
-        "name": "omowashii",
+        "name": "omowasii",
         "trans": [
             "③ イ形  令人满意的，中意的"
         ],
@@ -10269,7 +10269,7 @@
         "notation": "規格(きかく)"
     },
     {
-        "name": "shisso",
+        "name": "sisso",
         "trans": [
             "① 名·ナ形  简朴，朴素"
         ],
@@ -10318,7 +10318,7 @@
         "notation": "浅(あさ)はか"
     },
     {
-        "name": "oshikiru",
+        "name": "osikiru",
         "trans": [
             "③ 他动1  切断；（排除困难）坚持到底"
         ],
@@ -10332,7 +10332,7 @@
         "notation": "鯨(くじら)"
     },
     {
-        "name": "sukyandaru",
+        "name": "sukyanndaru",
         "trans": [
             "② 名  丑闻；丑事"
         ],
@@ -10346,28 +10346,28 @@
         "notation": "突(つ)っ張(ぱ)る"
     },
     {
-        "name": "haisen",
+        "name": "haisenn",
         "trans": [
             "⓪ 名·自动3  接线，架线"
         ],
         "notation": "配線(はいせん)"
     },
     {
-        "name": "funin",
+        "name": "funinn",
         "trans": [
             "⓪ 名·自动3  赴任，上任"
         ],
         "notation": "赴任(ふにん)"
     },
     {
-        "name": "mushiru",
+        "name": "musiru",
         "trans": [
             "⓪ 他动1  拔，揪，薅（草）；撕（面包）"
         ],
         "notation": "毟(むし)る"
     },
     {
-        "name": "engawa",
+        "name": "enngawa",
         "trans": [
             "⓪ 名  外廊，檐廊"
         ],
@@ -10388,28 +10388,28 @@
         "notation": "すれすれ"
     },
     {
-        "name": "tejun",
+        "name": "tejunn",
         "trans": [
             "⓪ 名  次序，程序"
         ],
         "notation": "手順(てじゅん)"
     },
     {
-        "name": "bengi",
+        "name": "benngi",
         "trans": [
             "① 名·ナ形  方便；权宜"
         ],
         "notation": "便宜(べんぎ)"
     },
     {
-        "name": "moushideru",
+        "name": "mousideru",
         "trans": [
             "④ 他动2  提议，提出；报名"
         ],
         "notation": "申(もう)し出(で)る"
     },
     {
-        "name": "uchiki",
+        "name": "utiki",
         "trans": [
             "⓪ 名·ナ形  内向，腼腆"
         ],
@@ -10437,7 +10437,7 @@
         "notation": "峠(とうげ)"
     },
     {
-        "name": "shitauke",
+        "name": "sitauke",
         "trans": [
             "⓪ 名·他动3  转包，分包"
         ],
@@ -10500,7 +10500,7 @@
         "notation": "隠(かく)れ家(が)"
     },
     {
-        "name": "ashiato",
+        "name": "asiato",
         "trans": [
             "③ 名  足迹，脚印；业绩，成就"
         ],
@@ -10528,7 +10528,7 @@
         "notation": "結晶(けっしょう)"
     },
     {
-        "name": "sa-fin",
+        "name": "sa-finn",
         "trans": [
             "① 名  冲浪运动；冲浪板"
         ],
@@ -10549,49 +10549,49 @@
         "notation": "対決(たいけつ)"
     },
     {
-        "name": "dosha",
+        "name": "dosya",
         "trans": [
             "① 名  沙土"
         ],
         "notation": "土砂(どしゃ)"
     },
     {
-        "name": "chiyahoya",
+        "name": "tiyahoya",
         "trans": [
             "① 副·他动3  溺爱，娇生惯养；奉承"
         ],
         "notation": "ちやほや"
     },
     {
-        "name": "nenkoujoretsu",
+        "name": "nennkoujoretsu",
         "trans": [
             "⑤ 名  论资排辈"
         ],
         "notation": "年功序列(ねんこうじょれつ)"
     },
     {
-        "name": "baikin",
+        "name": "baikinn",
         "trans": [
             "⓪ 名  细菌"
         ],
         "notation": "黴菌(ばいきん)"
     },
     {
-        "name": "nagorioshii",
+        "name": "nagoriosii",
         "trans": [
             "⑤ イ形  依依不舍的，恋恋不舍的"
         ],
         "notation": "名残惜(なごりお)しい"
     },
     {
-        "name": "bijon",
+        "name": "bijonn",
         "trans": [
             "① 名  想象，幻想；理想，前景"
         ],
         "notation": "ビジョン"
     },
     {
-        "name": "mankitsu",
+        "name": "mannkitsu",
         "trans": [
             "⓪ 名·他动3  吃饱，喝足；充分享受"
         ],
@@ -10619,14 +10619,14 @@
         "notation": "強制(きょうせい)"
     },
     {
-        "name": "oshisusumeru",
+        "name": "osisusumeru",
         "trans": [
             "⑤ 他动2  推进，推动，推行"
         ],
         "notation": "推(お)し進(すす)める"
     },
     {
-        "name": "shisaku",
+        "name": "sisaku",
         "trans": [
             "⓪ 名  对策，措施"
         ],
@@ -10668,7 +10668,7 @@
         "notation": "見破(みやぶ)る"
     },
     {
-        "name": "ryousan",
+        "name": "ryousann",
         "trans": [
             "⓪ 名·他动3  批量生产"
         ],
@@ -10710,14 +10710,14 @@
         "notation": "報(ほう)じる"
     },
     {
-        "name": "nikutarashii",
+        "name": "nikutarasii",
         "trans": [
             "⑤ イ形  可憎的，可恶的"
         ],
         "notation": "憎(にく)たらしい"
     },
     {
-        "name": "enkatsu",
+        "name": "ennkatsu",
         "trans": [
             "⓪ 名·ナ形  圆满，顺利"
         ],
@@ -10731,7 +10731,7 @@
         "notation": "げらげら"
     },
     {
-        "name": "senzo",
+        "name": "sennzo",
         "trans": [
             "① 名  祖先"
         ],
@@ -10752,14 +10752,14 @@
         "notation": "粘(ねば)る"
     },
     {
-        "name": "bengo",
+        "name": "benngo",
         "trans": [
             "① 名·他动3  辩护，辩解"
         ],
         "notation": "弁護(べんご)"
     },
     {
-        "name": "muchi",
+        "name": "muti",
         "trans": [
             "① 名  鞭子，教鞭；鞭策"
         ],
@@ -10780,7 +10780,7 @@
         "notation": "アルファベット"
     },
     {
-        "name": "oroshiuri",
+        "name": "orosiuri",
         "trans": [
             "⓪ 名  批发，批售"
         ],
@@ -10836,7 +10836,7 @@
         "notation": "賭(か)ける"
     },
     {
-        "name": "secchuu",
+        "name": "settyuu",
         "trans": [
             "⓪ 名·他动3  折中"
         ],
@@ -10864,14 +10864,14 @@
         "notation": "機構(きこう)"
     },
     {
-        "name": "takabisha",
+        "name": "takabisya",
         "trans": [
             "⓪ 名·ナ形  高压，盛气凌人"
         ],
         "notation": "高飛車(たかびしゃ)"
     },
     {
-        "name": "kagayakashii",
+        "name": "kagayakasii",
         "trans": [
             "⑤ イ形  耀眼的；辉煌的，光辉的"
         ],
@@ -10885,7 +10885,7 @@
         "notation": "誇張(こちょう)"
     },
     {
-        "name": "jushin",
+        "name": "jusinn",
         "trans": [
             "⓪ 名·他动3  接收（信件、广播等）"
         ],
@@ -10899,7 +10899,7 @@
         "notation": "さもないと"
     },
     {
-        "name": "machiakasu",
+        "name": "matiakasu",
         "trans": [
             "④ 他动1  彻夜等候；久候"
         ],
@@ -10920,14 +10920,14 @@
         "notation": "恥(はじ)らう"
     },
     {
-        "name": "bokin",
+        "name": "bokinn",
         "trans": [
             "⓪ 名·自动3  募捐"
         ],
         "notation": "募金(ぼきん)"
     },
     {
-        "name": "manjou",
+        "name": "mannjou",
         "trans": [
             "⓪ 名  全场，满场，满堂"
         ],
@@ -10955,7 +10955,7 @@
         "notation": "気心(きごころ)"
     },
     {
-        "name": "janjan",
+        "name": "janjann",
         "trans": [
             "① 副  连续不断地，一个劲儿地；（钟）当当响"
         ],
@@ -10990,7 +10990,7 @@
         "notation": "ハイテク"
     },
     {
-        "name": "houjin",
+        "name": "houjinn",
         "trans": [
             "⓪ 名  法人"
         ],
@@ -11053,7 +11053,7 @@
         "notation": "エスカレート"
     },
     {
-        "name": "amaashi",
+        "name": "amaasi",
         "trans": [
             "⓪ 名  雨势"
         ],
@@ -11088,7 +11088,7 @@
         "notation": "未(いま)だに"
     },
     {
-        "name": "o-tomachikku",
+        "name": "o-tomatikku",
         "trans": [
             "⑤ 名·ナ形  自动装置；自动的，自动式的"
         ],
@@ -11102,7 +11102,7 @@
         "notation": "逆様(さかさま)"
     },
     {
-        "name": "sun'nari",
+        "name": "sunn'nari",
         "trans": [
             "③ 副·自动3  苗条，纤细；容易，不费力"
         ],
@@ -11116,14 +11116,14 @@
         "notation": "停滞(ていたい)"
     },
     {
-        "name": "ninjou",
+        "name": "ninnjou",
         "trans": [
             "① 名  人情，情义"
         ],
         "notation": "人情(にんじょう)"
     },
     {
-        "name": "hinsuru",
+        "name": "hinnsuru",
         "trans": [
             "③ 自动3  濒临，面临"
         ],
@@ -11144,7 +11144,7 @@
         "notation": "身(み)の上(うえ)"
     },
     {
-        "name": "yuyushii",
+        "name": "yuyusii",
         "trans": [
             "③ イ形  严重的，重大的"
         ],
@@ -11172,7 +11172,7 @@
         "notation": "志(こころざ)す"
     },
     {
-        "name": "janru",
+        "name": "jannru",
         "trans": [
             " ① 名  种类；类型；体裁；流派"
         ],
@@ -11193,7 +11193,7 @@
         "notation": "群(むら)がる"
     },
     {
-        "name": "enkyoku",
+        "name": "ennkyoku",
         "trans": [
             "⓪ ナ形  委婉的，婉转的"
         ],
@@ -11207,7 +11207,7 @@
         "notation": "顎(あご)"
     },
     {
-        "name": "kan'yuu",
+        "name": "kann'yuu",
         "trans": [
             "⓪ 名·他动3  劝诱，劝说"
         ],
@@ -11242,7 +11242,7 @@
         "notation": "挫(くじ)く"
     },
     {
-        "name": "shiba",
+        "name": "siba",
         "trans": [
             "⓪ 名  （草坪里的）草"
         ],
@@ -11256,21 +11256,21 @@
         "notation": "送付(そうふ)"
     },
     {
-        "name": "chirasu",
+        "name": "tirasu",
         "trans": [
             "⓪ 他动1  驱散（人群）；散，撒；散布，传播"
         ],
         "notation": "散(ち)らす"
     },
     {
-        "name": "dashin",
+        "name": "dasinn",
         "trans": [
             "⓪ 名·他动3  打探，试探"
         ],
         "notation": "打診(だしん)"
     },
     {
-        "name": "fuchi",
+        "name": "futi",
         "trans": [
             "② 名  渊，潭；（比喻）深渊"
         ],
@@ -11284,7 +11284,7 @@
         "notation": "手強(てごわ)い"
     },
     {
-        "name": "nansensu",
+        "name": "nansennsu",
         "trans": [
             "① 名·ナ形  无意义，无聊，荒谬；废话"
         ],
@@ -11312,7 +11312,7 @@
         "notation": "月賦(げっぷ)"
     },
     {
-        "name": "jimichi",
+        "name": "jimiti",
         "trans": [
             "⓪ 名·ナ形  勤恳，踏实"
         ],
@@ -11354,7 +11354,7 @@
         "notation": "光熱費(こうねつひ)"
     },
     {
-        "name": "sensai",
+        "name": "sennsai",
         "trans": [
             "⓪ 名·ナ形  纤细，柔嫩；感情细腻"
         ],
@@ -11368,7 +11368,7 @@
         "notation": "腫(は)れる"
     },
     {
-        "name": "to-n",
+        "name": "to-nn",
         "trans": [
             "① 名  音调；色调；气氛"
         ],
@@ -11403,7 +11403,7 @@
         "notation": "同乗(どうじょう)"
     },
     {
-        "name": "anagachi",
+        "name": "anagati",
         "trans": [
             "⓪ 副  （后多接否定）未必，不见得"
         ],
@@ -11445,28 +11445,28 @@
         "notation": "掌(てのひら)"
     },
     {
-        "name": "himashini",
+        "name": "himasini",
         "trans": [
             "⓪ 副  日益，一天天地"
         ],
         "notation": "日増(ひま)しに"
     },
     {
-        "name": "doraibuin",
+        "name": "doraibuinn",
         "trans": [
             "④ 名  免下车服务设施"
         ],
         "notation": "ドライブイン"
     },
     {
-        "name": "heinen",
+        "name": "heinenn",
         "trans": [
             "⓪ 名  平年，常年(没有异常的年份)"
         ],
         "notation": "平年(へいねん)"
     },
     {
-        "name": "kushakusha",
+        "name": "kusyakusya",
         "trans": [
             "① 副·ナ形  皱巴巴；乱糟糟"
         ],
@@ -11508,7 +11508,7 @@
         "notation": "一掃(いっそう)"
     },
     {
-        "name": "michibiku",
+        "name": "mitibiku",
         "trans": [
             "③ 他动1  引导，指引；导致"
         ],
@@ -11564,7 +11564,7 @@
         "notation": "気(き)さく"
     },
     {
-        "name": "jukuchi",
+        "name": "jukuti",
         "trans": [
             "① 名·他动3  熟悉"
         ],
@@ -11613,7 +11613,7 @@
         "notation": "総会(そうかい)"
     },
     {
-        "name": "gikochinai",
+        "name": "gikotinai",
         "trans": [
             "④ イ形  笨拙的，生硬的"
         ],
@@ -11627,7 +11627,7 @@
         "notation": "アフターケア"
     },
     {
-        "name": "kan'yo",
+        "name": "kann'yo",
         "trans": [
             "① 名·自动3  参与，干预"
         ],
@@ -11662,7 +11662,7 @@
         "notation": "継(つ)ぐ"
     },
     {
-        "name": "shikkou",
+        "name": "sikkou",
         "trans": [
             "⓪ 名·自动3  失效"
         ],
@@ -11683,7 +11683,7 @@
         "notation": "取(と)り巻(ま)く"
     },
     {
-        "name": "oriente-jon",
+        "name": "oriente-jonn",
         "trans": [
             "⑤ 名  入学教育，新员工培训"
         ],
@@ -11718,14 +11718,14 @@
         "notation": "週明(しゅうあ)け"
     },
     {
-        "name": "moushitsukeru",
+        "name": "mousitsukeru",
         "trans": [
             "⑤ 他动2  吩咐，命令"
         ],
         "notation": "申(もう)し付(つ)ける"
     },
     {
-        "name": "hansha",
+        "name": "hannsya",
         "trans": [
             "⓪ 名·自他动3  （光、生理上的）反射"
         ],
@@ -11774,7 +11774,7 @@
         "notation": "刑務所(けいむしょ)"
     },
     {
-        "name": "shinario",
+        "name": "sinario",
         "trans": [
             "⓪ 名  脚本，剧本"
         ],
@@ -11795,7 +11795,7 @@
         "notation": "言(い)い訳(わけ)"
     },
     {
-        "name": "dangen",
+        "name": "dangenn",
         "trans": [
             "③ 名·他动3  断言，断定"
         ],
@@ -11816,14 +11816,14 @@
         "notation": "討議(とうぎ)"
     },
     {
-        "name": "hadashi",
+        "name": "hadasi",
         "trans": [
             "⓪ 名  赤足，光脚"
         ],
         "notation": "裸足(はだし)"
     },
     {
-        "name": "ichijirushii",
+        "name": "itijirusii",
         "trans": [
             "⑤ イ形  显著的，明显的"
         ],
@@ -11872,7 +11872,7 @@
         "notation": "ぐずぐず"
     },
     {
-        "name": "zensen",
+        "name": "zensenn",
         "trans": [
             "⓪ 名  前线；（气象）锋面"
         ],
@@ -11900,7 +11900,7 @@
         "notation": "甲乙(こうおつ)"
     },
     {
-        "name": "ison",
+        "name": "isonn",
         "trans": [
             "⓪ 名·自动3  依存，依靠"
         ],
@@ -11928,7 +11928,7 @@
         "notation": "郷土(きょうど)"
     },
     {
-        "name": "sahanji",
+        "name": "sahannji",
         "trans": [
             "② 名  常有的事"
         ],
@@ -11949,7 +11949,7 @@
         "notation": "時差(じさ)"
     },
     {
-        "name": "kenzai",
+        "name": "kennzai",
         "trans": [
             "⓪ 名·自动3  显在，显然存在"
         ],
@@ -11984,14 +11984,14 @@
         "notation": "俯(うつむ)く"
     },
     {
-        "name": "kihin",
+        "name": "kihinn",
         "trans": [
             "⓪ 名  风度，气度"
         ],
         "notation": "気品(きひん)"
     },
     {
-        "name": "sashihiki",
+        "name": "sasihiki",
         "trans": [
             "② 名·自他动3  扣除，减去；相抵"
         ],
@@ -12033,7 +12033,7 @@
         "notation": "パイオニア"
     },
     {
-        "name": "bunsan",
+        "name": "bunsann",
         "trans": [
             "⓪ 名·自动3  分散，散开"
         ],
@@ -12054,7 +12054,7 @@
         "notation": "立体(りったい)"
     },
     {
-        "name": "enshou",
+        "name": "ennshou",
         "trans": [
             "⓪ 名  炎症，发炎"
         ],
@@ -12082,7 +12082,7 @@
         "notation": "実務(じつむ)"
     },
     {
-        "name": "oshidasu",
+        "name": "osidasu",
         "trans": [
             "③ 自他动1  蜂拥而出；挤出；推出"
         ],
@@ -12110,7 +12110,7 @@
         "notation": "勤(つと)まる"
     },
     {
-        "name": "nintai",
+        "name": "ninntai",
         "trans": [
             "① 名·自动3  忍耐，忍受"
         ],
@@ -12138,7 +12138,7 @@
         "notation": "見栄(みば)え"
     },
     {
-        "name": "yuwakashi",
+        "name": "yuwakasi",
         "trans": [
             "② 名  烧水壶"
         ],
@@ -12187,7 +12187,7 @@
         "notation": "突破(とっぱ)"
     },
     {
-        "name": "nonoshiru",
+        "name": "nonosiru",
         "trans": [
             "③ 自他动1  骂，斥责"
         ],
@@ -12201,7 +12201,7 @@
         "notation": "微量(びりょう)"
     },
     {
-        "name": "menjo",
+        "name": "mennjo",
         "trans": [
             "① 名·他动3  免除"
         ],
@@ -12236,14 +12236,14 @@
         "notation": "ぞくぞく"
     },
     {
-        "name": "dekore-shon",
+        "name": "dekore-shonn",
         "trans": [
             "③ 名  装饰，装潢"
         ],
         "notation": "デコレーション"
     },
     {
-        "name": "shinri",
+        "name": "sinnri",
         "trans": [
             "① 名  真理"
         ],
@@ -12271,7 +12271,7 @@
         "notation": "移住(いじゅう)"
     },
     {
-        "name": "gacchiri",
+        "name": "gactiri",
         "trans": [
             "③ 副·自动3  结实，牢靠；精打细算"
         ],
@@ -12285,7 +12285,7 @@
         "notation": "親方(おやかた)"
     },
     {
-        "name": "kyoukan",
+        "name": "kyoukann",
         "trans": [
             "⓪ 名·自动3  同感，共鸣"
         ],
@@ -12299,7 +12299,7 @@
         "notation": "ひょっと"
     },
     {
-        "name": "shitaji",
+        "name": "sitaji",
         "trans": [
             "⓪ 名  基础，准备；资质"
         ],
@@ -12355,14 +12355,14 @@
         "notation": "成否(せいひ)"
     },
     {
-        "name": "kokochiyoi",
+        "name": "kokotiyoi",
         "trans": [
             "④ イ形  愉快的，爽快的，惬意的"
         ],
         "notation": "心地(ここち)よい"
     },
     {
-        "name": "infome-shon",
+        "name": "infome-shonn",
         "trans": [
             "④ 名  信息，通知，报告；问讯处"
         ],
@@ -12390,7 +12390,7 @@
         "notation": "背後(はいご)"
     },
     {
-        "name": "henshin",
+        "name": "hensinn",
         "trans": [
             "⓪ 名·自动3  变身，改变装束"
         ],
@@ -12411,14 +12411,14 @@
         "notation": "立法(りっぽう)"
     },
     {
-        "name": "ushiromuki",
+        "name": "usiromuki",
         "trans": [
             "⓪ 名·ナ形  背对着；（态度）消极"
         ],
         "notation": "後(うし)ろ向(む)き"
     },
     {
-        "name": "ochiiru",
+        "name": "otiiru",
         "trans": [
             "⓪ 自动1  陷入，坠入（不好的状态）"
         ],
@@ -12523,7 +12523,7 @@
         "notation": "ジャーナリスト"
     },
     {
-        "name": "moshikuha",
+        "name": "mosikuha",
         "trans": [
             "① 接续  或，或者"
         ],
@@ -12558,7 +12558,7 @@
         "notation": "大病(たいびょう)"
     },
     {
-        "name": "tehon",
+        "name": "tehonn",
         "trans": [
             "② 名  字帖，范本；模范，榜样"
         ],
@@ -12600,7 +12600,7 @@
         "notation": "送(おく)り状(じょう)"
     },
     {
-        "name": "ashigatame",
+        "name": "asigatame",
         "trans": [
             "③ 名·自动3  打好基础，做好准备"
         ],
@@ -12649,7 +12649,7 @@
         "notation": "シェア"
     },
     {
-        "name": "sangaku",
+        "name": "sanngaku",
         "trans": [
             "⓪ 名  山岳"
         ],
@@ -12670,7 +12670,7 @@
         "notation": "代用(だいよう)"
     },
     {
-        "name": "jisshitsu",
+        "name": "jissitsu",
         "trans": [
             "⓪ 名  实质，本质"
         ],
@@ -12684,7 +12684,7 @@
         "notation": "連(つら)なる"
     },
     {
-        "name": "ninmu",
+        "name": "ninnmu",
         "trans": [
             "① 名  任务"
         ],
@@ -12705,7 +12705,7 @@
         "notation": "はるばる"
     },
     {
-        "name": "bunsouou",
+        "name": "bunnsouou",
         "trans": [
             "① 名·ナ形  合乎身份，与身份相称"
         ],
@@ -12726,35 +12726,35 @@
         "notation": "病(や)む"
     },
     {
-        "name": "ichiyou",
+        "name": "itiyou",
         "trans": [
             "⓪ 名·ナ形  同样；寻常，平常"
         ],
         "notation": "一様(いちよう)"
     },
     {
-        "name": "fuchi",
+        "name": "futi",
         "trans": [
             "② 名  边缘；框架"
         ],
         "notation": "縁(ふち)"
     },
     {
-        "name": "kimuzukashii",
+        "name": "kimuzukasii",
         "trans": [
             "⓪ イ形  难以取悦的，不好伺候的"
         ],
         "notation": "気難(きむずか)しい"
     },
     {
-        "name": "genbaku",
+        "name": "gennbaku",
         "trans": [
             "⓪ 名  原子弹"
         ],
         "notation": "原爆(げんばく)"
     },
     {
-        "name": "dessan",
+        "name": "dessann",
         "trans": [
             "① 名  素描，草图"
         ],
@@ -12782,7 +12782,7 @@
         "notation": "着工(ちゃっこう)"
     },
     {
-        "name": "nanraka",
+        "name": "nannraka",
         "trans": [
             "④ 副  一些，某些，多少"
         ],
@@ -12796,7 +12796,7 @@
         "notation": "被告(ひこく)"
     },
     {
-        "name": "honsuji",
+        "name": "honnsuji",
         "trans": [
             "⓪ 名  主要情节；正题，本题"
         ],
@@ -12831,7 +12831,7 @@
         "notation": "処(しょ)する"
     },
     {
-        "name": "zadankai",
+        "name": "zadannkai",
         "trans": [
             "② 名  座谈会"
         ],
@@ -12859,7 +12859,7 @@
         "notation": "波及(はきゅう)"
     },
     {
-        "name": "meishin",
+        "name": "meisinn",
         "trans": [
             "⓪ 名  迷信"
         ],
@@ -12894,7 +12894,7 @@
         "notation": "サボる"
     },
     {
-        "name": "kontena-",
+        "name": "konntena-",
         "trans": [
             "① 名  集装箱，货柜"
         ],
@@ -12915,14 +12915,14 @@
         "notation": "恥(は)じる"
     },
     {
-        "name": "nenshou",
+        "name": "nennshou",
         "trans": [
             "⓪ 名·ナ形  年少，年轻"
         ],
         "notation": "年少(ねんしょう)"
     },
     {
-        "name": "ho-mushikku",
+        "name": "ho-musikku",
         "trans": [
             "④ 名  想家，思乡"
         ],
@@ -12936,21 +12936,21 @@
         "notation": "ゆえに"
     },
     {
-        "name": "ran'you",
+        "name": "rann'you",
         "trans": [
             "⓪ 名·他动3  滥用"
         ],
         "notation": "濫用(らんよう)"
     },
     {
-        "name": "unsou",
+        "name": "unnsou",
         "trans": [
             "⓪ 名·他动3  运送，运输"
         ],
         "notation": "運送(うんそう)"
     },
     {
-        "name": "itoshii",
+        "name": "itosii",
         "trans": [
             "③ イ形  可爱的；可怜的"
         ],
@@ -12964,14 +12964,14 @@
         "notation": "窮乏(きゅうぼう)"
     },
     {
-        "name": "shushi",
+        "name": "shusi",
         "trans": [
             "① 名  宗旨；主旨"
         ],
         "notation": "趣旨(しゅし)"
     },
     {
-        "name": "goshigoshi",
+        "name": "gosigosi",
         "trans": [
             "① 副  使劲地（搓、擦）"
         ],
@@ -12992,7 +12992,7 @@
         "notation": "統制(とうせい)"
     },
     {
-        "name": "tsutsushinde",
+        "name": "tsutsusinnde",
         "trans": [
             "③ 副  恭谨地"
         ],
@@ -13006,7 +13006,7 @@
         "notation": "矯正(きょうせい)"
     },
     {
-        "name": "shicchou",
+        "name": "sicchou",
         "trans": [
             "⓪ 名·自动3  失调，不平衡"
         ],
@@ -13020,14 +13020,14 @@
         "notation": "アタック"
     },
     {
-        "name": "ougon",
+        "name": "ougonn",
         "trans": [
             "⓪ 名  黄金；金钱"
         ],
         "notation": "黄金(おうごん)"
     },
     {
-        "name": "go-ruin",
+        "name": "go-ruinn",
         "trans": [
             "③ 名·自动3  到达终点；进球；达到目的"
         ],
@@ -13069,7 +13069,7 @@
         "notation": "定着(ていちゃく)"
     },
     {
-        "name": "hason",
+        "name": "hasonn",
         "trans": [
             "⓪ 名·自他动3  破损，损坏"
         ],
@@ -13090,7 +13090,7 @@
         "notation": "人並(ひとな)み"
     },
     {
-        "name": "horumon",
+        "name": "horumonn",
         "trans": [
             "① 名  荷尔蒙，激素"
         ],
@@ -13104,7 +13104,7 @@
         "notation": "無茶苦茶(むちゃくちゃ)"
     },
     {
-        "name": "riten",
+        "name": "ritenn",
         "trans": [
             "⓪ 名  长处，优点"
         ],
@@ -13118,21 +13118,21 @@
         "notation": "あり方(かた)"
     },
     {
-        "name": "kishimu",
+        "name": "kisimu",
         "trans": [
             "② 自动1  嘎吱嘎吱作响"
         ],
         "notation": "軋(きし)む"
     },
     {
-        "name": "ikubun",
+        "name": "ikubunn",
         "trans": [
             "⓪ 名·副  一部分；少许，一点儿"
         ],
         "notation": "幾分(いくぶん)"
     },
     {
-        "name": "enshutsu",
+        "name": "ennshutsu",
         "trans": [
             "⓪ 名·他动3  导演；组织安排"
         ],
@@ -13174,7 +13174,7 @@
         "notation": "労(ねぎら)う"
     },
     {
-        "name": "chouin",
+        "name": "chouinn",
         "trans": [
             "⓪ 名·自动3  签订，签署"
         ],
@@ -13195,14 +13195,14 @@
         "notation": "手筈(てはず)"
     },
     {
-        "name": "nenji",
+        "name": "nennji",
         "trans": [
             "① 名  年份，年度"
         ],
         "notation": "年次(ねんじ)"
     },
     {
-        "name": "harebareshii",
+        "name": "harebaresii",
         "trans": [
             "⑤ イ形  愉快的；明朗的；晴朗的"
         ],
@@ -13230,7 +13230,7 @@
         "notation": "漏(も)る"
     },
     {
-        "name": "ichiren",
+        "name": "itirenn",
         "trans": [
             "⓪ 名  一连串，一系列"
         ],
@@ -13244,7 +13244,7 @@
         "notation": "後悔(こうかい)"
     },
     {
-        "name": "oshiyoseru",
+        "name": "osiyoseru",
         "trans": [
             "④ 自他动2  蜂拥而至；推到一边"
         ],
@@ -13258,7 +13258,7 @@
         "notation": "恐怖(きょうふ)"
     },
     {
-        "name": "shitto",
+        "name": "sitto",
         "trans": [
             "⓪ 名·他动3  嫉妒"
         ],
@@ -13272,7 +13272,7 @@
         "notation": "被(こうむ)る"
     },
     {
-        "name": "seiken",
+        "name": "seikenn",
         "trans": [
             "⓪ 名  政权"
         ],
@@ -13286,14 +13286,14 @@
         "notation": "途上(とじょう)"
     },
     {
-        "name": "shikarubeki",
+        "name": "sikarubeki",
         "trans": [
             "④ 连语  适当的，应有的，应当的"
         ],
         "notation": "しかるべき"
     },
     {
-        "name": "pafo-mansu",
+        "name": "pafo-mannsu",
         "trans": [
             "② 名  表演；效果，性能"
         ],
@@ -13314,21 +13314,21 @@
         "notation": "怪獣(かいじゅう)"
     },
     {
-        "name": "shinayaka",
+        "name": "sinayaka",
         "trans": [
             "② ナ形  柔软的；柔和的，优美的"
         ],
         "notation": "しなやか"
     },
     {
-        "name": "ochido",
+        "name": "otido",
         "trans": [
             "① 名  过失，过错，疏忽，失误"
         ],
         "notation": "落(お)ち度(ど)"
     },
     {
-        "name": "kyacchi",
+        "name": "kyacti",
         "trans": [
             "① 名·他动3  捕捉，接收；接球"
         ],
@@ -13349,7 +13349,7 @@
         "notation": "製法(せいほう)"
     },
     {
-        "name": "tandoku",
+        "name": "tanndoku",
         "trans": [
             "⓪ 名·ナ形  单独，独自"
         ],
@@ -13391,7 +13391,7 @@
         "notation": "迫害(はくがい)"
     },
     {
-        "name": "bunan",
+        "name": "bunann",
         "trans": [
             "⓪ 名·ナ形  无灾无难，平安；没有缺点，无可非议"
         ],
@@ -13405,7 +13405,7 @@
         "notation": "もじもじ"
     },
     {
-        "name": "yangu",
+        "name": "yanngu",
         "trans": [
             "① 名  年轻人，年轻一代"
         ],
@@ -13426,14 +13426,14 @@
         "notation": "埋(う)め込(こ)む"
     },
     {
-        "name": "kengen",
+        "name": "kengenn",
         "trans": [
             "③ 名  权限，职权范围"
         ],
         "notation": "権限(けんげん)"
     },
     {
-        "name": "sanbashi",
+        "name": "sannbasi",
         "trans": [
             "⓪ 名  码头，栈桥"
         ],
@@ -13468,14 +13468,14 @@
         "notation": "どうにか"
     },
     {
-        "name": "hassan",
+        "name": "hassann",
         "trans": [
             "⓪ 名·自他动3  散发；发散，消散"
         ],
         "notation": "発散(はっさん)"
     },
     {
-        "name": "henkei",
+        "name": "hennkei",
         "trans": [
             "⓪ 名·自他动3  变形"
         ],
@@ -13489,7 +13489,7 @@
         "notation": "よって"
     },
     {
-        "name": "in'you",
+        "name": "inn'you",
         "trans": [
             "⓪ 名·他动3  饮用，喝"
         ],
@@ -13503,14 +13503,14 @@
         "notation": "肩代(かたが)わり"
     },
     {
-        "name": "shitagaeru",
+        "name": "sitagaeru",
         "trans": [
             "⓪ 他动2  率领，带着；征服"
         ],
         "notation": "従(したが)える"
     },
     {
-        "name": "kigen",
+        "name": "kigenn",
         "trans": [
             "① 名  起源"
         ],
@@ -13524,21 +13524,21 @@
         "notation": "軸(じく)"
     },
     {
-        "name": "sendatte",
+        "name": "senndatte",
         "trans": [
             "⓪ 名·副  前几天，前些日子"
         ],
         "notation": "先(せん)だって"
     },
     {
-        "name": "tanaoroshi",
+        "name": "tanaorosi",
         "trans": [
             "⓪ 名·自他动3  盘点，盘货"
         ],
         "notation": "棚卸(たなおろ)し"
     },
     {
-        "name": "sha-pu",
+        "name": "sya-pu",
         "trans": [
             "① ナ形  敏锐的；锋利的；清晰的"
         ],
@@ -13573,7 +13573,7 @@
         "notation": "居座(いすわ)る"
     },
     {
-        "name": "kanmuri",
+        "name": "kannmuri",
         "trans": [
             "⓪ 名  冠，帽子"
         ],
@@ -13608,21 +13608,21 @@
         "notation": "摘出(てきしゅつ)"
     },
     {
-        "name": "shonbori",
+        "name": "shonnbori",
         "trans": [
             "③ 副·自动3  无精打采，垂头丧气"
         ],
         "notation": "しょんぼり"
     },
     {
-        "name": "chochiku",
+        "name": "chotiku",
         "trans": [
             "⓪ 名·他动3  储蓄，积蓄"
         ],
         "notation": "貯蓄(ちょちく)"
     },
     {
-        "name": "nobanashi",
+        "name": "nobanasi",
         "trans": [
             "② 名  放养（牲畜）；放任自流"
         ],
@@ -13643,14 +13643,14 @@
         "notation": "没頭(ぼっとう)"
     },
     {
-        "name": "mouten",
+        "name": "moutenn",
         "trans": [
             "① 名  盲点；漏洞"
         ],
         "notation": "盲点(もうてん)"
     },
     {
-        "name": "imanishite",
+        "name": "imanisite",
         "trans": [
             "① 连语  现在，如今"
         ],
@@ -13664,7 +13664,7 @@
         "notation": "クライマックス"
     },
     {
-        "name": "shingi",
+        "name": "sinngi",
         "trans": [
             "① 名·他动3  审议"
         ],
@@ -13685,7 +13685,7 @@
         "notation": "多忙(たぼう)"
     },
     {
-        "name": "fukin",
+        "name": "fukinn",
         "trans": [
             "② 名  抹布"
         ],
@@ -13699,28 +13699,28 @@
         "notation": "土台(どだい)"
     },
     {
-        "name": "bakuzen",
+        "name": "bakuzenn",
         "trans": [
             "⓪ ナ形  含糊的，笼统的，暧昧的"
         ],
         "notation": "漠然(ばくぜん)"
     },
     {
-        "name": "hoon",
+        "name": "hoonn",
         "trans": [
             "⓪ 名·自动3  保温"
         ],
         "notation": "保温(ほおん)"
     },
     {
-        "name": "manzara",
+        "name": "mannzara",
         "trans": [
             "⓪ 副  （后接否定）并非完全，未必一定"
         ],
         "notation": "まんざら"
     },
     {
-        "name": "etsuran",
+        "name": "etsurann",
         "trans": [
             "⓪ 名·他动3  阅览"
         ],
@@ -13741,7 +13741,7 @@
         "notation": "悟(さと)る"
     },
     {
-        "name": "kontorasuto",
+        "name": "konntorasuto",
         "trans": [
             "① 名  对比，对照"
         ],
@@ -13755,14 +13755,14 @@
         "notation": "接待(せったい)"
     },
     {
-        "name": "tende",
+        "name": "tennde",
         "trans": [
             "⓪ 副  完全，丝毫"
         ],
         "notation": "てんで"
     },
     {
-        "name": "chin'age",
+        "name": "tinn'age",
         "trans": [
             "⓪ 名·自动3  涨工资，加薪"
         ],
@@ -13783,7 +13783,7 @@
         "notation": "滞(とどこお)る"
     },
     {
-        "name": "nankyoku",
+        "name": "nannkyoku",
         "trans": [
             "⓪ 名  困难局面"
         ],
@@ -13804,7 +13804,7 @@
         "notation": "ぽっと"
     },
     {
-        "name": "manbiki",
+        "name": "mannbiki",
         "trans": [
             "⓪ 名·他动3  偷盗商店物品"
         ],
@@ -13853,7 +13853,7 @@
         "notation": "エリート"
     },
     {
-        "name": "shitsunen",
+        "name": "sitsunenn",
         "trans": [
             "⓪ 名·他动3  忘记，遗忘"
         ],
@@ -13867,7 +13867,7 @@
         "notation": "鋭(するど)い"
     },
     {
-        "name": "chikusan",
+        "name": "tikusann",
         "trans": [
             "⓪ 名  畜产，畜牧"
         ],
@@ -13888,7 +13888,7 @@
         "notation": "並外(なみはず)れる"
     },
     {
-        "name": "ban'nin",
+        "name": "ban'ninn",
         "trans": [
             "③ 名  值班人，看守人"
         ],
@@ -13909,7 +13909,7 @@
         "notation": "嗄(か)れる"
     },
     {
-        "name": "uchiage",
+        "name": "utiage",
         "trans": [
             "⓪ 名  发射；演出结束，比赛结束"
         ],
@@ -13972,7 +13972,7 @@
         "notation": "和(なご)む"
     },
     {
-        "name": "han'nou",
+        "name": "hann'nou",
         "trans": [
             "⓪ 名·自动3  反应；反响"
         ],
@@ -14007,21 +14007,21 @@
         "notation": "当(あ)たり"
     },
     {
-        "name": "gainen",
+        "name": "gainenn",
         "trans": [
             "① 名  概念"
         ],
         "notation": "概念(がいねん)"
     },
     {
-        "name": "imashimeru",
+        "name": "imasimeru",
         "trans": [
             "④ 他动2  劝诫，劝告；禁止，戒；警惕"
         ],
         "notation": "戒(いまし)める"
     },
     {
-        "name": "kizashi",
+        "name": "kizasi",
         "trans": [
             "⓪ 名  兆头，征兆；苗头，眉目"
         ],
@@ -14049,7 +14049,7 @@
         "notation": "政策(せいさく)"
     },
     {
-        "name": "chuugaeri",
+        "name": "tyuugaeri",
         "trans": [
             "③ 名·自动3  翻跟头"
         ],
@@ -14077,14 +14077,14 @@
         "notation": "戸締(とじま)り"
     },
     {
-        "name": "nayamashii",
+        "name": "nayamasii",
         "trans": [
             "④ イ形  烦恼的，苦恼的"
         ],
         "notation": "悩(なや)ましい"
     },
     {
-        "name": "hatan",
+        "name": "hatann",
         "trans": [
             "⓪ 名·自动3  （谈判）破裂；失败；破产"
         ],
@@ -14126,7 +14126,7 @@
         "notation": "寄(よ)り掛(か)かる"
     },
     {
-        "name": "utsushi",
+        "name": "utsusi",
         "trans": [
             "③ 名  副本，抄本"
         ],
@@ -14140,21 +14140,21 @@
         "notation": "桁(けた)"
     },
     {
-        "name": "shikiru",
+        "name": "sikiru",
         "trans": [
             "② 他动1  隔开，间隔；掌管，全权处理"
         ],
         "notation": "仕切(しき)る"
     },
     {
-        "name": "sanpuku",
+        "name": "sannpuku",
         "trans": [
             "⓪ 名  山腰"
         ],
         "notation": "山腹(さんぷく)"
     },
     {
-        "name": "konpurekkusu",
+        "name": "konnpurekkusu",
         "trans": [
             "④ 名  情结；自卑感"
         ],
@@ -14168,7 +14168,7 @@
         "notation": "告(つ)げる"
     },
     {
-        "name": "dotanba",
+        "name": "dotannba",
         "trans": [
             "⓪ 名  绝境，最后关头"
         ],
@@ -14196,7 +14196,7 @@
         "notation": "配属(はいぞく)"
     },
     {
-        "name": "funtou",
+        "name": "funntou",
         "trans": [
             "⓪ 名·自动3  奋斗；奋战"
         ],
@@ -14210,7 +14210,7 @@
         "notation": "褒(ほ)め称(たた)える"
     },
     {
-        "name": "gishi",
+        "name": "gisi",
         "trans": [
             "① 名  工程师，技师"
         ],
@@ -14245,7 +14245,7 @@
         "notation": "香水(こうすい)"
     },
     {
-        "name": "amanjiru",
+        "name": "amannjiru",
         "trans": [
             "④ 自动2  甘愿，情愿；满足，忍受"
         ],
@@ -14280,7 +14280,7 @@
         "notation": "ホース"
     },
     {
-        "name": "renmei",
+        "name": "rennmei",
         "trans": [
             "⓪ 名  联盟，联合会"
         ],
@@ -14294,14 +14294,14 @@
         "notation": "憂(うれ)える"
     },
     {
-        "name": "kingan",
+        "name": "kingann",
         "trans": [
             "⓪ 名  近视眼"
         ],
         "notation": "近眼(きんがん)"
     },
     {
-        "name": "shakou",
+        "name": "syakou",
         "trans": [
             "⓪ 名  社交，交际"
         ],
@@ -14322,7 +14322,7 @@
         "notation": "アットホーム"
     },
     {
-        "name": "seishi",
+        "name": "seisi",
         "trans": [
             "⓪ 名·他动3  制止，阻止"
         ],
@@ -14336,7 +14336,7 @@
         "notation": "馴(な)らす"
     },
     {
-        "name": "zougen",
+        "name": "zougenn",
         "trans": [
             "⓪ 名·自他动3  增减，增加和减少"
         ],
@@ -14357,7 +14357,7 @@
         "notation": "肌寒(はださむ)い"
     },
     {
-        "name": "deban",
+        "name": "debann",
         "trans": [
             "⓪ 名  值班；出场"
         ],
@@ -14378,7 +14378,7 @@
         "notation": "催(もよお)す"
     },
     {
-        "name": "sanpi",
+        "name": "sannpi",
         "trans": [
             "① 名  赞成与否"
         ],
@@ -14420,35 +14420,35 @@
         "notation": "あやかる"
     },
     {
-        "name": "kishitsu",
+        "name": "kisitsu",
         "trans": [
             "⓪ 名  秉性，性格"
         ],
         "notation": "気質(きしつ)"
     },
     {
-        "name": "oshiego",
+        "name": "osiego",
         "trans": [
             "⓪ 名  学生，徒弟"
         ],
         "notation": "教(おし)え子(ご)"
     },
     {
-        "name": "kuchizusamu",
+        "name": "kutizusamu",
         "trans": [
             "④ 他动1  吟，诵；哼唱"
         ],
         "notation": "口(くち)ずさむ"
     },
     {
-        "name": "shitashirabe",
+        "name": "sitasirabe",
         "trans": [
             "③ 名·他动3  预先调查；预习"
         ],
         "notation": "下調(したしら)べ"
     },
     {
-        "name": "tenshon",
+        "name": "tenshonn",
         "trans": [
             "① 名  紧张，兴奋"
         ],
@@ -14469,7 +14469,7 @@
         "notation": "入(い)り江(え)"
     },
     {
-        "name": "daihon",
+        "name": "daihonn",
         "trans": [
             "⓪ 名  剧本，脚本"
         ],
@@ -14483,14 +14483,14 @@
         "notation": "擦(す)れ合(あ)う"
     },
     {
-        "name": "shikou",
+        "name": "sikou",
         "trans": [
             "⓪ 名·他动3  试行，试验"
         ],
         "notation": "試行(しこう)"
     },
     {
-        "name": "chuukei",
+        "name": "tyuukei",
         "trans": [
             "⓪ 名·他动3  中转；转播"
         ],
@@ -14511,7 +14511,7 @@
         "notation": "バーコード"
     },
     {
-        "name": "fushi",
+        "name": "fusi",
         "trans": [
             "② 名  竹节；关节；地方，点；曲调"
         ],
@@ -14525,7 +14525,7 @@
         "notation": "恵(めぐ)む"
     },
     {
-        "name": "iken",
+        "name": "ikenn",
         "trans": [
             "⓪ 名  异议，不同见解"
         ],
@@ -14539,7 +14539,7 @@
         "notation": "自在(じざい)"
     },
     {
-        "name": "katachidukuru",
+        "name": "katatidukuru",
         "trans": [
             "⑤ 他动1  形成，构成"
         ],
@@ -14567,7 +14567,7 @@
         "notation": "今(いま)にも"
     },
     {
-        "name": "jiten",
+        "name": "jitenn",
         "trans": [
             "⓪ 名·自动3  自转"
         ],
@@ -14595,7 +14595,7 @@
         "notation": "凝縮(ぎょうしゅく)"
     },
     {
-        "name": "taidan",
+        "name": "taidann",
         "trans": [
             "⓪ 名·自动3  对谈，会谈"
         ],
@@ -14630,7 +14630,7 @@
         "notation": "綴(と)じる"
     },
     {
-        "name": "ibento",
+        "name": "ibennto",
         "trans": [
             "⓪ 名  活动，节目；事件"
         ],
@@ -14651,7 +14651,7 @@
         "notation": "飲(の)み込(こ)む"
     },
     {
-        "name": "hitsuzen",
+        "name": "hitsuzenn",
         "trans": [
             "⓪ 名  必然"
         ],
@@ -14672,14 +14672,14 @@
         "notation": "漏(も)れる"
     },
     {
-        "name": "ensen",
+        "name": "ensenn",
         "trans": [
             "⓪ 名  （铁路）沿线"
         ],
         "notation": "沿線(えんせん)"
     },
     {
-        "name": "madashimo",
+        "name": "madasimo",
         "trans": [
             "① 副  还算可以，还好"
         ],
@@ -14693,14 +14693,14 @@
         "notation": "戸惑(とまど)う"
     },
     {
-        "name": "shinkoku",
+        "name": "sinnkoku",
         "trans": [
             "⓪ 名·他动3  申报，报告，呈报"
         ],
         "notation": "申告(しんこく)"
     },
     {
-        "name": "amakuchi",
+        "name": "amakuti",
         "trans": [
             "⓪ 名·ナ形  甜味的；喜欢吃甜的（人）；甜言蜜语"
         ],
@@ -14791,7 +14791,7 @@
         "notation": "妨害(ぼうがい)"
     },
     {
-        "name": "michibata",
+        "name": "mitibata",
         "trans": [
             "⓪ 名  路边，路旁"
         ],
@@ -14812,14 +14812,14 @@
         "notation": "ピーアール"
     },
     {
-        "name": "jushin",
+        "name": "jusinn",
         "trans": [
             "⓪ 名·自他动3  就诊，接受诊断"
         ],
         "notation": "受診(じゅしん)"
     },
     {
-        "name": "ichikabachika",
+        "name": "itikabatika",
         "trans": [
             "④ 连语  碰运气，听天由命"
         ],
@@ -14854,7 +14854,7 @@
         "notation": "隈(くま)"
     },
     {
-        "name": "suingu",
+        "name": "suinngu",
         "trans": [
             "② 名·他动3  舞动，挥动，摇动"
         ],
@@ -14882,14 +14882,14 @@
         "notation": "到達(とうたつ)"
     },
     {
-        "name": "hisashii",
+        "name": "hisasii",
         "trans": [
             "③ イ形  好久，许久的"
         ],
         "notation": "久(ひさ)しい"
     },
     {
-        "name": "pojishon",
+        "name": "pojishonn",
         "trans": [
             "② 名  地位，职位"
         ],
@@ -14903,14 +14903,14 @@
         "notation": "大御所(おおごしょ)"
     },
     {
-        "name": "toubun",
+        "name": "toubunn",
         "trans": [
             "⓪ 副  暂时，一时，目前"
         ],
         "notation": "当分(とうぶん)"
     },
     {
-        "name": "shazai",
+        "name": "syazai",
         "trans": [
             "⓪ 名·自他动3  谢罪，道歉"
         ],
@@ -14931,14 +14931,14 @@
         "notation": "甘(あま)える"
     },
     {
-        "name": "kenzai",
+        "name": "kennzai",
         "trans": [
             "⓪ 名·ナ形  健在"
         ],
         "notation": "健在(けんざい)"
     },
     {
-        "name": "sendai",
+        "name": "senndai",
         "trans": [
             "⓪ 名  上一代，上一辈；上一个时代"
         ],
@@ -14959,7 +14959,7 @@
         "notation": "上空(じょうくう)"
     },
     {
-        "name": "chi-muwa-ku",
+        "name": "ti-muwa-ku",
         "trans": [
             "④ 名  团队合作"
         ],
@@ -14973,14 +14973,14 @@
         "notation": "ささやか"
     },
     {
-        "name": "onkei",
+        "name": "onnkei",
         "trans": [
             "⓪ 名  恩惠，恩情"
         ],
         "notation": "恩恵(おんけい)"
     },
     {
-        "name": "tamashii",
+        "name": "tamasii",
         "trans": [
             "① 名  灵魂；精神"
         ],
@@ -14994,14 +14994,14 @@
         "notation": "滲(にじ)む"
     },
     {
-        "name": "chokkan",
+        "name": "chokkann",
         "trans": [
             "⓪ 名·他动3  直觉，直接的感觉"
         ],
         "notation": "直感(ちょっかん)"
     },
     {
-        "name": "hacchuu",
+        "name": "hactyuu",
         "trans": [
             "⓪ 名·他动3  订货，订购"
         ],
@@ -15015,7 +15015,7 @@
         "notation": "葬(ほうむ)る"
     },
     {
-        "name": "munen",
+        "name": "munenn",
         "trans": [
             "⓪ 名·ナ形  毫无牵挂；懊悔，悔恨"
         ],
@@ -15029,7 +15029,7 @@
         "notation": "常務(じょうむ)"
     },
     {
-        "name": "ikichigau/yukichigau",
+        "name": "ikitigau/yukitigau",
         "trans": [
             "④ 自动1  走岔开；出现矛盾，有差错"
         ],
@@ -15113,14 +15113,14 @@
         "notation": "微力(びりょく)"
     },
     {
-        "name": "nechinechi",
+        "name": "netineti",
         "trans": [
             "① 副·自动3  黏糊糊；絮絮叨叨，不干脆"
         ],
         "notation": "ねちねち"
     },
     {
-        "name": "furasutore-shon",
+        "name": "furasutore-shonn",
         "trans": [
             "⑤ 名  失意，受挫，挫折，沮丧"
         ],
@@ -15134,14 +15134,14 @@
         "notation": "まとまり"
     },
     {
-        "name": "oshitsukegamashii",
+        "name": "ositsukegamasii",
         "trans": [
             "⑦ イ形  强加于人的，命令式的，强逼着"
         ],
         "notation": "押(お)し付(つ)けがましい"
     },
     {
-        "name": "rinen",
+        "name": "rinenn",
         "trans": [
             "① 名  理念；最高境界，根本想法"
         ],
@@ -15162,14 +15162,14 @@
         "notation": "決(き)まって"
     },
     {
-        "name": "shimatsu",
+        "name": "simatsu",
         "trans": [
             "① 名·他动3  事情的原委；情形，情况；处理，应付；节约"
         ],
         "notation": "始末(しまつ)"
     },
     {
-        "name": "sen'nyuu",
+        "name": "senn'nyuu",
         "trans": [
             "⓪ 名·自动3  潜入"
         ],
@@ -15183,7 +15183,7 @@
         "notation": "アピール"
     },
     {
-        "name": "kango",
+        "name": "kanngo",
         "trans": [
             "① 名·他动3  护理，看护"
         ],
@@ -15253,7 +15253,7 @@
         "notation": "夏場(なつば)"
     },
     {
-        "name": "hanjou",
+        "name": "hannjou",
         "trans": [
             "① 名·自动3  繁荣，昌盛"
         ],
@@ -15288,21 +15288,21 @@
         "notation": "かなわない"
     },
     {
-        "name": "shikake",
+        "name": "sikake",
         "trans": [
             "⓪ 名  开始做；做到中途；结构，装置，机关；手法，招数"
         ],
         "notation": "仕掛(しか)け"
     },
     {
-        "name": "kokon",
+        "name": "kokonn",
         "trans": [
             "① 名  古今，从古至今"
         ],
         "notation": "古今(ここん)"
     },
     {
-        "name": "nengoro",
+        "name": "nenngoro",
         "trans": [
             "⓪ ナ形  恳切的；殷勤的；亲密的"
         ],
@@ -15316,7 +15316,7 @@
         "notation": "杯(さかずき)"
     },
     {
-        "name": "dainashi",
+        "name": "dainasi",
         "trans": [
             "⓪ 名  弄坏，糟蹋"
         ],
@@ -15351,7 +15351,7 @@
         "notation": "もって"
     },
     {
-        "name": "ba-jon'appu",
+        "name": "ba-jonn'appu",
         "trans": [
             " ⑤ 名  版本升级，修改程序"
         ],
@@ -15393,21 +15393,21 @@
         "notation": "気取(きど)る"
     },
     {
-        "name": "shiten",
+        "name": "sitenn",
         "trans": [
             "⓪ 名  视点，角度"
         ],
         "notation": "視点(してん)"
     },
     {
-        "name": "an'un",
+        "name": "an'unn",
         "trans": [
             "⓪ 名  乌云；形势险恶"
         ],
         "notation": "暗雲(あんうん)"
     },
     {
-        "name": "kanjin",
+        "name": "kanjinn",
         "trans": [
             "⓪ 名·ナ形  重要，紧要"
         ],
@@ -15442,7 +15442,7 @@
         "notation": "記述(きじゅつ)"
     },
     {
-        "name": "shitadori",
+        "name": "sitadori",
         "trans": [
             "⓪ 名·他动3  以旧换新"
         ],
@@ -15470,14 +15470,14 @@
         "notation": "絡(から)む"
     },
     {
-        "name": "mashi",
+        "name": "masi",
         "trans": [
             "⓪ 名·ナ形  胜过，强于"
         ],
         "notation": "増(ま)し"
     },
     {
-        "name": "rimokon",
+        "name": "rimokonn",
         "trans": [
             "⓪ 名  遥控器"
         ],
@@ -15491,7 +15491,7 @@
         "notation": "自給(じきゅう)"
     },
     {
-        "name": "ironaoshi",
+        "name": "ironaosi",
         "trans": [
             "③ 名·自动3  婚礼上换衣服"
         ],
@@ -15512,7 +15512,7 @@
         "notation": "絆(きずな)"
     },
     {
-        "name": "suuchi",
+        "name": "suuti",
         "trans": [
             "① 名  数值"
         ],
@@ -15540,28 +15540,28 @@
         "notation": "かすか"
     },
     {
-        "name": "mohan",
+        "name": "mohann",
         "trans": [
             "⓪ 名  模范"
         ],
         "notation": "模範(もはん)"
     },
     {
-        "name": "endan",
+        "name": "endann",
         "trans": [
             "⓪ 名  讲台，讲坛"
         ],
         "notation": "演壇(えんだん)"
     },
     {
-        "name": "ken'yaku",
+        "name": "kenn'yaku",
         "trans": [
             "⓪ 名·他动3  节俭，节省"
         ],
         "notation": "倹約(けんやく)"
     },
     {
-        "name": "senkou",
+        "name": "sennkou",
         "trans": [
             "⓪ 名·他动3  甄选，选拔"
         ],
@@ -15575,7 +15575,7 @@
         "notation": "パトロール"
     },
     {
-        "name": "shuppin",
+        "name": "shuppinn",
         "trans": [
             "⓪ 名·他动3  展出，展销"
         ],
@@ -15610,7 +15610,7 @@
         "notation": "危(あや)ぶむ"
     },
     {
-        "name": "kan'you",
+        "name": "kann'you",
         "trans": [
             "⓪ 名·ナ形  宽容"
         ],
@@ -15624,7 +15624,7 @@
         "notation": "公(おおやけ)"
     },
     {
-        "name": "shippitsu",
+        "name": "sippitsu",
         "trans": [
             "⓪ 名·自他动3  执笔，写作，撰稿"
         ],
@@ -15638,21 +15638,21 @@
         "notation": "手薄(てうす)"
     },
     {
-        "name": "kuchibashiru",
+        "name": "kutibasiru",
         "trans": [
             "④ 他动1  说漏嘴，顺口说出；说胡话"
         ],
         "notation": "口走(くちばし)る"
     },
     {
-        "name": "konshinkai",
+        "name": "konsinnkai",
         "trans": [
             "③ 名  联欢会，联谊会"
         ],
         "notation": "懇親会(こんしんかい)"
     },
     {
-        "name": "tanken",
+        "name": "tankenn",
         "trans": [
             "⓪ 名·他动3  探险"
         ],
@@ -15673,7 +15673,7 @@
         "notation": "パートナー"
     },
     {
-        "name": "shiiru",
+        "name": "siiru",
         "trans": [
             "② 他动2  强迫，迫使"
         ],
@@ -15687,7 +15687,7 @@
         "notation": "褒美(ほうび)"
     },
     {
-        "name": "mendan",
+        "name": "mendann",
         "trans": [
             "⓪ 名·自动3  面谈"
         ],
@@ -15701,7 +15701,7 @@
         "notation": "条約(じょうやく)"
     },
     {
-        "name": "kenbun",
+        "name": "kenbunn",
         "trans": [
             "⓪ 名·他动3  见闻，见识"
         ],
@@ -15729,7 +15729,7 @@
         "notation": "既成(きせい)"
     },
     {
-        "name": "sairen",
+        "name": "sairenn",
         "trans": [
             "① 名  汽笛，警笛"
         ],
@@ -15750,7 +15750,7 @@
         "notation": "生温(なまぬる)い"
     },
     {
-        "name": "chisei",
+        "name": "tisei",
         "trans": [
             "① 名  才智，智力；理智"
         ],
@@ -15764,14 +15764,14 @@
         "notation": "登下校(とうげこう)"
     },
     {
-        "name": "nenchaku",
+        "name": "nennchaku",
         "trans": [
             "⓪ 名·自动3  黏着，黏住"
         ],
         "notation": "粘着(ねんちゃく)"
     },
     {
-        "name": "fuchi/fuji",
+        "name": "futi/fuji",
         "trans": [
             "② 名  不治（之症），治不好"
         ],
@@ -15785,7 +15785,7 @@
         "notation": "嵌(はま)る"
     },
     {
-        "name": "houken",
+        "name": "houkenn",
         "trans": [
             "⓪ 名  封建"
         ],
@@ -15855,7 +15855,7 @@
         "notation": "燻(くすぶ)る"
     },
     {
-        "name": "shinpojiumu",
+        "name": "sinnpojiumu",
         "trans": [
             "④ 名  研讨会，座谈会"
         ],
@@ -15869,7 +15869,7 @@
         "notation": "飛(と)び入(い)り"
     },
     {
-        "name": "dandori",
+        "name": "danndori",
         "trans": [
             "④ 名  安排；打算，计划"
         ],
@@ -15897,7 +15897,7 @@
         "notation": "手遅(ておく)れ"
     },
     {
-        "name": "haichi",
+        "name": "haiti",
         "trans": [
             "⓪ 名·他动3  配置，布置"
         ],
@@ -15911,7 +15911,7 @@
         "notation": "不要(ふよう)"
     },
     {
-        "name": "shazetsu",
+        "name": "syazetsu",
         "trans": [
             "⓪ 名·他动3  谢绝，拒绝"
         ],
@@ -15925,7 +15925,7 @@
         "notation": "張(は)り合(あ)う"
     },
     {
-        "name": "chuudan",
+        "name": "tyuudann",
         "trans": [
             "⓪ 名·自他动3  中断，断开,中止"
         ],
@@ -15967,14 +15967,14 @@
         "notation": "捕獲(ほかく)"
     },
     {
-        "name": "kanketsu",
+        "name": "kannketsu",
         "trans": [
             "⓪ 名·ナ形  简洁，简明"
         ],
         "notation": "簡潔(かんけつ)"
     },
     {
-        "name": "shikikin",
+        "name": "sikikinn",
         "trans": [
             "② 名  （租房）押金；保证金"
         ],
@@ -15995,7 +15995,7 @@
         "notation": "今(いま)や"
     },
     {
-        "name": "senpaku",
+        "name": "sennpaku",
         "trans": [
             "⓪ 名·ナ形  浅薄，肤浅"
         ],
@@ -16030,7 +16030,7 @@
         "notation": "道理(どうり)で"
     },
     {
-        "name": "anji",
+        "name": "annji",
         "trans": [
             "⓪ 名·他动3  提示，暗示"
         ],
@@ -16051,7 +16051,7 @@
         "notation": "作用(さよう)"
     },
     {
-        "name": "zeppan",
+        "name": "zeppann",
         "trans": [
             "⓪ 名  绝版"
         ],
@@ -16065,7 +16065,7 @@
         "notation": "冷(ひ)やかす"
     },
     {
-        "name": "hontai",
+        "name": "honntai",
         "trans": [
             "① 名  本来面目，真相；主体"
         ],
@@ -16114,7 +16114,7 @@
         "notation": "王者(おうじゃ)"
     },
     {
-        "name": "kengyou",
+        "name": "kenngyou",
         "trans": [
             "⓪ 名·他动3  副业，兼营"
         ],
@@ -16142,7 +16142,7 @@
         "notation": "絶望(ぜつぼう)"
     },
     {
-        "name": "dankou",
+        "name": "dannkou",
         "trans": [
             "⓪ 名·他动3  断然实行，坚决实行"
         ],
@@ -16205,7 +16205,7 @@
         "notation": "嘆(なげ)く"
     },
     {
-        "name": "sekushon",
+        "name": "sekushonn",
         "trans": [
             "① 名  部门；（报纸等的）版面，栏目"
         ],
@@ -16226,7 +16226,7 @@
         "notation": "所属(しょぞく)"
     },
     {
-        "name": "chintai",
+        "name": "tinntai",
         "trans": [
             "⓪ 名·他动3  出租，出赁"
         ],
@@ -16254,7 +16254,7 @@
         "notation": "情(なさ)け"
     },
     {
-        "name": "hinketsu",
+        "name": "hinnketsu",
         "trans": [
             "⓪ 名·自动3  贫血"
         ],
@@ -16268,7 +16268,7 @@
         "notation": "ロープウエー"
     },
     {
-        "name": "munashii",
+        "name": "munasii",
         "trans": [
             "③ イ形  空虚的，空洞的；枉然的，徒然的"
         ],
@@ -16296,7 +16296,7 @@
         "notation": "賞与(しょうよ)"
     },
     {
-        "name": "konpasu",
+        "name": "konnpasu",
         "trans": [
             "① 名  圆规；罗盘；步幅"
         ],
@@ -16373,14 +16373,14 @@
         "notation": "燕(つばめ)"
     },
     {
-        "name": "shitoyaka",
+        "name": "sitoyaka",
         "trans": [
             "② ナ形  端庄的，贤淑的"
         ],
         "notation": "淑(しと)やか"
     },
     {
-        "name": "panku",
+        "name": "pannku",
         "trans": [
             "⓪ 名·自动3  爆胎；胀破；拥挤不堪；破产"
         ],
@@ -16408,7 +16408,7 @@
         "notation": "横着(おうちゃく)"
     },
     {
-        "name": "danzen",
+        "name": "danzenn",
         "trans": [
             "⓪ 副  断然；显然；决（不）"
         ],
@@ -16429,14 +16429,14 @@
         "notation": "所定(しょてい)"
     },
     {
-        "name": "dassen",
+        "name": "dassenn",
         "trans": [
             "⓪ 名·自动3  脱轨；离题"
         ],
         "notation": "脱線(だっせん)"
     },
     {
-        "name": "hensei",
+        "name": "hennsei",
         "trans": [
             "⓪ 名·他动3  编成，组成"
         ],
@@ -16471,21 +16471,21 @@
         "notation": "救済(きゅうさい)"
     },
     {
-        "name": "sushidume",
+        "name": "susidume",
         "trans": [
             "⓪ 名·ナ形  拥挤不堪"
         ],
         "notation": "すし詰(づ)め"
     },
     {
-        "name": "shioreru",
+        "name": "sioreru",
         "trans": [
             "⓪ 自动2  枯萎；灰心丧气，意志消沉，沮丧"
         ],
         "notation": "萎(しお)れる"
     },
     {
-        "name": "tokken",
+        "name": "tokkenn",
         "trans": [
             "⓪ 名  特权"
         ],
@@ -16499,7 +16499,7 @@
         "notation": "発掘(はっくつ)"
     },
     {
-        "name": "houshi",
+        "name": "housi",
         "trans": [
             "① 名·自动3  （义务）服务，效劳；廉价销售商品"
         ],
@@ -16520,7 +16520,7 @@
         "notation": "手堅(てがた)い"
     },
     {
-        "name": "jinryoku",
+        "name": "jinnryoku",
         "trans": [
             "① 名·自动3  尽力，努力"
         ],
@@ -16534,7 +16534,7 @@
         "notation": "重宝(ちょうほう)"
     },
     {
-        "name": "bakkunanba-",
+        "name": "bakkunannba-",
         "trans": [
             "④ 名  过期杂志；车牌号"
         ],
@@ -16562,21 +16562,21 @@
         "notation": "皹(ひび)"
     },
     {
-        "name": "mangetsu",
+        "name": "manngetsu",
         "trans": [
             "① 名  满月，圆月"
         ],
         "notation": "満月(まんげつ)"
     },
     {
-        "name": "shippei",
+        "name": "sippei",
         "trans": [
             "⓪ 名  疾病"
         ],
         "notation": "疾病(しっぺい)"
     },
     {
-        "name": "suponsa-",
+        "name": "suponnsa-",
         "trans": [
             "② 名  赞助者，广告主"
         ],
@@ -16597,7 +16597,7 @@
         "notation": "滞納(たいのう)"
     },
     {
-        "name": "fujun",
+        "name": "fujunn",
         "trans": [
             "⓪ 名·ナ形  不顺，异常；不合理，没有道理"
         ],
@@ -16625,7 +16625,7 @@
         "notation": "宥(なだ)める"
     },
     {
-        "name": "soroban",
+        "name": "sorobann",
         "trans": [
             "⓪ 名  算盘；利害得失的计算"
         ],
@@ -16646,7 +16646,7 @@
         "notation": "記名(きめい)"
     },
     {
-        "name": "shibai",
+        "name": "sibai",
         "trans": [
             "⓪ 名  戏剧；演技；把戏"
         ],
@@ -16667,7 +16667,7 @@
         "notation": "功名(こうみょう)"
     },
     {
-        "name": "supuringu",
+        "name": "supurinngu",
         "trans": [
             "③ 名  春天；弹簧，弹力"
         ],
@@ -16681,14 +16681,14 @@
         "notation": "そのもの"
     },
     {
-        "name": "tenka",
+        "name": "tennka",
         "trans": [
             "① 名  天下"
         ],
         "notation": "天下(てんか)"
     },
     {
-        "name": "kegarawashii",
+        "name": "kegarawasii",
         "trans": [
             "⑤ イ形  污秽的，肮脏的；卑鄙的"
         ],
@@ -16702,14 +16702,14 @@
         "notation": "発病(はつびょう)"
     },
     {
-        "name": "burando",
+        "name": "buranndo",
         "trans": [
             "⓪ 名  品牌，商标"
         ],
         "notation": "ブランド"
     },
     {
-        "name": "ryoushi",
+        "name": "ryousi",
         "trans": [
             "① 名  渔民，渔夫"
         ],
@@ -16779,7 +16779,7 @@
         "notation": "不評(ふひょう)"
     },
     {
-        "name": "shousan",
+        "name": "shousann",
         "trans": [
             "⓪ 名  胜算"
         ],
@@ -16800,7 +16800,7 @@
         "notation": "一筋(ひとすじ)"
     },
     {
-        "name": "ippen",
+        "name": "ippenn",
         "trans": [
             "⓪ 名·自他动3  完全改变，突然改变"
         ],
@@ -16821,28 +16821,28 @@
         "notation": "先送(さきおく)り"
     },
     {
-        "name": "tenraku",
+        "name": "tennraku",
         "trans": [
             "⓪ 名·自动3  跌落，滚下；落魄，沦落"
         ],
         "notation": "転落(てんらく)"
     },
     {
-        "name": "shosen",
+        "name": "shosenn",
         "trans": [
             "⓪ 副  归根到底，终归"
         ],
         "notation": "所詮(しょせん)"
     },
     {
-        "name": "seishi",
+        "name": "seisi",
         "trans": [
             "① 名  生死"
         ],
         "notation": "生死(せいし)"
     },
     {
-        "name": "tan'nou",
+        "name": "tann'nou",
         "trans": [
             "⓪ 名·ナ形·自他动3  擅长；十分满足"
         ],
@@ -16863,7 +16863,7 @@
         "notation": "発作(ほっさ)"
     },
     {
-        "name": "toboshii",
+        "name": "tobosii",
         "trans": [
             "③ イ形  缺乏的，不足的；贫穷的，贫困的，贫乏的"
         ],
@@ -16877,14 +16877,14 @@
         "notation": "扱(あつか)い"
     },
     {
-        "name": "shadan",
+        "name": "syadann",
         "trans": [
             "⓪ 名·他动3  截断，切断，隔绝"
         ],
         "notation": "遮断(しゃだん)"
     },
     {
-        "name": "kenshiki",
+        "name": "kennsiki",
         "trans": [
             "⓪ 名  见地，见识，鉴赏力"
         ],
@@ -16947,7 +16947,7 @@
         "notation": "ドリル"
     },
     {
-        "name": "joukigen",
+        "name": "joukigenn",
         "trans": [
             "③ 名·ナ形  心情愉快"
         ],
@@ -16989,14 +16989,14 @@
         "notation": "照合(しょうごう)"
     },
     {
-        "name": "chuukoku",
+        "name": "tyuukoku",
         "trans": [
             "⓪ 名·自他动3  忠告，劝告"
         ],
         "notation": "忠告(ちゅうこく)"
     },
     {
-        "name": "hinjaku",
+        "name": "hinnjaku",
         "trans": [
             "⓪ 名·ナ形  贫乏，贫弱；寒碜"
         ],
@@ -17010,7 +17010,7 @@
         "notation": "取(と)り立(た)てる"
     },
     {
-        "name": "hanpatsu",
+        "name": "hannpatsu",
         "trans": [
             "⓪ 名·自他动3  排斥；反感，抗拒；（行情）回升"
         ],
@@ -17031,7 +17031,7 @@
         "notation": "アレルギー"
     },
     {
-        "name": "kokochi",
+        "name": "kokoti",
         "trans": [
             "⓪ 名  心情，心境，感觉"
         ],
@@ -17045,14 +17045,14 @@
         "notation": "赴(おもむ)く"
     },
     {
-        "name": "kasen",
+        "name": "kasenn",
         "trans": [
             "① 名  河川"
         ],
         "notation": "河川(かせん)"
     },
     {
-        "name": "kontoro-ru",
+        "name": "konntoro-ru",
         "trans": [
             "④ 名·他动3  控制，操纵，管理"
         ],
@@ -17080,14 +17080,14 @@
         "notation": "表(ひょう)する"
     },
     {
-        "name": "ryoushiki",
+        "name": "ryousiki",
         "trans": [
             "⓪ 名  明智，正确的判断"
         ],
         "notation": "良識(りょうしき)"
     },
     {
-        "name": "inki",
+        "name": "innki",
         "trans": [
             "⓪ ナ形  忧郁的，阴郁的；阴沉的，阴暗的"
         ],
@@ -17101,21 +17101,21 @@
         "notation": "起伏(きふく)"
     },
     {
-        "name": "saiken",
+        "name": "saikenn",
         "trans": [
             "⓪ 名·他动3  重建"
         ],
         "notation": "再建(さいけん)"
     },
     {
-        "name": "anzuru",
+        "name": "annzuru",
         "trans": [
             "③ 他动3  担心，挂念"
         ],
         "notation": "案(あん)ずる"
     },
     {
-        "name": "jirenma",
+        "name": "jirennma",
         "trans": [
             "② 名  进退维谷，困境"
         ],
@@ -17157,14 +17157,14 @@
         "notation": "まとも"
     },
     {
-        "name": "mondou",
+        "name": "monndou",
         "trans": [
             "③ 名·自动3  问答；讨论，商量"
         ],
         "notation": "問答(もんどう)"
     },
     {
-        "name": "un'nun",
+        "name": "un'nunn",
         "trans": [
             "③ 名·他动3  说三道四，说长道短；云云，等等"
         ],
@@ -17185,7 +17185,7 @@
         "notation": "覆(くつがえ)す"
     },
     {
-        "name": "chissoku",
+        "name": "tissoku",
         "trans": [
             "⓪ 名·自动3  窒息"
         ],
@@ -17199,7 +17199,7 @@
         "notation": "ネック"
     },
     {
-        "name": "hyouhon",
+        "name": "hyouhonn",
         "trans": [
             "⓪ 名  标本；样本"
         ],
@@ -17234,14 +17234,14 @@
         "notation": "強化(きょうか)"
     },
     {
-        "name": "shitsuyou",
+        "name": "sitsuyou",
         "trans": [
             "⓪ 名·ナ形  纠缠不休；执拗，固执"
         ],
         "notation": "執拗(しつよう)"
     },
     {
-        "name": "zoushin",
+        "name": "zousinn",
         "trans": [
             "⓪ 名·自他动3  增进，增加"
         ],
@@ -17255,7 +17255,7 @@
         "notation": "報(むく)う"
     },
     {
-        "name": "tanteki",
+        "name": "tannteki",
         "trans": [
             "⓪ ナ形  直率的，直截了当的；明显的，清楚的"
         ],
@@ -17290,21 +17290,21 @@
         "notation": "時折(ときおり)"
     },
     {
-        "name": "enpou",
+        "name": "ennpou",
         "trans": [
             "⓪ 名  远方，远处"
         ],
         "notation": "遠方(えんぽう)"
     },
     {
-        "name": "kyasha",
+        "name": "kyasya",
         "trans": [
             "⓪ ナ形  苗条的，纤细的；纤弱的，不结实的"
         ],
         "notation": "華奢(きゃしゃ)"
     },
     {
-        "name": "konma",
+        "name": "konnma",
         "trans": [
             "① 名  逗号；小数点"
         ],
@@ -17325,7 +17325,7 @@
         "notation": "霞(かす)む"
     },
     {
-        "name": "tanpaku",
+        "name": "tannpaku",
         "trans": [
             "① 名·ナ形  淡；坦率，爽直；淡泊"
         ],
@@ -17339,7 +17339,7 @@
         "notation": "売買(ばいばい)"
     },
     {
-        "name": "ichiran",
+        "name": "itirann",
         "trans": [
             "⓪ 名·他动3  一览表，便览；一览，一看"
         ],
@@ -17388,7 +17388,7 @@
         "notation": "成(な)り行(ゆ)き"
     },
     {
-        "name": "shinbouduyoi",
+        "name": "sinnbouduyoi",
         "trans": [
             "⑥ イ形  有耐心的，忍耐力强的"
         ],
@@ -17416,7 +17416,7 @@
         "notation": "有様(ありさま)"
     },
     {
-        "name": "ginmi",
+        "name": "ginnmi",
         "trans": [
             "① 名·他动3  斟酌，考虑，考量"
         ],
@@ -17465,7 +17465,7 @@
         "notation": "ぐちゃぐちゃ"
     },
     {
-        "name": "chuushou",
+        "name": "tyuushou",
         "trans": [
             "⓪ 名·他动3  中伤，诽谤"
         ],
@@ -17500,7 +17500,7 @@
         "notation": "あらかた"
     },
     {
-        "name": "ayamachi",
+        "name": "ayamati",
         "trans": [
             "③ 名  错误，过失"
         ],
@@ -17535,7 +17535,7 @@
         "notation": "有(ゆう)する"
     },
     {
-        "name": "shimi",
+        "name": "simi",
         "trans": [
             "⓪ 名  污垢，污痕；污点；色斑"
         ],
@@ -17570,7 +17570,7 @@
         "notation": "脆(もろ)い"
     },
     {
-        "name": "ninmei",
+        "name": "ninnmei",
         "trans": [
             "⓪ 名·他动3  任命"
         ],
@@ -17619,7 +17619,7 @@
         "notation": "給仕(きゅうじ)"
     },
     {
-        "name": "jigen",
+        "name": "jigenn",
         "trans": [
             "⓪ 名  次元，维度；着眼点，立场"
         ],
@@ -17640,14 +17640,14 @@
         "notation": "浸(ひた)る"
     },
     {
-        "name": "touryuumon",
+        "name": "touryuumonn",
         "trans": [
             "③ 名  飞黄腾达的门路"
         ],
         "notation": "登竜門(とうりゅうもん)"
     },
     {
-        "name": "hitoichibai",
+        "name": "hitoitibai",
         "trans": [
             "⓪ 名·副  比别人加倍"
         ],
@@ -17682,7 +17682,7 @@
         "notation": "リラックス"
     },
     {
-        "name": "unpan",
+        "name": "unpann",
         "trans": [
             "⓪ 名·他动3  搬运，运输"
         ],
@@ -17717,14 +17717,14 @@
         "notation": "相対(そうたい)"
     },
     {
-        "name": "hensen",
+        "name": "hensenn",
         "trans": [
             "⓪ 名·自动3  变迁"
         ],
         "notation": "変遷(へんせん)"
     },
     {
-        "name": "menkai",
+        "name": "mennkai",
         "trans": [
             "⓪ 名·自动3  见面，会面"
         ],
@@ -17752,7 +17752,7 @@
         "notation": "口外(こうがい)"
     },
     {
-        "name": "sokushin",
+        "name": "sokusinn",
         "trans": [
             "⓪ 名·他动3  促进"
         ],
@@ -17766,7 +17766,7 @@
         "notation": "統率(とうそつ)"
     },
     {
-        "name": "shiruba-shi-to",
+        "name": "siruba-si-to",
         "trans": [
             " ⑤ 名  老弱病残孕专座"
         ],
@@ -17794,7 +17794,7 @@
         "notation": "喪服(もふく)"
     },
     {
-        "name": "arenji",
+        "name": "arennji",
         "trans": [
             "② 名·他动3  布置；改编；安排"
         ],
@@ -17808,21 +17808,21 @@
         "notation": "介入(かいにゅう)"
     },
     {
-        "name": "tenjiru",
+        "name": "tennjiru",
         "trans": [
             "⓪ 自他动2  改变，转换；迁居"
         ],
         "notation": "転(てん)じる"
     },
     {
-        "name": "sanka",
+        "name": "sannka",
         "trans": [
             "① 名  系统下，旗帜下，隶属于"
         ],
         "notation": "傘下(さんか)"
     },
     {
-        "name": "tachioujou",
+        "name": "tatioujou",
         "trans": [
             "③ 名·自动3  进退维谷；动弹不得"
         ],
@@ -17850,14 +17850,14 @@
         "notation": "償(つぐな)う"
     },
     {
-        "name": "hitoribocchi",
+        "name": "hitoribocti",
         "trans": [
             "④ 名  孤身一人，孤零零一个人"
         ],
         "notation": "一人(ひとり)ぼっち"
     },
     {
-        "name": "bochi",
+        "name": "boti",
         "trans": [
             "① 名  墓地"
         ],
@@ -17892,7 +17892,7 @@
         "notation": "工作(こうさく)"
     },
     {
-        "name": "zandaka",
+        "name": "zanndaka",
         "trans": [
             "① 名  余额，结余"
         ],
@@ -17906,14 +17906,14 @@
         "notation": "享受(きょうじゅ)"
     },
     {
-        "name": "zenmetsu",
+        "name": "zennmetsu",
         "trans": [
             "⓪ 名·自他动3  全歼，全军覆没"
         ],
         "notation": "全滅(ぜんめつ)"
     },
     {
-        "name": "shiite",
+        "name": "siite",
         "trans": [
             "① 副  强逼，强迫，勉强"
         ],
@@ -17955,7 +17955,7 @@
         "notation": "晒(さら)す"
     },
     {
-        "name": "outen",
+        "name": "outenn",
         "trans": [
             "⓪ 名·自动3  翻滚；向左右旋转"
         ],
@@ -17969,14 +17969,14 @@
         "notation": "カリスマ"
     },
     {
-        "name": "shinshutsu",
+        "name": "sinnshutsu",
         "trans": [
             "⓪ 名·自动3  进入，打入"
         ],
         "notation": "進出(しんしゅつ)"
     },
     {
-        "name": "ansei",
+        "name": "annsei",
         "trans": [
             "⓪ 名·ナ形  病人静养；安静"
         ],
@@ -17990,28 +17990,28 @@
         "notation": "煌々(こうこう)"
     },
     {
-        "name": "zenpan",
+        "name": "zenpann",
         "trans": [
             "⓪ 名  全体，整体，总体"
         ],
         "notation": "全般(ぜんぱん)"
     },
     {
-        "name": "chinden",
+        "name": "tindenn",
         "trans": [
             "⓪ 名·自动3  沉淀"
         ],
         "notation": "沈殿(ちんでん)"
     },
     {
-        "name": "nendo",
+        "name": "nenndo",
         "trans": [
             "① 名  黏土"
         ],
         "notation": "粘土(ねんど)"
     },
     {
-        "name": "hashiwatashi",
+        "name": "hasiwatasi",
         "trans": [
             "③ 名  架桥；当中间人"
         ],
@@ -18032,7 +18032,7 @@
         "notation": "吹雪(ふぶき)"
     },
     {
-        "name": "ponpu",
+        "name": "ponnpu",
         "trans": [
             " ① 名  水泵"
         ],
@@ -18046,7 +18046,7 @@
         "notation": "魅了(みりょう)"
     },
     {
-        "name": "inochitori",
+        "name": "inotitori",
         "trans": [
             "③ 名  要命的东西；致命伤"
         ],
@@ -18067,7 +18067,7 @@
         "notation": "オーナー"
     },
     {
-        "name": "gensaku",
+        "name": "gennsaku",
         "trans": [
             "⓪ 名  原作，原著"
         ],
@@ -18081,7 +18081,7 @@
         "notation": "自主(じしゅ)"
     },
     {
-        "name": "sokumen",
+        "name": "sokumenn",
         "trans": [
             "⓪ 名  侧面，间接；一面，片面"
         ],
@@ -18095,7 +18095,7 @@
         "notation": "掲(かか)げる"
     },
     {
-        "name": "tantei",
+        "name": "tanntei",
         "trans": [
             "⓪ 名·他动3  侦探，侦查"
         ],
@@ -18109,14 +18109,14 @@
         "notation": "度忘(どわす)れ"
     },
     {
-        "name": "binwan",
+        "name": "binwann",
         "trans": [
             "⓪ 名·ナ形  有能力，能干"
         ],
         "notation": "敏腕(びんわん)"
     },
     {
-        "name": "purezen",
+        "name": "purezenn",
         "trans": [
             "⓪ 名  公开演示，展示，陈述"
         ],
@@ -18130,7 +18130,7 @@
         "notation": "概(おおむ)ね"
     },
     {
-        "name": "miren",
+        "name": "mirenn",
         "trans": [
             "① 名·ナ形  依恋，恋恋不舍"
         ],
@@ -18151,21 +18151,21 @@
         "notation": "焦(こ)げ茶(ちゃ)"
     },
     {
-        "name": "shuuchi",
+        "name": "shuuti",
         "trans": [
             "① 名·自他动3  周知，众所周知"
         ],
         "notation": "周知(しゅうち)"
     },
     {
-        "name": "isamashii",
+        "name": "isamasii",
         "trans": [
             "④ イ形  勇敢的；活泼的，生机勃勃的"
         ],
         "notation": "勇(いさ)ましい"
     },
     {
-        "name": "daiben",
+        "name": "daibenn",
         "trans": [
             "⓪ 名·他动3  替人偿还；代办；代为辩解，陈述"
         ],
@@ -18186,7 +18186,7 @@
         "notation": "初耳(はつみみ)"
     },
     {
-        "name": "housha",
+        "name": "housya",
         "trans": [
             "⓪ 名·他动3  放射，辐射"
         ],
@@ -18214,7 +18214,7 @@
         "notation": "人任(ひとまか)せ"
     },
     {
-        "name": "haibun",
+        "name": "haibunn",
         "trans": [
             "⓪ 名·他动3  分配"
         ],
@@ -18256,7 +18256,7 @@
         "notation": "誓約(せいやく)"
     },
     {
-        "name": "shitabi",
+        "name": "sitabi",
         "trans": [
             "⓪ 名  火势减弱；势力衰退"
         ],
@@ -18270,14 +18270,14 @@
         "notation": "いざとなると/いざとなれば/いざとなったら"
     },
     {
-        "name": "konki",
+        "name": "konnki",
         "trans": [
             "⓪ 名  耐性，毅力"
         ],
         "notation": "根気(こんき)"
     },
     {
-        "name": "kumen",
+        "name": "kumenn",
         "trans": [
             "① 名·他动3  筹措，筹划；筹款"
         ],
@@ -18291,7 +18291,7 @@
         "notation": "傍(かたわ)ら"
     },
     {
-        "name": "anko-ru",
+        "name": "annko-ru",
         "trans": [
             "③ 名·他动3  要求重演，再来一个"
         ],
@@ -18305,7 +18305,7 @@
         "notation": "虚(うつ)ろ"
     },
     {
-        "name": "rinkaku",
+        "name": "rinnkaku",
         "trans": [
             "⓪ 名  轮廓；概要，梗概"
         ],
@@ -18319,14 +18319,14 @@
         "notation": "密輸(みつゆ)"
     },
     {
-        "name": "henchou",
+        "name": "hennchou",
         "trans": [
             "⓪ 名·他动3  偏重"
         ],
         "notation": "偏重(へんちょう)"
     },
     {
-        "name": "hinpan",
+        "name": "hinpann",
         "trans": [
             "⓪ 名·ナ形  频繁，屡次"
         ],
@@ -18375,14 +18375,14 @@
         "notation": "孵(かえ)る"
     },
     {
-        "name": "sanshou",
+        "name": "sannshou",
         "trans": [
             "⓪ 名·他动3  参照，参阅"
         ],
         "notation": "参照(さんしょう)"
     },
     {
-        "name": "gensou",
+        "name": "gennsou",
         "trans": [
             "⓪ 名·他动3  幻想，空想"
         ],
@@ -18431,7 +18431,7 @@
         "notation": "盲目的(もうもくてき)"
     },
     {
-        "name": "honchoushi",
+        "name": "honnchousi",
         "trans": [
             "③ 名  正常状态，常态"
         ],
@@ -18445,7 +18445,7 @@
         "notation": "挫(くじ)ける"
     },
     {
-        "name": "furidashi",
+        "name": "furidasi",
         "trans": [
             "⓪ 名  出发点，原点；开端，最初"
         ],
@@ -18459,14 +18459,14 @@
         "notation": "バリアフリー"
     },
     {
-        "name": "teppen",
+        "name": "teppenn",
         "trans": [
             "③ 名  顶峰，顶点"
         ],
         "notation": "天辺(てっぺん)"
     },
     {
-        "name": "tan'nen",
+        "name": "tan'nenn",
         "trans": [
             "① 名·ナ形  精心，细心"
         ],
@@ -18501,7 +18501,7 @@
         "notation": "暦(こよみ)"
     },
     {
-        "name": "gunji",
+        "name": "gunnji",
         "trans": [
             "① 名  军事"
         ],
@@ -18515,14 +18515,14 @@
         "notation": "更(さら)なる"
     },
     {
-        "name": "kansan",
+        "name": "kansann",
         "trans": [
             "⓪ 名·他动3  换算，折合"
         ],
         "notation": "換算(かんさん)"
     },
     {
-        "name": "onwa",
+        "name": "onnwa",
         "trans": [
             "⓪ 名·ナ形  温暖；温和，温柔"
         ],
@@ -18550,7 +18550,7 @@
         "notation": "直(じか)に"
     },
     {
-        "name": "juunan",
+        "name": "juunann",
         "trans": [
             "⓪ ナ形  柔软的；灵活的"
         ],
@@ -18564,14 +18564,14 @@
         "notation": "リレー"
     },
     {
-        "name": "henpin",
+        "name": "henpinn",
         "trans": [
             "⓪ 名·自他动3  退货"
         ],
         "notation": "返品(へんぴん)"
     },
     {
-        "name": "pinkarakirimade",
+        "name": "pinnkarakirimade",
         "trans": [
             "① 惯  从开头到末尾；从最好的到最坏的"
         ],
@@ -18606,14 +18606,14 @@
         "notation": "つぶら"
     },
     {
-        "name": "tanka",
+        "name": "tannka",
         "trans": [
             "① 名  担架"
         ],
         "notation": "担架(たんか)"
     },
     {
-        "name": "zonzai",
+        "name": "zonnzai",
         "trans": [
             "⓪ ナ形  草率的，粗糙的；粗鲁的"
         ],
@@ -18634,7 +18634,7 @@
         "notation": "ずぶぬれ"
     },
     {
-        "name": "sakkon",
+        "name": "sakkonn",
         "trans": [
             "① 名  近来，最近"
         ],
@@ -18648,7 +18648,7 @@
         "notation": "行楽(こうらく)"
     },
     {
-        "name": "daishikyuu",
+        "name": "daisikyuu",
         "trans": [
             "③ 副  非常紧急，十万火急"
         ],
@@ -18662,7 +18662,7 @@
         "notation": "協力(きょうりょく)"
     },
     {
-        "name": "enman",
+        "name": "enmann",
         "trans": [
             "⓪ 名·ナ形  圆满，美满"
         ],
@@ -18676,14 +18676,14 @@
         "notation": "痛手(いたで)"
     },
     {
-        "name": "shikeru",
+        "name": "sikeru",
         "trans": [
             "② 自动1  受潮，潮湿"
         ],
         "notation": "湿気(しけ)る"
     },
     {
-        "name": "chippoke",
+        "name": "tippoke",
         "trans": [
             "③ ナ形  特别小的，极小的"
         ],
@@ -18711,7 +18711,7 @@
         "notation": "早(はや)めに"
     },
     {
-        "name": "temawashi",
+        "name": "temawasi",
         "trans": [
             "② 名·他动3  准备，安排；用手摇"
         ],
@@ -18732,21 +18732,21 @@
         "notation": "待望(たいぼう)"
     },
     {
-        "name": "senpou",
+        "name": "sennpou",
         "trans": [
             "⓪ 名  对方；前方，远方"
         ],
         "notation": "先方(せんぽう)"
     },
     {
-        "name": "shinchoku",
+        "name": "sinnchoku",
         "trans": [
             "⓪ 名·自动3  进展"
         ],
         "notation": "進捗(しんちょく)"
     },
     {
-        "name": "konwaku",
+        "name": "konnwaku",
         "trans": [
             "⓪ 名·自动3  困惑，为难，不知所措"
         ],
@@ -18795,7 +18795,7 @@
         "notation": "尊(とうと)い"
     },
     {
-        "name": "fushin",
+        "name": "fusinn",
         "trans": [
             "⓪ 名·ナ形  可疑，怀疑；不清楚"
         ],
@@ -18865,21 +18865,21 @@
         "notation": "晴(は)れ渡(わた)る"
     },
     {
-        "name": "zankin",
+        "name": "zankinn",
         "trans": [
             "① 名  余额，余款；余下的欠款"
         ],
         "notation": "残金(ざんきん)"
     },
     {
-        "name": "hikkirinashini",
+        "name": "hikkirinasini",
         "trans": [
             "⑤ 副  接连不断地，不停地"
         ],
         "notation": "ひっきりなしに"
     },
     {
-        "name": "taiman",
+        "name": "taimann",
         "trans": [
             "⓪ 名·ナ形  懈怠，怠慢，玩忽（职守）"
         ],
@@ -18893,7 +18893,7 @@
         "notation": "仮(かり)"
     },
     {
-        "name": "bouzen",
+        "name": "bouzenn",
         "trans": [
             "⓪ ナ形  发呆的，发愣的"
         ],
@@ -18907,21 +18907,21 @@
         "notation": "嫌味(いやみ)"
     },
     {
-        "name": "kyokugen",
+        "name": "kyokugenn",
         "trans": [
             "⓪ 名  极限"
         ],
         "notation": "極限(きょくげん)"
     },
     {
-        "name": "shichi",
+        "name": "siti",
         "trans": [
             "② 名  典当的东西，抵押品"
         ],
         "notation": "質(しち)"
     },
     {
-        "name": "dankai",
+        "name": "dannkai",
         "trans": [
             "⓪ 名  块儿，团"
         ],
@@ -18942,7 +18942,7 @@
         "notation": "手短(てみじか)"
     },
     {
-        "name": "bachigai",
+        "name": "batigai",
         "trans": [
             "② 名·ナ形  不合时宜"
         ],
@@ -18970,7 +18970,7 @@
         "notation": "屈(かが)む"
     },
     {
-        "name": "miharashi",
+        "name": "miharasi",
         "trans": [
             "⓪ 名  眺望；景致"
         ],
@@ -19040,28 +19040,28 @@
         "notation": "滅(ほろ)びる"
     },
     {
-        "name": "bunpu",
+        "name": "bunnpu",
         "trans": [
             "⓪ 名·自他动3  分布"
         ],
         "notation": "分布(ぶんぷ)"
     },
     {
-        "name": "ryouhan",
+        "name": "ryouhann",
         "trans": [
             "⓪ 名·他动3  量贩，大量销售"
         ],
         "notation": "量販(りょうはん)"
     },
     {
-        "name": "ansatsu",
+        "name": "annsatsu",
         "trans": [
             "⓪ 名·他动3  暗杀，行刺"
         ],
         "notation": "暗殺(あんさつ)"
     },
     {
-        "name": "un'you",
+        "name": "unn'you",
         "trans": [
             "⓪ 名·他动3  运用，活用"
         ],
@@ -19075,7 +19075,7 @@
         "notation": "ひっそり"
     },
     {
-        "name": "kyanpe-n",
+        "name": "kyanpe-nn",
         "trans": [
             "③ 名  宣传活动，运动"
         ],
@@ -19089,28 +19089,28 @@
         "notation": "合同(ごうどう)"
     },
     {
-        "name": "shutoshite",
+        "name": "shutosite",
         "trans": [
             "① 副  主要是"
         ],
         "notation": "主(しゅ)として"
     },
     {
-        "name": "suponji",
+        "name": "suponnji",
         "trans": [
             "⓪ 名  海绵，海绵状物体"
         ],
         "notation": "スポンジ"
     },
     {
-        "name": "narenareshii",
+        "name": "narenaresii",
         "trans": [
             "⑤ イ形  过分亲昵的，熟不拘礼的"
         ],
         "notation": "馴(な)れ馴(な)れしい"
     },
     {
-        "name": "songen",
+        "name": "songenn",
         "trans": [
             "⓪ 名  尊严"
         ],
@@ -19124,14 +19124,14 @@
         "notation": "退路(たいろ)"
     },
     {
-        "name": "tsurisen",
+        "name": "tsurisenn",
         "trans": [
             "⓪ 名  找的零钱，零头"
         ],
         "notation": "釣(つ)り銭(せん)"
     },
     {
-        "name": "tenpu",
+        "name": "tennpu",
         "trans": [
             "① 名·他动3  添上，附上"
         ],
@@ -19145,7 +19145,7 @@
         "notation": "到底(とうてい)"
     },
     {
-        "name": "hiseisanteki",
+        "name": "hiseisannteki",
         "trans": [
             "⓪ ナ形  非建设性的（意见）"
         ],
@@ -19173,7 +19173,7 @@
         "notation": "決済(けっさい)"
     },
     {
-        "name": "tenten",
+        "name": "tentenn",
         "trans": [
             "⓪ 副·自动3  辗转；翻来覆去，辗转反侧"
         ],
@@ -19187,7 +19187,7 @@
         "notation": "最上(さいじょう)"
     },
     {
-        "name": "jinsoku",
+        "name": "jinnsoku",
         "trans": [
             "⓪ 名·ナ形  迅速"
         ],
@@ -19229,7 +19229,7 @@
         "notation": "復興(ふっこう)"
     },
     {
-        "name": "izen",
+        "name": "izenn",
         "trans": [
             "⓪ 副  依然，仍然"
         ],
@@ -19243,14 +19243,14 @@
         "notation": "気(き)まぐれ"
     },
     {
-        "name": "danko",
+        "name": "dannko",
         "trans": [
             "① 副·ナ形  断然，毅然；坚决"
         ],
         "notation": "断固(だんこ)"
     },
     {
-        "name": "kenshou",
+        "name": "kennshou",
         "trans": [
             "⓪ 名·ナ形  健康，强壮"
         ],
@@ -19278,21 +19278,21 @@
         "notation": "月並(つきな)み"
     },
     {
-        "name": "shizumarikaeru",
+        "name": "sizumarikaeru",
         "trans": [
             "⑤ 自动1  鸦雀无声，万籁俱寂"
         ],
         "notation": "静(しず)まり返(かえ)る"
     },
     {
-        "name": "dokusen",
+        "name": "dokusenn",
         "trans": [
             "⓪ 名·他动3  独占，垄断"
         ],
         "notation": "独占(どくせん)"
     },
     {
-        "name": "hitoshii",
+        "name": "hitosii",
         "trans": [
             "③ イ形  相等的；等同于"
         ],
@@ -19334,7 +19334,7 @@
         "notation": "究極(きゅうきょく)"
     },
     {
-        "name": "koushi",
+        "name": "kousi",
         "trans": [
             "① 名·他动3  行使，使用"
         ],
@@ -19362,7 +19362,7 @@
         "notation": "正当(せいとう)"
     },
     {
-        "name": "danmen",
+        "name": "danmenn",
         "trans": [
             "③ 名  断面，截面"
         ],
@@ -19376,7 +19376,7 @@
         "notation": "辛(かろ)うじて"
     },
     {
-        "name": "jogen",
+        "name": "jogenn",
         "trans": [
             "⓪ 名·自动3  从旁教导，建议，出主意"
         ],
@@ -19390,14 +19390,14 @@
         "notation": "くよくよ"
     },
     {
-        "name": "chiteki",
+        "name": "titeki",
         "trans": [
             "⓪ ナ形  智慧的，智力的；理性的，理智的"
         ],
         "notation": "知的(ちてき)"
     },
     {
-        "name": "tenken",
+        "name": "tenkenn",
         "trans": [
             "⓪ 名·他动3  检查"
         ],
@@ -19411,7 +19411,7 @@
         "notation": "粘(ねば)り"
     },
     {
-        "name": "fushin",
+        "name": "fusinn",
         "trans": [
             "⓪ 名  不诚实；不相信，怀疑"
         ],
@@ -19446,7 +19446,7 @@
         "notation": "格別(かくべつ)"
     },
     {
-        "name": "gen'eki",
+        "name": "genn'eki",
         "trans": [
             "⓪ 名  现役；应届生"
         ],
@@ -19460,7 +19460,7 @@
         "notation": "かつて"
     },
     {
-        "name": "shidoromodoro",
+        "name": "sidoromodoro",
         "trans": [
             "④ ナ形  乱七八糟的，语无伦次的"
         ],
@@ -19481,21 +19481,21 @@
         "notation": "とろける"
     },
     {
-        "name": "hanran",
+        "name": "hanrann",
         "trans": [
             "⓪ 名·自动3  泛滥"
         ],
         "notation": "氾濫(はんらん)"
     },
     {
-        "name": "oshikomu",
+        "name": "osikomu",
         "trans": [
             "③ 自他动1  闯进，硬挤进去；抢劫；硬塞，塞入"
         ],
         "notation": "押(お)し込(こ)む"
     },
     {
-        "name": "hon'ne",
+        "name": "honn'ne",
         "trans": [
             "⓪ 名  真心话"
         ],
@@ -19516,7 +19516,7 @@
         "notation": "配列(はいれつ)"
     },
     {
-        "name": "shintei",
+        "name": "sinntei",
         "trans": [
             "⓪ 名·他动3  赠送，奉送"
         ],
@@ -19537,21 +19537,21 @@
         "notation": "動向(どうこう)"
     },
     {
-        "name": "senketsu",
+        "name": "sennketsu",
         "trans": [
             "⓪ 名·他动3  先决，首先解决"
         ],
         "notation": "先決(せんけつ)"
     },
     {
-        "name": "gongodoudan",
+        "name": "gongodoudann",
         "trans": [
             "① 名·ナ形  岂有此理，荒谬至极"
         ],
         "notation": "言語道断(ごんごどうだん)"
     },
     {
-        "name": "kanshou",
+        "name": "kannshou",
         "trans": [
             "⓪ 名·自动3  干涉"
         ],
@@ -19565,14 +19565,14 @@
         "notation": "いずれ"
     },
     {
-        "name": "shutsugan",
+        "name": "shutsugann",
         "trans": [
             "⓪ 名·自他动3  申请，申报志愿"
         ],
         "notation": "出願(しゅつがん)"
     },
     {
-        "name": "docchimichi",
+        "name": "doctimiti",
         "trans": [
             "⓪ 副  反正，总之，总而言之"
         ],
@@ -19586,7 +19586,7 @@
         "notation": "おおらか"
     },
     {
-        "name": "kinmotsu",
+        "name": "kinnmotsu",
         "trans": [
             "⓪ 名  严禁的事物；切忌的事物"
         ],
@@ -19614,21 +19614,21 @@
         "notation": "不摂生(ふせっせい)"
     },
     {
-        "name": "hahen",
+        "name": "hahenn",
         "trans": [
             "⓪ 名  碎片"
         ],
         "notation": "破片(はへん)"
     },
     {
-        "name": "nenpi",
+        "name": "nennpi",
         "trans": [
             "⓪ 名  汽车耗油量"
         ],
         "notation": "燃費(ねんぴ)"
     },
     {
-        "name": "an'nojou",
+        "name": "ann'nojou",
         "trans": [
             "③ 副  果然，果如所料"
         ],
@@ -19642,7 +19642,7 @@
         "notation": "和(なご)やか"
     },
     {
-        "name": "tontonbyoushi",
+        "name": "tontonnbyousi",
         "trans": [
             "⑤ 名·ナ形  一帆风顺，顺顺当当"
         ],
@@ -19656,7 +19656,7 @@
         "notation": "吊革(つりかわ)"
     },
     {
-        "name": "tanshinfunin",
+        "name": "tansinfuninn",
         "trans": [
             "⑤ 名·自动3  单身赴任"
         ],
@@ -19670,49 +19670,49 @@
         "notation": "いやいや"
     },
     {
-        "name": "zenrei",
+        "name": "zennrei",
         "trans": [
             "⓪ 名  前例，先例"
         ],
         "notation": "前例(ぜんれい)"
     },
     {
-        "name": "shinbou",
+        "name": "sinnbou",
         "trans": [
             "① 名·自他动3  忍受，忍耐；耐心工作"
         ],
         "notation": "辛抱(しんぼう)"
     },
     {
-        "name": "konpou",
+        "name": "konnpou",
         "trans": [
             "⓪ 名·他动3  包装，捆扎"
         ],
         "notation": "梱包(こんぽう)"
     },
     {
-        "name": "kinkou",
+        "name": "kinnkou",
         "trans": [
             "⓪ 名·自动3  均衡，平衡"
         ],
         "notation": "均衡(きんこう)"
     },
     {
-        "name": "oshitsukeru",
+        "name": "ositsukeru",
         "trans": [
             "④ 他动2  压住，按住；强加于人，硬推给别人"
         ],
         "notation": "押(お)し付(つ)ける"
     },
     {
-        "name": "engei",
+        "name": "enngei",
         "trans": [
             "⓪ 名  文艺表演"
         ],
         "notation": "演芸(えんげい)"
     },
     {
-        "name": "anzan",
+        "name": "anzann",
         "trans": [
             "⓪ 名·他动3  心算，在头脑中计算"
         ],
@@ -19726,7 +19726,7 @@
         "notation": "藁(わら)"
     },
     {
-        "name": "shichaku",
+        "name": "sichaku",
         "trans": [
             "⓪ 名·他动3  试穿（衣服）"
         ],
@@ -19740,28 +19740,28 @@
         "notation": "庇(かば)う"
     },
     {
-        "name": "hen'you",
+        "name": "henn'you",
         "trans": [
             "⓪ 名·自动3  变样，改观"
         ],
         "notation": "変容(へんよう)"
     },
     {
-        "name": "pinpin",
+        "name": "pinpinn",
         "trans": [
             "① 副·自动3  活蹦乱跳；精神抖擞，健朗"
         ],
         "notation": "ぴんぴん"
     },
     {
-        "name": "denrai",
+        "name": "dennrai",
         "trans": [
             "⓪ 名·自动3  （从国外）传来，传入；祖传"
         ],
         "notation": "伝来(でんらい)"
     },
     {
-        "name": "chinretsu",
+        "name": "tinnretsu",
         "trans": [
             "⓪ 名·他动3  陈列，展览"
         ],
@@ -19775,28 +19775,28 @@
         "notation": "ぎょっと"
     },
     {
-        "name": "sonzoku",
+        "name": "sonnzoku",
         "trans": [
             "⓪ 名·自他动3  长存，延续"
         ],
         "notation": "存続(そんぞく)"
     },
     {
-        "name": "sunpou",
+        "name": "sunnpou",
         "trans": [
             "⓪ 名  尺寸；计划；情况"
         ],
         "notation": "寸法(すんぽう)"
     },
     {
-        "name": "sanjou",
+        "name": "sannjou",
         "trans": [
             "⓪ 名·自动3  拜访，造访"
         ],
         "notation": "参上(さんじょう)"
     },
     {
-        "name": "kenchi",
+        "name": "kennti",
         "trans": [
             "① 名  见地，立场，观点"
         ],
@@ -19817,7 +19817,7 @@
         "notation": "煌(きら)びやか"
     },
     {
-        "name": "kanbashii",
+        "name": "kannbasii",
         "trans": [
             "④ イ形  芬芳的；优秀的，声誉好的"
         ],
@@ -19831,21 +19831,21 @@
         "notation": "億劫(おっくう)"
     },
     {
-        "name": "infure",
+        "name": "innfure",
         "trans": [
             "⓪ 名  通货膨胀"
         ],
         "notation": "インフレ"
     },
     {
-        "name": "shitateru",
+        "name": "sitateru",
         "trans": [
             "③ 他动2  缝制衣服；培养；准备；乔装，扮作"
         ],
         "notation": "仕立(した)てる"
     },
     {
-        "name": "honba",
+        "name": "honnba",
         "trans": [
             "⓪ 名  发源地，原产地"
         ],
@@ -19866,7 +19866,7 @@
         "notation": "物騒(ぶっそう)"
     },
     {
-        "name": "hande",
+        "name": "hannde",
         "trans": [
             "① 名  障碍，不利条件"
         ],
@@ -19887,7 +19887,7 @@
         "notation": "長蛇(ちょうだ)"
     },
     {
-        "name": "zousan",
+        "name": "zousann",
         "trans": [
             "⓪ 名·他动3  增产"
         ],
@@ -19915,7 +19915,7 @@
         "notation": "とはいえ"
     },
     {
-        "name": "orikaeshi",
+        "name": "orikaesi",
         "trans": [
             "⓪ 名·副  翻折；返回，折回；立即，尽快"
         ],
@@ -19943,7 +19943,7 @@
         "notation": "授与(じゅよ)"
     },
     {
-        "name": "nandemokandemo",
+        "name": "nandemokanndemo",
         "trans": [
             "⑤ 连语  全部，一切；一定，无论如何"
         ],
@@ -19957,14 +19957,14 @@
         "notation": "無闇(むやみ)"
     },
     {
-        "name": "fuhon'i",
+        "name": "fuhonn'i",
         "trans": [
             "② 名·ナ形  非本意，不情愿"
         ],
         "notation": "不本意(ふほんい)"
     },
     {
-        "name": "bapponteki",
+        "name": "bapponnteki",
         "trans": [
             "⓪ ナ形  根本的，彻底的"
         ],
@@ -19999,7 +19999,7 @@
         "notation": "再生(さいせい)"
     },
     {
-        "name": "teguchi",
+        "name": "teguti",
         "trans": [
             "① 名  （做坏事的）手法，手段"
         ],
@@ -20020,7 +20020,7 @@
         "notation": "揺(ゆ)るがす"
     },
     {
-        "name": "tankyuu",
+        "name": "tannkyuu",
         "trans": [
             "⓪ 名·他动3  探寻，探索"
         ],
@@ -20034,21 +20034,21 @@
         "notation": "没落(ぼつらく)"
     },
     {
-        "name": "kanguru",
+        "name": "kannguru",
         "trans": [
             "③ 他动1  乱猜测，猜疑"
         ],
         "notation": "勘(かん)ぐる"
     },
     {
-        "name": "shikku",
+        "name": "sikku",
         "trans": [
             "① ナ形  时髦的，高雅的"
         ],
         "notation": "シック"
     },
     {
-        "name": "ichimokusan'ni",
+        "name": "itimokusann'ni",
         "trans": [
             "③ 副  一溜烟儿地，飞快地(跑)"
         ],
@@ -20083,7 +20083,7 @@
         "notation": "解(ほど)く"
     },
     {
-        "name": "oshimazu",
+        "name": "osimazu",
         "trans": [
             "② 副  不惜，毫不吝惜"
         ],
@@ -20104,7 +20104,7 @@
         "notation": "方々(かたがた)"
     },
     {
-        "name": "toppyoushimonai",
+        "name": "toppyousimonai",
         "trans": [
             "⑦ 连语  越出常轨，出奇，异常"
         ],
@@ -20132,14 +20132,14 @@
         "notation": "張(は)り合(あ)い"
     },
     {
-        "name": "tenbou",
+        "name": "tennbou",
         "trans": [
             "⓪ 名·他动3  眺望，展望"
         ],
         "notation": "展望(てんぼう)"
     },
     {
-        "name": "chinmoku",
+        "name": "tinnmoku",
         "trans": [
             "⓪ 名·自动3  沉默，默不作声"
         ],
@@ -20160,28 +20160,28 @@
         "notation": "切(き)り上(あ)げる"
     },
     {
-        "name": "ichiritsu",
+        "name": "itiritsu",
         "trans": [
             "⓪ 名·ナ形  一律，一概"
         ],
         "notation": "一律(いちりつ)"
     },
     {
-        "name": "obitadashii",
+        "name": "obitadasii",
         "trans": [
             "⑤ イ形  大量的；非常，很"
         ],
         "notation": "夥(おびただ)しい"
     },
     {
-        "name": "kyuuchi",
+        "name": "kyuuti",
         "trans": [
             "① 名  困境，窘境"
         ],
         "notation": "窮地(きゅうち)"
     },
     {
-        "name": "zen'iki",
+        "name": "zenn'iki",
         "trans": [
             "⓪ 名  整个地区，整个领域"
         ],
@@ -20195,35 +20195,35 @@
         "notation": "位(くらい)する"
     },
     {
-        "name": "bunpai",
+        "name": "bunnpai",
         "trans": [
             "⓪ 名·他动3  分配，分发"
         ],
         "notation": "分配(ぶんぱい)"
     },
     {
-        "name": "shitsugi",
+        "name": "sitsugi",
         "trans": [
             "② 名·自动3  质疑，疑问"
         ],
         "notation": "質疑(しつぎ)"
     },
     {
-        "name": "kandou",
+        "name": "kanndou",
         "trans": [
             "⓪ 名·他动3  断绝（父子、师徒）关系"
         ],
         "notation": "勘当(かんどう)"
     },
     {
-        "name": "honmyou",
+        "name": "honnmyou",
         "trans": [
             "① 名  本名，真名"
         ],
         "notation": "本名(ほんみょう)"
     },
     {
-        "name": "shinobu",
+        "name": "sinobu",
         "trans": [
             "② 他动1  追忆，缅怀；欣赏"
         ],
@@ -20237,21 +20237,21 @@
         "notation": "巧(たく)み"
     },
     {
-        "name": "genchi",
+        "name": "gennti",
         "trans": [
             "① 名  现场；当地"
         ],
         "notation": "現地(げんち)"
     },
     {
-        "name": "inpei",
+        "name": "innpei",
         "trans": [
             "⓪ 名·他动3  掩盖，隐瞒，隐藏"
         ],
         "notation": "隠蔽(いんぺい)"
     },
     {
-        "name": "seiton",
+        "name": "seitonn",
         "trans": [
             "⓪ 名·他动3  整顿，整理"
         ],
@@ -20265,14 +20265,14 @@
         "notation": "撮(つま)む"
     },
     {
-        "name": "shikkaku",
+        "name": "sikkaku",
         "trans": [
             "⓪ 名·自动3  失去资格"
         ],
         "notation": "失格(しっかく)"
     },
     {
-        "name": "tonda",
+        "name": "tonnda",
         "trans": [
             "⓪ 连体  意想不到；不可挽回"
         ],
@@ -20286,7 +20286,7 @@
         "notation": "粉々(こなごな)"
     },
     {
-        "name": "kanmuryou",
+        "name": "kannmuryou",
         "trans": [
             "① ナ形  感慨万千的"
         ],
@@ -20300,7 +20300,7 @@
         "notation": "ひょいと"
     },
     {
-        "name": "hon'nou",
+        "name": "honn'nou",
         "trans": [
             "① 名  本能"
         ],
@@ -20314,14 +20314,14 @@
         "notation": "プロセス"
     },
     {
-        "name": "hansoku",
+        "name": "hannsoku",
         "trans": [
             "⓪ 名·自动3  犯规，违规"
         ],
         "notation": "反則(はんそく)"
     },
     {
-        "name": "ganrai",
+        "name": "gannrai",
         "trans": [
             "① 副  本来，原来"
         ],
@@ -20356,21 +20356,21 @@
         "notation": "決裁(けっさい)"
     },
     {
-        "name": "shinkou",
+        "name": "sinnkou",
         "trans": [
             "⓪ 名·自动3  前进；进展，进行；（病情）恶化"
         ],
         "notation": "進行(しんこう)"
     },
     {
-        "name": "omouzonbun",
+        "name": "omouzonbunn",
         "trans": [
             "② 副  尽情地，肆意地"
         ],
         "notation": "思(おも)う存分(ぞんぶん)"
     },
     {
-        "name": "saisan",
+        "name": "saisann",
         "trans": [
             "⓪ 名  （收支）核算"
         ],
@@ -20412,7 +20412,7 @@
         "notation": "控除(こうじょ)"
     },
     {
-        "name": "uragaeshi",
+        "name": "uragaesi",
         "trans": [
             "③ 名  表里相反；反证"
         ],
@@ -20538,7 +20538,7 @@
         "notation": "渡(わたりど)り鳥()"
     },
     {
-        "name": "iyarashii",
+        "name": "iyarasii",
         "trans": [
             "④ イ形  令人讨厌的；下流的，卑鄙的"
         ],
@@ -20552,21 +20552,21 @@
         "notation": "ロス"
     },
     {
-        "name": "fukumen",
+        "name": "fukumenn",
         "trans": [
             "⓪ 名·自动3  蒙面；匿名"
         ],
         "notation": "覆面(ふくめん)"
     },
     {
-        "name": "sekkin",
+        "name": "sekkinn",
         "trans": [
             "⓪ 名·自动3  接近；关系密切"
         ],
         "notation": "接近(せっきん)"
     },
     {
-        "name": "kencho",
+        "name": "kenncho",
         "trans": [
             "① ナ形  显著的，明显的"
         ],
@@ -20594,7 +20594,7 @@
         "notation": "愚(おろ)か"
     },
     {
-        "name": "ganjou",
+        "name": "gannjou",
         "trans": [
             "⓪ ナ形  结实的，坚固的；健壮的"
         ],
@@ -20615,7 +20615,7 @@
         "notation": "研(と)ぐ"
     },
     {
-        "name": "saizen",
+        "name": "saizenn",
         "trans": [
             "⓪ 名  最好，最佳；全力"
         ],
@@ -20629,14 +20629,14 @@
         "notation": "交替(こうたい)"
     },
     {
-        "name": "kessan",
+        "name": "kessann",
         "trans": [
             "① 名·他动3  结算，清账"
         ],
         "notation": "決算(けっさん)"
     },
     {
-        "name": "kanchi",
+        "name": "kannti",
         "trans": [
             "① 名·自动3  与⋯⋯有关；知道"
         ],
@@ -20650,7 +20650,7 @@
         "notation": "仄(ほの)か"
     },
     {
-        "name": "kashimashii",
+        "name": "kasimasii",
         "trans": [
             "④ イ形  吵闹的，喧闹的"
         ],
@@ -20678,7 +20678,7 @@
         "notation": "おっちょこちょい"
     },
     {
-        "name": "gangan",
+        "name": "gangann",
         "trans": [
             "① 副  （头疼、耳鸣）强烈；喋喋不休"
         ],
@@ -20692,7 +20692,7 @@
         "notation": "殺風景(さっぷうけい)"
     },
     {
-        "name": "kanreki",
+        "name": "kannreki",
         "trans": [
             "⓪ 名  花甲，满六十岁"
         ],
@@ -20734,35 +20734,35 @@
         "notation": "合否(ごうひ)"
     },
     {
-        "name": "kontei",
+        "name": "konntei",
         "trans": [
             "⓪ 名  根本，基础"
         ],
         "notation": "根底(こんてい)"
     },
     {
-        "name": "ichiji",
+        "name": "itiji",
         "trans": [
             "② 名  一个时期；一时，临时"
         ],
         "notation": "一時(いちじ)"
     },
     {
-        "name": "hyottoshite",
+        "name": "hyottosite",
         "trans": [
             "⓪ 副  说不定，也许，万一"
         ],
         "notation": "ひょっとして"
     },
     {
-        "name": "kesson",
+        "name": "kessonn",
         "trans": [
             "⓪ 名·自动3  缺损；亏损，损失"
         ],
         "notation": "欠損(けっそん)"
     },
     {
-        "name": "gacchi",
+        "name": "gacti",
         "trans": [
             "⓪ 名·自动3  一致，吻合"
         ],
@@ -20804,14 +20804,14 @@
         "notation": "面影(おもかげ)"
     },
     {
-        "name": "gouben",
+        "name": "goubenn",
         "trans": [
             "⓪ 名  合办，合资"
         ],
         "notation": "合弁(ごうべん)"
     },
     {
-        "name": "funpatsu",
+        "name": "funnpatsu",
         "trans": [
             "⓪ 名·自他动3  发奋；（一狠心）豁出去拿出钱"
         ],
@@ -20853,35 +20853,35 @@
         "notation": "精力(せいりょく)"
     },
     {
-        "name": "kankan",
+        "name": "kankann",
         "trans": [
             "① 副  （阳光、火焰）强烈；大发雷霆"
         ],
         "notation": "かんかん"
     },
     {
-        "name": "chuutohanpa",
+        "name": "tyuutohannpa",
         "trans": [
             "④ 名·ナ形  半途而废；不完整；不彻底"
         ],
         "notation": "中途半端(ちゅうとはんぱ)"
     },
     {
-        "name": "isshin",
+        "name": "issinn",
         "trans": [
             "③ 名·副  同心；一心，专心"
         ],
         "notation": "一心(いっしん)"
     },
     {
-        "name": "konjou",
+        "name": "konnjou",
         "trans": [
             "① 名  性情，秉性；毅力，骨气"
         ],
         "notation": "根性(こんじょう)"
     },
     {
-        "name": "shutsuen",
+        "name": "shutsuenn",
         "trans": [
             "⓪ 名·自动3  演出，登台表演"
         ],
@@ -20902,14 +20902,14 @@
         "notation": "思(おも)い付(つ)き"
     },
     {
-        "name": "fungai",
+        "name": "funngai",
         "trans": [
             "⓪ 名·自他动3  愤慨，气愤"
         ],
         "notation": "憤慨(ふんがい)"
     },
     {
-        "name": "kanroku",
+        "name": "kannroku",
         "trans": [
             "⓪ 名  威严，威信"
         ],
@@ -20937,7 +20937,7 @@
         "notation": "画策(かくさく)"
     },
     {
-        "name": "inshitsu",
+        "name": "innsitsu",
         "trans": [
             "⓪ 名·ナ形  阴湿，阴暗；阴郁"
         ],
@@ -20972,7 +20972,7 @@
         "notation": "副作用(ふくさよう)"
     },
     {
-        "name": "gatten",
+        "name": "gattenn",
         "trans": [
             "③ 名·自动3  认可，同意"
         ],

@@ -1,5 +1,5 @@
 import { isKanji } from '@/utils/kana'
-import React, { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 
 type NotationProps = {
   notation: string
@@ -12,27 +12,30 @@ type NotationInfo = {
 
 export default function Notation({ notation }: NotationProps) {
   const infos: NotationInfo[] = useMemo(() => getNotationInfo(notation), [notation])
-
-  // 假名显示/隐藏状态
-  const [showRuby, setShowRuby] = useState(true)
-
   return (
-    <div className="mx-auto flex flex-col items-center">
-      {/* 全局开关按钮 */}
-      <button className="mb-2 rounded border px-4 py-1" onClick={() => setShowRuby(!showRuby)}>
-        {showRuby ? '隐藏假名' : '显示假名'}
-      </button>
-
-      <div className="flex h-20 items-end">
-        <ruby className="mb-1 p-0 font-mono text-5xl text-gray-900 dark:text-gray-300">
-          {infos.map(({ word, phonetic }, index) => (
-            <React.Fragment key={index}>
+    <div className="mx-auto flex h-20 items-end">
+      <ruby className="mb-1 p-0 font-mono text-5xl text-gray-900 dark:text-gray-300">
+        {infos.map(({ word, phonetic }) => {
+          const hasPhonetic = phonetic && phonetic.length > 0
+          const isEmptyPhonetic = hasPhonetic && phonetic.trim().length == 0
+          return (
+            <>
               {word}
-              {phonetic && phonetic.trim() !== '' && showRuby && <rt>{phonetic}</rt>}
-            </React.Fragment>
-          ))}
-        </ruby>
-      </div>
+              {hasPhonetic && isEmptyPhonetic ? (
+                <>
+                  <rt>{phonetic}</rt>
+                </>
+              ) : (
+                <>
+                  <rp>{'('}</rp>
+                  <rt>{phonetic}</rt>
+                  <rp>{')'}</rp>
+                </>
+              )}
+            </>
+          )
+        })}
+      </ruby>
     </div>
   )
 }
@@ -41,10 +44,10 @@ const getNotationInfo = (notation: string): NotationInfo[] => {
   const re = /(.+?)\((.+?)\)/g
   let match
   let start = 0
-  const ret: NotationInfo[] = []
+  const ret = []
   while ((match = re.exec(notation))) {
-    const [fullMatch, wordMatch, phonetic] = match
-    let word = wordMatch
+    const [fullMatch, , phonetic] = match
+    let word = match[1]
     if (match.index > start) {
       ret.push({ word: notation.substring(start, match.index), phonetic: '' })
     }
