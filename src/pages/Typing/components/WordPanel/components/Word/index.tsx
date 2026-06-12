@@ -1,5 +1,6 @@
 import type { WordUpdateAction } from '../InputHandler'
 import InputHandler from '../InputHandler'
+import Translation from '../Translation'
 import Letter from './Letter'
 import Notation from './Notation'
 import { TipAlert } from './TipAlert'
@@ -288,6 +289,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         className="flex flex-col items-center justify-center pb-1 pt-4"
       >
         {['romaji', 'hapin'].includes(currentLanguage) && word.notation && <Notation notation={word.notation} />}
+        {state.isTransVisible && word.trans.length > 0 && <Translation trans={word.trans.join('；')} />}
         <div
           className={`tooltip-info relative w-fit bg-transparent p-0 leading-normal shadow-none dark:bg-transparent ${
             wordDictationConfig.isOpen ? 'tooltip' : ''
