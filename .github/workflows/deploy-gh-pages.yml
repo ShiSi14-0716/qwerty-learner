@@ -1,8 +1,8 @@
 name: Deployment to Github pages
 on:
   push:
-    branches:
-      - master
+    branches: '*'
+  workflow_dispatch:
 env:
   VITE_DEPLOY_ENV: pages
 jobs:
