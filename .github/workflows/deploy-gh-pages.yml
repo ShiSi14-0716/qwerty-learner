@@ -1,0 +1,39 @@
+name: Deployment to Github pages
+on:
+  push:
+    branches:
+      - master
+env:
+  VITE_DEPLOY_ENV: pages
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.17.0]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
+
+      - name: Install Packages
+        run: yarn install --frozen-lockfile
+
+      - name: Build page
+        run: yarn build
+
+      # 自动修复SPA刷新404 + 关闭Jekyll解析
+      - name: Fix SPA 404
+        run: |
+          cp dist/index.html dist/404.html
+          touch dist/.nojekyll
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./dist
