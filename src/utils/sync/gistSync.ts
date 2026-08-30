@@ -72,12 +72,13 @@ export async function importAllData(data: SyncData): Promise<void> {
 }
 
 /**
- * 验证 GitHub Token 是否有效
+ * 验证 GitHub Token 是否有效（验证 gist 权限，不需要 read:user 权限）
  */
 export async function validateToken(token: string): Promise<boolean> {
   try {
     const trimmedToken = token.trim()
-    const res = await fetch(`${GITHUB_API}/user`, {
+    // 用 gists API 验证，只需要 gist 权限即可通过
+    const res = await fetch(`${GITHUB_API}/gists?per_page=1`, {
       headers: {
         Authorization: `token ${trimmedToken}`,
         Accept: 'application/vnd.github.v3+json',
