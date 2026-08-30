@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "name": "aiirenai",
         "trans": [
@@ -189,7 +189,7 @@
         "notation": "振興(しんこう)"
     },
     {
-        "name": "cyuusuu",
+        "name": "tyuusuu",
         "trans": [
             "⓪ 名  中枢；关键"
         ],
@@ -2891,7 +2891,7 @@
         "notation": "採掘(さいくつ)"
     },
     {
-        "name": "cyuufuku",
+        "name": "tyuufuku",
         "trans": [
             "⓪ 名  半山腰"
         ],
@@ -5670,7 +5670,7 @@
         "notation": "仕入(しい)れ"
     },
     {
-        "name": "cyuujitu",
+        "name": "tyuujitu",
         "trans": [
             "⓪ 名·ナ形  忠实，忠诚；照原样"
         ],
@@ -5943,7 +5943,7 @@
         "notation": "薄弱(はくじゃく)"
     },
     {
-        "name": "meicyuu",
+        "name": "meityuu",
         "trans": [
             "⓪ 名·自动3  命中（目标）"
         ],
@@ -6034,7 +6034,7 @@
         "notation": "裁縫(さいほう)"
     },
     {
-        "name": "syoccyuu",
+        "name": "syottyuu",
         "trans": [
             "① 副  经常，总是"
         ],
@@ -6531,7 +6531,7 @@
         "notation": "申(もう)し入(い)れる"
     },
     {
-        "name": "renjyuu/renncyuu",
+        "name": "renjyuu/renntyuu",
         "trans": [
             "⓪ 名  伙伴，同伙"
         ],
@@ -7399,7 +7399,7 @@
         "notation": "廃(すた)れる"
     },
     {
-        "name": "cyuuritu",
+        "name": "tyuuritu",
         "trans": [
             "⓪ 名·自动3  中立（立场）"
         ],
@@ -9338,7 +9338,7 @@
         "notation": "参入(さんにゅう)"
     },
     {
-        "name": "cyuusenn",
+        "name": "tyuusenn",
         "trans": [
             "⓪ 名·自动3  抽签"
         ],
@@ -9849,7 +9849,7 @@
         "notation": "辞退(じたい)"
     },
     {
-        "name": "kosucyu-mu",
+        "name": "kosutyu-mu",
         "trans": [
             "① 名  服装，装束；戏装"
         ],
@@ -10836,7 +10836,7 @@
         "notation": "賭(か)ける"
     },
     {
-        "name": "setcyuu",
+        "name": "settyuu",
         "trans": [
             "⓪ 名·他动3  折中"
         ],
@@ -14049,7 +14049,7 @@
         "notation": "政策(せいさく)"
     },
     {
-        "name": "cyuugaeri",
+        "name": "tyuugaeri",
         "trans": [
             "③ 名·自动3  翻跟头"
         ],
@@ -14490,7 +14490,7 @@
         "notation": "試行(しこう)"
     },
     {
-        "name": "cyuukei",
+        "name": "tyuukei",
         "trans": [
             "⓪ 名·他动3  中转；转播"
         ],
@@ -15001,7 +15001,7 @@
         "notation": "直感(ちょっかん)"
     },
     {
-        "name": "haccyuu",
+        "name": "hattyuu",
         "trans": [
             "⓪ 名·他动3  订货，订购"
         ],
@@ -15925,7 +15925,7 @@
         "notation": "張(は)り合(あ)う"
     },
     {
-        "name": "cyuudann",
+        "name": "tyuudann",
         "trans": [
             "⓪ 名·自他动3  中断，断开,中止"
         ],
@@ -16989,7 +16989,7 @@
         "notation": "照合(しょうごう)"
     },
     {
-        "name": "cyuukoku",
+        "name": "tyuukoku",
         "trans": [
             "⓪ 名·自他动3  忠告，劝告"
         ],
@@ -17465,7 +17465,7 @@
         "notation": "ぐちゃぐちゃ"
     },
     {
-        "name": "cyuusyou",
+        "name": "tyuusyou",
         "trans": [
             "⓪ 名·他动3  中伤，诽谤"
         ],
@@ -20860,7 +20860,7 @@
         "notation": "かんかん"
     },
     {
-        "name": "cyuutohannpa",
+        "name": "tyuutohannpa",
         "trans": [
             "④ 名·ナ形  半途而废；不完整；不彻底"
         ],
