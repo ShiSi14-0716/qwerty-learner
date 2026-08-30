@@ -4044,6 +4044,21 @@ const japaneseExam: DictionaryResource[] = [
   },
 ]
 
+// 盘词洞（自定义学习词典，按主题分章节）
+const panCiDong: DictionaryResource[] = [
+  {
+    id: 'pancidong-wu',
+    name: '無',
+    description: '盘词洞·第一章  含「無」的常用词',
+    category: '盘词洞',
+    tags: ['盘词洞', '無'],
+    url: import.meta.env.BASE_URL + 'dicts/PanCiDong_Wu.json',
+    length: 47,
+    language: 'romaji',
+    languageCategory: 'ja',
+  },
+]
+
 /**
  * Built-in dictionaries in an array.
  * Why arrays? Because it keeps the order across browsers.
@@ -4054,6 +4069,7 @@ export const dictionaryResources: DictionaryResource[] = [
   ...childrenEnglish,
   ...programming,
   ...japaneseExam,
+  ...panCiDong,
 
   // {
   //   id: 'zhtest',
