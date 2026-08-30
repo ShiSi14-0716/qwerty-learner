@@ -18,6 +18,7 @@ import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAt
 import { IsDesktop, isLegal } from '@/utils'
 import { useSaveChapterRecord } from '@/utils/db'
 import { useMixPanelChapterLogUploader } from '@/utils/mixpanel'
+import { autoUploadOnFinish } from '@/utils/sync/gistSync'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import type React from 'react'
 import { useCallback, useEffect, useState } from 'react'
@@ -108,6 +109,8 @@ const App: React.FC = () => {
     if (state.isFinished && !state.isSavingRecord) {
       chapterLogUploader()
       saveChapterRecord(state)
+      // 练习完成后自动上传到云端（带防抖，需在设置中开启）
+      autoUploadOnFinish()
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps

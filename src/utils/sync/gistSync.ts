@@ -257,3 +257,46 @@ export async function autoSyncOnLoad(token: string, gistId: string): Promise<{ u
     }
   }
 }
+
+// 自动上传相关常量和防抖定时器
+export const AUTO_UPLOAD_KEY = 'qwerty-learner-auto-upload'
+let autoUploadTimer: ReturnType<typeof setTimeout> | null = null
+
+/**
+ * 练习完成后自动上传到云端（带 3 秒防抖，避免连续完成章节时重复上传）
+ */
+export async function autoUploadOnFinish(): Promise<{ success: boolean; error?: string }> {
+  const autoUpload = localStorage.getItem(AUTO_UPLOAD_KEY) === 'true'
+  if (!autoUpload) {
+    return { success: false }
+  }
+
+  const token = localStorage.getItem('qwerty-learner-cloud-token')
+  const gistId = localStorage.getItem('qwerty-learner-cloud-gist-id')
+  if (!token || !gistId) {
+    return { success: false, error: '未配置 Token 或 Gist ID' }
+  }
+
+  // 防抖：3 秒内多次触发只执行最后一次
+  if (autoUploadTimer) {
+    clearTimeout(autoUploadTimer)
+  }
+
+  return new Promise((resolve) => {
+    autoUploadTimer = setTimeout(async () => {
+      try {
+        const result = await uploadToCloud(token, gistId)
+        if (result.success && result.syncTime) {
+          const timeStr = new Date().toLocaleString('zh-CN')
+          localStorage.setItem('qwerty-learner-cloud-last-sync', timeStr)
+        }
+        resolve({ success: result.success, error: result.error })
+      } catch (error) {
+        resolve({
+          success: false,
+          error: error instanceof Error ? error.message : String(error),
+        })
+      }
+    }, 3000)
+  })
+}

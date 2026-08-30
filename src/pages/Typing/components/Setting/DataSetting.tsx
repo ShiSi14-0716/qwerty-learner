@@ -1,7 +1,7 @@
 import styles from './index.module.css'
 import type { ExportProgress, ImportProgress } from '@/utils/db/data-export'
 import { exportDatabase, importDatabase } from '@/utils/db/data-export'
-import { downloadFromCloud, uploadToCloud, validateToken } from '@/utils/sync/gistSync'
+import { downloadFromCloud, uploadToCloud, validateToken, AUTO_UPLOAD_KEY } from '@/utils/sync/gistSync'
 import * as Progress from '@radix-ui/react-progress'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { useCallback, useEffect, useState } from 'react'
@@ -27,6 +27,7 @@ export default function DataSetting() {
   const [syncError, setSyncError] = useState('')
   const [lastSyncTime, setLastSyncTime] = useState('')
   const [autoSync, setAutoSync] = useState(false)
+  const [autoUpload, setAutoUpload] = useState(false)
 
   // 从 localStorage 加载已保存的 Token 和 Gist ID
   useEffect(() => {
@@ -34,16 +35,24 @@ export default function DataSetting() {
     const savedGistId = localStorage.getItem(CLOUD_GIST_ID_KEY)
     const savedLastSync = localStorage.getItem(CLOUD_LAST_SYNC_KEY)
     const savedAutoSync = localStorage.getItem(AUTO_SYNC_KEY)
+    const savedAutoUpload = localStorage.getItem(AUTO_UPLOAD_KEY)
     if (savedToken) setCloudToken(savedToken)
     if (savedGistId) setCloudGistId(savedGistId)
     if (savedLastSync) setLastSyncTime(savedLastSync)
     if (savedAutoSync === 'true') setAutoSync(true)
+    if (savedAutoUpload === 'true') setAutoUpload(true)
   }, [])
 
   // 切换自动同步
   const handleAutoSyncToggle = (checked: boolean) => {
     setAutoSync(checked)
     localStorage.setItem(AUTO_SYNC_KEY, checked ? 'true' : 'false')
+  }
+
+  // 切换自动上传
+  const handleAutoUploadToggle = (checked: boolean) => {
+    setAutoUpload(checked)
+    localStorage.setItem(AUTO_UPLOAD_KEY, checked ? 'true' : 'false')
   }
 
   const exportProgressCallback = useCallback(({ totalRows, completedRows, done }: ExportProgress) => {
@@ -271,6 +280,25 @@ export default function DataSetting() {
                 <span
                   className={`absolute top-0.5 h-5 w-5 rounded-full bg-white shadow transition-transform duration-200 ${
                     autoSync ? 'translate-x-5' : 'translate-x-0.5'
+                  }`}
+                />
+              </button>
+            </div>
+
+            {/* 自动上传开关 */}
+            <div className="flex w-full items-center justify-between pl-4">
+              <div className="flex flex-col">
+                <span className="text-sm font-medium text-gray-600">练习完成后自动上传</span>
+                <span className="text-xs text-gray-400">每章练习结束后自动上传数据到云端（3 秒防抖，连续完成只上传最后一次）</span>
+              </div>
+              <button
+                type="button"
+                onClick={() => handleAutoUploadToggle(!autoUpload)}
+                className={`relative h-6 w-11 rounded-full transition-colors duration-200 ${autoUpload ? 'bg-indigo-500' : 'bg-gray-300'}`}
+              >
+                <span
+                  className={`absolute top-0.5 h-5 w-5 rounded-full bg-white shadow transition-transform duration-200 ${
+                    autoUpload ? 'translate-x-5' : 'translate-x-0.5'
                   }`}
                 />
               </button>
