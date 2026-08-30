@@ -63,8 +63,8 @@ function App() {
     // 用 sessionStorage 防止刷新后重复同步
     if (sessionStorage.getItem('qwerty-learner-sync-done')) return
 
-    const token = localStorage.getItem('qwerty-learner-cloud-token')
-    const gistId = localStorage.getItem('qwerty-learner-cloud-gist-id')
+    const token = localStorage.getItem('qwerty-learner-cloud-token')?.trim()
+    const gistId = localStorage.getItem('qwerty-learner-cloud-gist-id')?.trim()
     if (!token || !gistId) return
 
     sessionStorage.setItem('qwerty-learner-sync-done', '1')

@@ -76,9 +76,10 @@ export async function importAllData(data: SyncData): Promise<void> {
  */
 export async function validateToken(token: string): Promise<boolean> {
   try {
+    const trimmedToken = token.trim()
     const res = await fetch(`${GITHUB_API}/user`, {
       headers: {
-        Authorization: `token ${token}`,
+        Authorization: `token ${trimmedToken}`,
         Accept: 'application/vnd.github.v3+json',
       },
     })
@@ -275,8 +276,8 @@ export async function autoUploadOnFinish(): Promise<{ success: boolean; error?: 
     return { success: false }
   }
 
-  const token = localStorage.getItem('qwerty-learner-cloud-token')
-  const gistId = localStorage.getItem('qwerty-learner-cloud-gist-id')
+  const token = localStorage.getItem('qwerty-learner-cloud-token')?.trim()
+  const gistId = localStorage.getItem('qwerty-learner-cloud-gist-id')?.trim()
   if (!token || !gistId) {
     return { success: false, error: '未配置 Token 或 Gist ID' }
   }

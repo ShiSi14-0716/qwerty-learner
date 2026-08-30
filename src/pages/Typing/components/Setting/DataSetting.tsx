@@ -36,8 +36,8 @@ export default function DataSetting() {
     const savedLastSync = localStorage.getItem(CLOUD_LAST_SYNC_KEY)
     const savedAutoSync = localStorage.getItem(AUTO_SYNC_KEY)
     const savedAutoUpload = localStorage.getItem(AUTO_UPLOAD_KEY)
-    if (savedToken) setCloudToken(savedToken)
-    if (savedGistId) setCloudGistId(savedGistId)
+    if (savedToken) setCloudToken(savedToken.trim())
+    if (savedGistId) setCloudGistId(savedGistId.trim())
     if (savedLastSync) setLastSyncTime(savedLastSync)
     if (savedAutoSync === 'true') setAutoSync(true)
     if (savedAutoUpload === 'true') setAutoUpload(true)
@@ -96,16 +96,18 @@ export default function DataSetting() {
     importDatabase(onStartImport, importProgressCallback)
   }, [importProgressCallback, onStartImport])
 
-  // 保存 Token 到 localStorage
+  // 保存 Token 到 localStorage（自动去除首尾空格和换行）
   const handleTokenChange = (value: string) => {
-    setCloudToken(value)
-    localStorage.setItem(CLOUD_TOKEN_KEY, value)
+    const trimmed = value.trim()
+    setCloudToken(trimmed)
+    localStorage.setItem(CLOUD_TOKEN_KEY, trimmed)
   }
 
-  // 保存 Gist ID 到 localStorage
+  // 保存 Gist ID 到 localStorage（自动去除首尾空格和换行）
   const handleGistIdChange = (value: string) => {
-    setCloudGistId(value)
-    localStorage.setItem(CLOUD_GIST_ID_KEY, value)
+    const trimmed = value.trim()
+    setCloudGistId(trimmed)
+    localStorage.setItem(CLOUD_GIST_ID_KEY, trimmed)
   }
 
   // 上传到云端
