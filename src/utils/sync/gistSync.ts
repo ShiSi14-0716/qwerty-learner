@@ -1,5 +1,4 @@
 import { db } from '@/utils/db'
-import 'dexie-export-import'
 
 const GIST_FILENAME = 'qwerty-learner-sync.json'
 const GIST_DESCRIPTION = 'Qwerty Learner Cloud Sync Data'
@@ -24,8 +23,10 @@ const GITHUB_API = 'https://api.github.com'
  * 导出全部数据（IndexedDB + localStorage）为 JSON 对象
  */
 export async function exportAllData(): Promise<SyncData> {
+  // 动态导入 dexie-export-import（代码分割到单独 chunk，需确保加载完成）
+  const { exportDB } = await import('dexie-export-import')
   // 导出 IndexedDB
-  const blob = await db.export()
+  const blob = await exportDB(db)
   const indexedDBJson = JSON.parse(await blob.text())
 
   // 导出 localStorage
@@ -49,10 +50,12 @@ export async function exportAllData(): Promise<SyncData> {
  * 导入全部数据到本地（IndexedDB + localStorage）
  */
 export async function importAllData(data: SyncData): Promise<void> {
+  // 动态导入 dexie-export-import
+  const { importInto } = await import('dexie-export-import')
   // 导入 IndexedDB
   const json = JSON.stringify(data.indexedDB)
   const blob = new Blob([json], { type: 'application/json' })
-  await db.import(blob, {
+  await importInto(db, blob, {
     acceptVersionDiff: true,
     acceptMissingTables: true,
     acceptNameDiff: false,
