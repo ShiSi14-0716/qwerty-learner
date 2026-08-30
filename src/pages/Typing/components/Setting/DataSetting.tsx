@@ -9,6 +9,7 @@ import { useCallback, useEffect, useState } from 'react'
 const CLOUD_TOKEN_KEY = 'qwerty-learner-cloud-token'
 const CLOUD_GIST_ID_KEY = 'qwerty-learner-cloud-gist-id'
 const CLOUD_LAST_SYNC_KEY = 'qwerty-learner-cloud-last-sync'
+const AUTO_SYNC_KEY = 'qwerty-learner-auto-sync'
 
 export default function DataSetting() {
   const [isExporting, setIsExporting] = useState(false)
@@ -25,16 +26,25 @@ export default function DataSetting() {
   const [syncMessage, setSyncMessage] = useState('')
   const [syncError, setSyncError] = useState('')
   const [lastSyncTime, setLastSyncTime] = useState('')
+  const [autoSync, setAutoSync] = useState(false)
 
   // 从 localStorage 加载已保存的 Token 和 Gist ID
   useEffect(() => {
     const savedToken = localStorage.getItem(CLOUD_TOKEN_KEY)
     const savedGistId = localStorage.getItem(CLOUD_GIST_ID_KEY)
     const savedLastSync = localStorage.getItem(CLOUD_LAST_SYNC_KEY)
+    const savedAutoSync = localStorage.getItem(AUTO_SYNC_KEY)
     if (savedToken) setCloudToken(savedToken)
     if (savedGistId) setCloudGistId(savedGistId)
     if (savedLastSync) setLastSyncTime(savedLastSync)
+    if (savedAutoSync === 'true') setAutoSync(true)
   }, [])
+
+  // 切换自动同步
+  const handleAutoSyncToggle = (checked: boolean) => {
+    setAutoSync(checked)
+    localStorage.setItem(AUTO_SYNC_KEY, checked ? 'true' : 'false')
+  }
 
   const exportProgressCallback = useCallback(({ totalRows, completedRows, done }: ExportProgress) => {
     if (done) {
@@ -246,6 +256,25 @@ export default function DataSetting() {
             </span>
 
             {lastSyncTime && <span className="pl-4 text-xs text-gray-500">最后同步时间：{lastSyncTime}</span>}
+
+            {/* 自动同步开关 */}
+            <div className="flex w-full items-center justify-between pl-4">
+              <div className="flex flex-col">
+                <span className="text-sm font-medium text-gray-600">启动时自动同步</span>
+                <span className="text-xs text-gray-400">每次打开页面自动从云端下载最新数据（云端比本地新时才下载）</span>
+              </div>
+              <button
+                type="button"
+                onClick={() => handleAutoSyncToggle(!autoSync)}
+                className={`relative h-6 w-11 rounded-full transition-colors duration-200 ${autoSync ? 'bg-indigo-500' : 'bg-gray-300'}`}
+              >
+                <span
+                  className={`absolute top-0.5 h-5 w-5 rounded-full bg-white shadow transition-transform duration-200 ${
+                    autoSync ? 'translate-x-5' : 'translate-x-0.5'
+                  }`}
+                />
+              </button>
+            </div>
 
             {/* Token 输入 */}
             <div className="flex w-full flex-col gap-2 pl-4">

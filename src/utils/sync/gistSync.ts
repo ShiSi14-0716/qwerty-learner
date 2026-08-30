@@ -214,3 +214,46 @@ export async function downloadFromCloud(token: string, gistId: string): Promise<
     }
   }
 }
+
+/**
+ * 获取云端数据的同步时间
+ */
+export async function getCloudSyncTime(token: string, gistId: string): Promise<number | null> {
+  try {
+    const data = await getGistData(token, gistId)
+    return data.syncTime ?? null
+  } catch {
+    return null
+  }
+}
+
+/**
+ * 启动时自动同步：比较云端和本地的 syncTime，云端更新则下载导入
+ * 返回是否执行了下载导入
+ */
+export async function autoSyncOnLoad(token: string, gistId: string): Promise<{ updated: boolean; error?: string }> {
+  try {
+    const cloudTime = await getCloudSyncTime(token, gistId)
+    if (cloudTime === null) {
+      return { updated: false, error: '无法获取云端数据' }
+    }
+
+    const localTimeStr = localStorage.getItem('qwerty-learner-cloud-last-sync')
+    const localTime = localTimeStr ? new Date(localTimeStr).getTime() : 0
+
+    if (cloudTime > localTime) {
+      const result = await downloadFromCloud(token, gistId)
+      if (result.success) {
+        return { updated: true }
+      }
+      return { updated: false, error: result.error }
+    }
+
+    return { updated: false }
+  } catch (error) {
+    return {
+      updated: false,
+      error: error instanceof Error ? error.message : String(error),
+    }
+  }
+}

@@ -5,6 +5,7 @@ import { FriendLinks } from './pages/FriendLinks'
 import MobilePage from './pages/Mobile'
 import TypingPage from './pages/Typing'
 import { isOpenDarkModeAtom } from '@/store'
+import { autoSyncOnLoad } from '@/utils/sync/gistSync'
 import { Analytics } from '@vercel/analytics/react'
 import 'animate.css'
 import { useAtomValue } from 'jotai'
@@ -53,6 +54,28 @@ function App() {
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
   }, [navigate])
+
+  // 启动时自动从云端同步最新数据
+  useEffect(() => {
+    const autoSync = localStorage.getItem('qwerty-learner-auto-sync') === 'true'
+    if (!autoSync) return
+
+    // 用 sessionStorage 防止刷新后重复同步
+    if (sessionStorage.getItem('qwerty-learner-sync-done')) return
+
+    const token = localStorage.getItem('qwerty-learner-cloud-token')
+    const gistId = localStorage.getItem('qwerty-learner-cloud-gist-id')
+    if (!token || !gistId) return
+
+    sessionStorage.setItem('qwerty-learner-sync-done', '1')
+
+    autoSyncOnLoad(token, gistId).then((result) => {
+      if (result.updated) {
+        // 云端数据更新，刷新页面加载新数据
+        window.location.reload()
+      }
+    })
+  }, [])
 
   return (
     <Suspense fallback={<Loading />}>
