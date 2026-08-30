@@ -1,7 +1,7 @@
 import styles from './index.module.css'
 import type { ExportProgress, ImportProgress } from '@/utils/db/data-export'
 import { exportDatabase, importDatabase } from '@/utils/db/data-export'
-import { downloadFromCloud, uploadToCloud, validateToken, AUTO_UPLOAD_KEY } from '@/utils/sync/gistSync'
+import { AUTO_UPLOAD_KEY, downloadFromCloud, uploadToCloud, validateToken } from '@/utils/sync/gistSync'
 import * as Progress from '@radix-ui/react-progress'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { useCallback, useEffect, useState } from 'react'

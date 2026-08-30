@@ -1,4 +1,5 @@
 import { db } from '@/utils/db'
+import 'dexie-export-import'
 
 const GIST_FILENAME = 'qwerty-learner-sync.json'
 const GIST_DESCRIPTION = 'Qwerty Learner Cloud Sync Data'
