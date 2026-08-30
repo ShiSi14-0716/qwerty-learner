@@ -17,7 +17,8 @@ export function generateWordSoundSrc(word: string, pronunciation: Exclude<Pronun
     case 'us':
       return `${pronunciationApi}${word}&type=2`
     case 'romaji':
-      return `${pronunciationApi}${romajiToHiragana(word)}&le=jap`
+      // 传入的已经是从 notation 提取的假名，直接请求有道发音
+      return `${pronunciationApi}${word}&le=jap`
     case 'zh':
       return `${pronunciationApi}${word}&le=zh`
     case 'ja':
