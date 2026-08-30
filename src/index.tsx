@@ -49,7 +49,7 @@ function Root() {
 
   return (
     <React.StrictMode>
-      <BrowserRouter basename={VITE_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
+      <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
         <Suspense fallback={<Loading />}>
           <Routes>
             {isMobile ? (

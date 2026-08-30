@@ -26,10 +26,9 @@ jobs:
       - name: Build page
         run: yarn build
 
-      # 自动修复SPA刷新404 + 关闭Jekyll解析
+      # 关闭Jekyll解析（404.html 由 Vite 自动从 public/404.html 复制，含 SPA 重定向逻辑）
       - name: Fix SPA 404
         run: |
-          cp dist/index.html dist/404.html
           touch dist/.nojekyll
 
       - name: Deploy to gh-pages

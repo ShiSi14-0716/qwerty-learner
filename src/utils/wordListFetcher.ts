@@ -1,9 +1,8 @@
 import type { Word } from '@/typings'
 
 export async function wordListFetcher(url: string): Promise<Word[]> {
-  const URL_PREFIX: string = VITE_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''
-
-  const response = await fetch(URL_PREFIX + url)
+  // url 已在 dictionary.ts 中通过 import.meta.env.BASE_URL 拼接完整路径，此处直接请求
+  const response = await fetch(url)
   const words: Word[] = await response.json()
   return words
 }

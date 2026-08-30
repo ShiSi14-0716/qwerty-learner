@@ -4088,73 +4088,6 @@ const japaneseExam: DictionaryResource[] = [
   },
 ]
 
-// 德语词典
-const germanExam: DictionaryResource[] = [
-  {
-    id: 'german2en',
-    name: '德语 英译',
-    description: '德语词汇, 英语翻译',
-    category: '德语学习',
-    tags: ['基础'],
-    url: import.meta.env.BASE_URL + 'dicts/german2en.json',
-    length: 5892,
-    language: 'de',
-    languageCategory: 'de',
-  },
-  {
-    id: 'en2german',
-    name: '英语 德译',
-    description: '英语词汇，德语翻译',
-    category: '德语学习',
-    tags: ['基础'],
-    url: import.meta.env.BASE_URL + 'dicts/en2german.json',
-    length: 5025,
-    language: 'en',
-    languageCategory: 'de',
-  },
-]
-
-// 哈萨克语哈拼词典
-const kazakhHapinDicts: DictionaryResource[] = [
-  {
-    id: 'kazakh_basic_3000_arabic_hapin',
-    name: '基础3000词(老文字版)',
-    description: '哈萨克语基础3000词(哈拼老文字版)',
-    category: '哈萨克语',
-    tags: ['老文字', '哈拼'],
-    url: import.meta.env.BASE_URL + 'dicts/kazakh_basic_3000_arabic_hapin.json',
-    length: 3002,
-    language: 'hapin',
-    languageCategory: 'kk',
-  },
-  {
-    id: 'kazakh_basic_3000_cyrillic_hapin',
-    name: '基础3000词(西里尔字母版)',
-    description: '哈萨克语基础3000词(哈拼西里尔字母版)',
-    category: '哈萨克语',
-    tags: ['西里尔字母', '哈拼'],
-    url: import.meta.env.BASE_URL + 'dicts/kazakh_basic_3000_cyrillic_hapin.json',
-    length: 3002,
-    language: 'hapin',
-    languageCategory: 'kk',
-  },
-]
-
-//印尼语高频词汇
-const indonesianDicts: DictionaryResource[] = [
-  {
-    id: 'indonesian_highFrequency_3043',
-    name: '印尼语高频词汇',
-    description: '印尼语常用单词及中文解释',
-    category: '印尼语',
-    tags: ['基础'],
-    url: import.meta.env.BASE_URL + 'dicts/Indonesian.json',
-    length: 3037,
-    language: 'id',
-    languageCategory: 'id',
-  },
-]
-
 /**
  * Built-in dictionaries in an array.
  * Why arrays? Because it keeps the order across browsers.
@@ -4165,9 +4098,6 @@ export const dictionaryResources: DictionaryResource[] = [
   ...childrenEnglish,
   ...programming,
   ...japaneseExam,
-  ...germanExam,
-  ...kazakhHapinDicts,
-  ...indonesianDicts,
 
   // {
   //   id: 'zhtest',
