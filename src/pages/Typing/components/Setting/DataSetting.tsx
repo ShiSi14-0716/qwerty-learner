@@ -110,6 +110,31 @@ export default function DataSetting() {
     localStorage.setItem(CLOUD_GIST_ID_KEY, trimmed)
   }
 
+  // 从剪贴板粘贴 Token（解决平板浏览器无法长按粘贴的问题）
+  const handlePasteToken = async () => {
+    try {
+      const text = await navigator.clipboard.readText()
+      if (text) {
+        handleTokenChange(text)
+      }
+    } catch {
+      // 剪贴板 API 不可用时，提示用户手动输入
+      alert('无法读取剪贴板，请手动输入 Token，或先点击「显示」按钮后再尝试长按粘贴')
+    }
+  }
+
+  // 从剪贴板粘贴 Gist ID
+  const handlePasteGistId = async () => {
+    try {
+      const text = await navigator.clipboard.readText()
+      if (text) {
+        handleGistIdChange(text)
+      }
+    } catch {
+      alert('无法读取剪贴板，请手动输入 Gist ID')
+    }
+  }
+
   // 上传到云端
   const handleUpload = async () => {
     if (!cloudToken) {
@@ -320,6 +345,13 @@ export default function DataSetting() {
                 />
                 <button
                   type="button"
+                  onClick={handlePasteToken}
+                  className="rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-100 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
+                >
+                  粘贴
+                </button>
+                <button
+                  type="button"
                   onClick={() => setShowToken(!showToken)}
                   className="rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-100 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
                 >
@@ -339,14 +371,23 @@ export default function DataSetting() {
             {/* Gist ID 输入 */}
             <div className="flex w-full flex-col gap-2 pl-4">
               <label className="text-sm font-medium text-gray-600">Gist ID（首次上传后自动填充，换设备时填写）</label>
-              <input
-                type="text"
-                value={cloudGistId}
-                onChange={(e) => handleGistIdChange(e.target.value)}
-                placeholder="留空则创建新 Gist"
-                className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white"
-                autoComplete="off"
-              />
+              <div className="flex w-full items-center gap-2">
+                <input
+                  type="text"
+                  value={cloudGistId}
+                  onChange={(e) => handleGistIdChange(e.target.value)}
+                  placeholder="留空则创建新 Gist"
+                  className="flex-1 rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+                  autoComplete="off"
+                />
+                <button
+                  type="button"
+                  onClick={handlePasteGistId}
+                  className="rounded-lg border border-gray-300 px-3 py-2 text-sm text-gray-600 hover:bg-gray-100 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
+                >
+                  粘贴
+                </button>
+              </div>
             </div>
 
             {/* 同步状态 */}
