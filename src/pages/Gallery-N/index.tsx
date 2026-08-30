@@ -5,10 +5,10 @@ import Layout from '@/components/Layout'
 import { dictionaries } from '@/resources/dictionary'
 import { currentDictInfoAtom } from '@/store'
 import type { Dictionary, LanguageCategoryType } from '@/typings'
-import groupBy, { groupByDictTags } from '@/utils/groupBy'
+import groupBy from '@/utils/groupBy'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { useAtomValue } from 'jotai'
-import { createContext, useCallback, useEffect, useMemo } from 'react'
+import { createContext, useCallback, useEffect, useMemo, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useNavigate } from 'react-router-dom'
 import type { Updater } from 'use-immer'
@@ -31,20 +31,23 @@ export const GalleryContext = createContext<{
 
 export default function GalleryPage() {
   const [galleryState, setGalleryState] = useImmer<GalleryState>(initialGalleryState)
+  const [currentCategory, setCurrentCategory] = useState('')
   const navigate = useNavigate()
   const currentDictInfo = useAtomValue(currentDictInfoAtom)
 
-  const { groupedByCategoryAndTag } = useMemo(() => {
+  const { categoryList, groupedByCategory } = useMemo(() => {
     const currentLanguageCategoryDicts = dictionaries.filter((dict) => dict.languageCategory === galleryState.currentLanguageTab)
-    const groupedByCategory = Object.entries(groupBy(currentLanguageCategoryDicts, (dict) => dict.category))
-    const groupedByCategoryAndTag = groupedByCategory.map(
-      ([category, dicts]) => [category, groupByDictTags(dicts)] as [string, Record<string, Dictionary[]>],
-    )
-
-    return {
-      groupedByCategoryAndTag,
-    }
+    const grouped = groupBy(currentLanguageCategoryDicts, (dict) => dict.category)
+    const categories = Object.keys(grouped)
+    return { categoryList: categories, groupedByCategory: grouped }
   }, [galleryState.currentLanguageTab])
+
+  // 语言切换或分类变化时，默认选中第一个分类
+  useEffect(() => {
+    if (categoryList.length > 0 && !categoryList.includes(currentCategory)) {
+      setCurrentCategory(categoryList[0])
+    }
+  }, [categoryList, currentCategory])
 
   const onBack = useCallback(() => {
     navigate('/')
@@ -71,12 +74,32 @@ export default function GalleryPage() {
                 <LanguageTabSwitcher />
                 <DictRequest />
               </div>
+              {/* 分类标签栏：N1 / N2 / N3 / N4-N5 等 */}
+              {categoryList.length > 1 && (
+                <div className="mb-6 flex items-center space-x-3 overflow-x-auto pb-2">
+                  {categoryList.map((category) => (
+                    <button
+                      key={category}
+                      onClick={() => setCurrentCategory(category)}
+                      className={`cursor-pointer whitespace-nowrap rounded-[3rem] px-5 py-2 text-base font-medium transition-colors ${
+                        currentCategory === category
+                          ? 'bg-indigo-400 text-white'
+                          : 'bg-white text-gray-600 hover:bg-indigo-100 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      {category}
+                    </button>
+                  ))}
+                </div>
+              )}
               <ScrollArea.Root className="flex-1 overflow-y-auto">
                 <ScrollArea.Viewport className="h-full w-full ">
-                  <div className="mr-4 flex flex-1 flex-col items-start justify-start gap-14 overflow-y-auto">
-                    {groupedByCategoryAndTag.map(([category, groupeByTag]) => (
-                      <DictionaryGroup key={category} groupedDictsByTag={groupeByTag} />
-                    ))}
+                  <div className="mr-4 flex flex-1 flex-col items-start justify-start overflow-y-auto">
+                    {currentCategory && groupedByCategory[currentCategory] ? (
+                      <DictionaryGroup key={currentCategory} dicts={groupedByCategory[currentCategory]} />
+                    ) : (
+                      <div className="w-full py-20 text-center text-gray-500">当前分类下没有可用的词典</div>
+                    )}
                   </div>
                   <div className="flex items-center justify-center pb-10 pt-[20rem] text-gray-500">
                     <IconInfo className="mr-1 h-5 w-5" />
