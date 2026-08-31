@@ -38,7 +38,11 @@ export default function DataSetting() {
     const savedAutoUpload = localStorage.getItem(AUTO_UPLOAD_KEY)
     if (savedToken) setCloudToken(savedToken.trim())
     if (savedGistId) setCloudGistId(savedGistId.trim())
-    if (savedLastSync) setLastSyncTime(savedLastSync)
+    if (savedLastSync) {
+      // 兼容数字时间戳（新）和日期字符串（旧）
+      const parsed = Number(savedLastSync)
+      setLastSyncTime(Number.isFinite(parsed) && parsed > 0 ? new Date(parsed).toLocaleString('zh-CN') : savedLastSync)
+    }
     if (savedAutoSync === 'true') setAutoSync(true)
     if (savedAutoUpload === 'true') setAutoUpload(true)
   }, [])
@@ -162,9 +166,9 @@ export default function DataSetting() {
       if (!cloudGistId) {
         handleGistIdChange(result.gistId)
       }
-      const timeStr = new Date().toLocaleString('zh-CN')
-      setLastSyncTime(timeStr)
-      localStorage.setItem(CLOUD_LAST_SYNC_KEY, timeStr)
+      const now = Date.now()
+      setLastSyncTime(new Date(now).toLocaleString('zh-CN'))
+      localStorage.setItem(CLOUD_LAST_SYNC_KEY, String(now))
       setSyncMessage(`上传成功！Gist ID: ${result.gistId}`)
       setTimeout(() => setSyncMessage(''), 5000)
     } else {
@@ -203,9 +207,9 @@ export default function DataSetting() {
 
     setIsSyncing(false)
     if (result.success) {
-      const timeStr = new Date().toLocaleString('zh-CN')
-      setLastSyncTime(timeStr)
-      localStorage.setItem(CLOUD_LAST_SYNC_KEY, timeStr)
+      const now = Date.now()
+      setLastSyncTime(new Date(now).toLocaleString('zh-CN'))
+      localStorage.setItem(CLOUD_LAST_SYNC_KEY, String(now))
       setSyncMessage('下载成功！页面将在 2 秒后刷新以加载新数据')
       setTimeout(() => window.location.reload(), 2000)
     } else {
