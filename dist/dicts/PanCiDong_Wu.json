@@ -30,28 +30,28 @@
     {
         "name": "nanntonaku",
         "trans": [
-            "⓪ 副  总觉得；无意中"
+            "④ 副  总觉得；不由得"
         ],
         "notation": "何と無く(なんとなく)"
     },
     {
         "name": "mamonaku",
         "trans": [
-            "⓪ 副  不久，一会儿"
+            "② 副  不久，一会儿"
         ],
         "notation": "間も無く(まもなく)"
     },
     {
         "name": "mottainai",
         "trans": [
-            "⑤ イ形  可惜；不胜感激"
+            "⑤ イ形  可惜；浪费"
         ],
         "notation": "勿体無い(もったいない)"
     },
     {
         "name": "itutonaku",
         "trans": [
-            "⓪ 副  不知不觉；永远"
+            "④ 副  不知不觉"
         ],
         "notation": "何時と無く(いつとなく)"
     },
@@ -79,16 +79,58 @@
     {
         "name": "hikkirinasini",
         "trans": [
-            "⓪ 副  接连不断"
+            "⑤ 副  接连不断"
         ],
         "notation": "引っ切り無しに(ひっきりなしに)"
     },
     {
+        "name": "buji",
+        "trans": [
+            "⓪ 名·ナ形  平安，无事"
+        ],
+        "notation": "無事(ぶじ)"
+    },
+    {
+        "name": "gobusata",
+        "trans": [
+            "⓪ 名  久未联系；久疏问候"
+        ],
+        "notation": "ご無沙汰(ごぶさた)"
+    },
+    {
+        "name": "burei",
+        "trans": [
+            "② 名·ナ形  无礼，失礼"
+        ],
+        "notation": "無礼(ぶれい)"
+    },
+    {
+        "name": "buaisou",
+        "trans": [
+            "② 名·ナ形  冷淡，不客气"
+        ],
+        "notation": "無愛想(ぶあいそう)"
+    },
+    {
+        "name": "buennryo",
+        "trans": [
+            "② 名·ナ形  不客气，直率"
+        ],
+        "notation": "無遠慮(ぶえんりょ)"
+    },
+    {
         "name": "bunann",
         "trans": [
-            "⓪ 名·ナ形  平安，稳妥"
+            "① 名·ナ形  无可非议，稳妥"
         ],
         "notation": "無難(ぶなん)"
+    },
+    {
+        "name": "bureikou",
+        "trans": [
+            "⓪ 名  开怀畅饮"
+        ],
+        "notation": "無礼講(ぶれいこう)"
     },
     {
         "name": "muda",
@@ -121,7 +163,7 @@
     {
         "name": "muji",
         "trans": [
-            "① 名  素色；清白"
+            "① 名  素色；无花纹"
         ],
         "notation": "無地(むじ)"
     },
@@ -135,7 +177,7 @@
     {
         "name": "mudadukai",
         "trans": [
-            "⓪ 名·他动3  浪费，挥霍"
+            "③ 名·他动3  浪费，挥霍"
         ],
         "notation": "無駄遣い(むだづかい)"
     },
@@ -156,16 +198,23 @@
     {
         "name": "kaimu",
         "trans": [
-            "⓪ 名  完全没有"
+            "① 名·ナ形  毫无，全无"
         ],
         "notation": "皆無(かいむ)"
     },
     {
         "name": "mu",
         "trans": [
-            "① 名  无；徒劳"
+            "① 名  无，没有"
         ],
         "notation": "無(む)"
+    },
+    {
+        "name": "mu~",
+        "trans": [
+            "① 接頭  无，没有（接名词）"
+        ],
+        "notation": "無～(む～)"
     },
     {
         "name": "muisiki",
@@ -184,7 +233,7 @@
     {
         "name": "muimi",
         "trans": [
-            "② 名·ナ形  无意义，无聊"
+            "② 名·ナ形  无意义"
         ],
         "notation": "無意味(むいみ)"
     },
@@ -203,58 +252,72 @@
         "notation": "無限(むげん)"
     },
     {
+        "name": "muji",
+        "trans": [
+            "① 名  素色；无花纹"
+        ],
+        "notation": "無地(むじ)"
+    },
+    {
         "name": "mujaki",
         "trans": [
-            "② 名·ナ形  天真，单纯"
+            "① 名·ナ形  天真，单纯"
         ],
         "notation": "無邪気(むじゃき)"
     },
     {
         "name": "musinnkei",
         "trans": [
-            "② 名·ナ形  感觉迟钝；满不在乎"
+            "② 名·ナ形  神经大条；满不在乎"
         ],
         "notation": "無神経(むしんけい)"
     },
     {
         "name": "musuu",
         "trans": [
-            "① 名·ナ形  无数"
+            "② 名·ナ形  无数"
         ],
         "notation": "無数(むすう)"
     },
     {
         "name": "mudann",
         "trans": [
-            "⓪ 名  擅自"
+            "⓪ 名  擅自，未经许可"
         ],
         "notation": "無断(むだん)"
     },
     {
         "name": "muyou",
         "trans": [
-            "⓪ 名·ナ形  无用；没事"
+            "⓪ 名·ナ形  无用；不用"
         ],
         "notation": "無用(むよう)"
     },
     {
         "name": "muriyari",
         "trans": [
-            "① 副  硬，强迫"
+            "① 副  硬来，强迫"
         ],
         "notation": "無理矢理(むりやり)"
     },
     {
+        "name": "kaimu",
+        "trans": [
+            "① 名·ナ形  毫无，全无"
+        ],
+        "notation": "皆無(かいむ)"
+    },
+    {
         "name": "kannmuryou",
         "trans": [
-            "⓪ 名  感慨万千"
+            "① 名  感慨万千"
         ],
         "notation": "感無量(かんむりょう)"
     },
     {
         "name": "mukiryoku",
         "trans": [
-            "② 名·ナ形  没精神，无力"
+            "② 名·ナ形  没精神，乏力"
         ],
         "notation": "無気力(むきりょく)"
     },
@@ -282,35 +345,35 @@
     {
         "name": "muzann",
         "trans": [
-            "⓪ 名·ナ形  残酷；凄惨"
+            "① 名·ナ形  悲惨；残酷"
         ],
         "notation": "無残(むざん)"
     },
     {
         "name": "mujitu",
         "trans": [
-            "① 名  冤枉，无辜"
+            "① 名  无根据；冤枉"
         ],
         "notation": "無実(むじつ)"
     },
     {
         "name": "mutya",
         "trans": [
-            "⓪ 名·ナ形  蛮横；过分"
+            "① 名·ナ形  没道理；蛮横"
         ],
         "notation": "無茶(むちゃ)"
     },
     {
         "name": "mutyakutya",
         "trans": [
-            "⓪ 名·ナ形  乱七八糟；非常"
+            "⓪ 名·ナ形  没道理；乱七八糟"
         ],
         "notation": "無茶苦茶(むちゃくちゃ)"
     },
     {
         "name": "munenn",
         "trans": [
-            "⓪ 名  遗憾；万念俱空"
+            "① 名  遗憾；万念俱空"
         ],
         "notation": "無念(むねん)"
     },
@@ -338,7 +401,7 @@
     {
         "name": "muronn",
         "trans": [
-            "⓪ 副  当然"
+            "⓪ 副  当然，不用说"
         ],
         "notation": "無論(むろん)"
     }

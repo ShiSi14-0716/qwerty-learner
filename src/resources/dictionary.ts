@@ -4053,7 +4053,7 @@ const panCiDong: DictionaryResource[] = [
     category: '盘词洞',
     tags: ['盘词洞', '無'],
     url: import.meta.env.BASE_URL + 'dicts/PanCiDong_Wu.json',
-    length: 47,
+    length: 58,
     language: 'romaji',
     languageCategory: 'ja',
   },
