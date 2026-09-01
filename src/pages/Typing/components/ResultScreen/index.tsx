@@ -19,7 +19,6 @@ import { useCallback, useContext, useEffect, useMemo } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useNavigate } from 'react-router-dom'
 import IexportWords from '~icons/icon-park-outline/excel'
-import IconGithub from '~icons/simple-icons/github'
 import IconX from '~icons/tabler/x'
 
 const ResultScreen = () => {
@@ -232,10 +231,6 @@ const ResultScreen = () => {
                     <IexportWords fontSize={18} className="cursor-pointer text-gray-500" onClick={exportWords}></IexportWords>
                   </>
                 )}
-
-                <a href="https://github.com/Kaiyiwing/qwerty-learner" target="_blank" rel="noreferrer" className="leading-[0px]">
-                  <IconGithub fontSize={16} className="text-gray-500 hover:text-green-800 focus:outline-none" />
-                </a>
               </div>
             </div>
             <div className="mt-10 flex w-full justify-center gap-5 px-5 text-xl">
