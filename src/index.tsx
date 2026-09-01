@@ -1,7 +1,6 @@
 import Loading from './components/Loading'
 import './index.css'
 import { ErrorBook } from './pages/ErrorBook'
-import { FriendLinks } from './pages/FriendLinks'
 import MobilePage from './pages/Mobile'
 import TypingPage from './pages/Typing'
 import { isOpenDarkModeAtom } from '@/store'
@@ -88,7 +87,6 @@ function App() {
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/analysis" element={<AnalysisPage />} />
             <Route path="/error-book" element={<ErrorBook />} />
-            <Route path="/friend-links" element={<FriendLinks />} />
             <Route path="/*" element={<Navigate to="/" />} />
           </>
         )}

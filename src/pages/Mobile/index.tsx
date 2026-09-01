@@ -75,7 +75,7 @@ const MobilePage: React.FC = () => {
           </div>
         </div>
         <a
-          href="https://qwerty.kaiyi.cool/"
+          href="https://shisi14-0716.github.io/qwerty-learner/"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden items-center gap-2 rounded-xl bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg md:flex"
@@ -91,7 +91,7 @@ const MobilePage: React.FC = () => {
           </svg>
         </a>
         <a
-          href="https://qwerty.kaiyi.cool/"
+          href="https://shisi14-0716.github.io/qwerty-learner/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1 rounded-xl bg-gray-900 px-4 py-2.5 text-sm text-white transition-all duration-200 hover:bg-gray-800 md:hidden"
@@ -113,7 +113,7 @@ const MobilePage: React.FC = () => {
         <div className="mx-auto max-w-7xl">
           <ol className="flex items-center space-x-2 text-sm text-gray-500" itemScope itemType="https://schema.org/BreadcrumbList">
             <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <a href="https://qwerty.kaiyi.cool/" className="transition-colors hover:text-indigo-600" itemProp="item">
+              <a href="https://shisi14-0716.github.io/qwerty-learner/" className="transition-colors hover:text-indigo-600" itemProp="item">
                 <span itemProp="name">首页</span>
               </a>
               <meta itemProp="position" content="1" />
@@ -180,7 +180,7 @@ const MobilePage: React.FC = () => {
 
             {/* CTA按钮 */}
             <a
-              href="https://qwerty.kaiyi.cool/"
+              href="https://shisi14-0716.github.io/qwerty-learner/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-full bg-gray-900 px-10 py-5 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-gray-800 hover:shadow-2xl"
@@ -245,7 +245,7 @@ const MobilePage: React.FC = () => {
               <meta itemProp="price" content="0" />
               <meta itemProp="priceCurrency" content="USD" />
               <meta itemProp="availability" content="https://schema.org/InStock" />
-              <meta itemProp="url" content="https://qwerty.kaiyi.cool/" />
+              <meta itemProp="url" content="https://shisi14-0716.github.io/qwerty-learner/" />
             </div>
 
             {/* Aggregate Rating */}
@@ -460,7 +460,7 @@ const MobilePage: React.FC = () => {
                   </div>
                   <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">多平台无缝体验</h3>
                   <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    支持网页版和 VSCode 插件版本，随时随地开始练习。还提供了便捷的快速部署方案，满足不同用户的使用需求。
+                    支持网页版在线练习，随时随地开始学习，进度云端同步，多端无缝衔接。
                   </p>
                 </div>
               </div>
@@ -681,7 +681,7 @@ const MobilePage: React.FC = () => {
                 </p>
               </div>
               <a
-                href="https://qwerty.kaiyi.cool/"
+                href="https://shisi14-0716.github.io/qwerty-learner/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
@@ -823,12 +823,12 @@ const MobilePage: React.FC = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                      d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm12 4h2a2 2 0 012 2v12a2 2 0 01-2 2h-8a2 2 0 01-2-2v-2"
                     />
                   </svg>
                 </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">VSCode 插件</h4>
-                <p className="text-gray-300">支持 VSCode 插件版本，随时在开发环境中练习</p>
+                <h4 className="mb-3 text-xl font-semibold text-white">云端同步</h4>
+                <p className="text-gray-300">学习进度云端保存，多设备之间自动同步</p>
               </div>
             </div>
 
@@ -841,26 +841,13 @@ const MobilePage: React.FC = () => {
               </div>
               <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                 <a
-                  href="https://qwerty.kaiyi.cool/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/qwerty-learner/"
                   className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
                 >
-                  <span>体验程序员专属功能</span>
+                  <span>立即开始练习</span>
                   <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
-                </a>
-                <a
-                  href="https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full border border-gray-600 bg-gray-800 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-gray-700"
-                >
-                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z" />
-                  </svg>
-                  <span>安装 VSCode 插件</span>
                 </a>
               </div>
             </div>
@@ -1080,7 +1067,7 @@ const MobilePage: React.FC = () => {
                 </p>
               </div>
               <a
-                href="https://qwerty.kaiyi.cool/"
+                href="https://shisi14-0716.github.io/qwerty-learner/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
@@ -1117,7 +1104,7 @@ const MobilePage: React.FC = () => {
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row">
               <a
-                href="https://qwerty.kaiyi.cool/"
+                href="https://shisi14-0716.github.io/qwerty-learner/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:shadow-3xl group relative overflow-hidden rounded-full bg-white px-12 py-5 text-xl font-semibold text-gray-900 shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-105"

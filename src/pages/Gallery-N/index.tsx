@@ -1,5 +1,4 @@
 import DictionaryGroup from './CategoryDicts'
-import DictRequest from './DictRequest'
 import { LanguageTabSwitcher } from './LanguageTabSwitcher'
 import Layout from '@/components/Layout'
 import { dictionaries } from '@/resources/dictionary'
@@ -72,7 +71,6 @@ export default function GalleryPage() {
             <div className="flex h-full flex-col overflow-y-auto">
               <div className="flex h-20 w-full items-center justify-between pb-6 pr-20">
                 <LanguageTabSwitcher />
-                <DictRequest />
               </div>
               {/* 分类标签栏：N1 / N2 / N3 / N4-N5 等 */}
               {categoryList.length > 1 && (
