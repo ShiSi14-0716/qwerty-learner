@@ -3,7 +3,15 @@ import { reviewInfoAtom } from './reviewInfoAtom'
 import { DISMISS_START_CARD_DATE_KEY, defaultFontSizeConfig } from '@/constants'
 import { idDictionaryMap } from '@/resources/dictionary'
 import { correctSoundResources, keySoundResources, wrongSoundResources } from '@/resources/soundResource'
-import type { Dictionary, LoopWordTimesOption, PhoneticType, PronunciationType, WordDictationOpenBy, WordDictationType } from '@/typings'
+import type {
+  Dictionary,
+  LoopWordTimesOption,
+  PhoneticType,
+  PronunciationType,
+  WordDictationOpenBy,
+  WordDictationType,
+  WordDisplayConfig,
+} from '@/typings'
 import type { ReviewRecord } from '@/utils/db/record'
 import { atom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
@@ -93,6 +101,12 @@ export const wordDictationConfigAtom = atomForConfig('wordDictationConfig', {
   isOpen: false,
   type: 'hideAll' as WordDictationType,
   openBy: 'auto' as WordDictationOpenBy,
+})
+
+export const wordDisplayConfigAtom = atomWithStorage<WordDisplayConfig>('wordDisplayConfig', {
+  showNotation: true,
+  showTranslation: true,
+  enlargeTranslation: false,
 })
 
 export const dismissStartCardDateAtom = atomWithStorage<Date | null>(DISMISS_START_CARD_DATE_KEY, null)

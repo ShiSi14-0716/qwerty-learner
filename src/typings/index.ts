@@ -42,3 +42,15 @@ export type WordDictationType = 'hideAll' | 'hideVowel' | 'hideConsonant' | 'ran
  * 如果是通过点击 resultScreen 中的默写本章按钮打开的，则关闭默写模式
  */
 export type WordDictationOpenBy = 'user' | 'auto'
+
+/**
+ * 单词面板各区块的显示配置（点击区块切换，持久化保存）
+ * - showNotation: 是否显示汉字注音/假名区块
+ * - showTranslation: 是否显示中文释义区块
+ * - enlargeTranslation: 是否放大中文释义（看释义默写模式）
+ */
+export type WordDisplayConfig = {
+  showNotation: boolean
+  showTranslation: boolean
+  enlargeTranslation: boolean
+}

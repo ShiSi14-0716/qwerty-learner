@@ -1,8 +1,10 @@
 import { isKanji } from '@/utils/kana'
-import React, { useMemo, useState } from 'react'
+import React, { useMemo } from 'react'
 
 type NotationProps = {
   notation: string
+  show?: boolean
+  onToggle?: () => void
 }
 
 type NotationInfo = {
@@ -10,25 +12,39 @@ type NotationInfo = {
   phonetic?: string
 }
 
-export default function Notation({ notation }: NotationProps) {
+export default function Notation({ notation, show = true, onToggle }: NotationProps) {
   const infos: NotationInfo[] = useMemo(() => getNotationInfo(notation), [notation])
 
-  // 假名显示/隐藏状态
-  const [showRuby, setShowRuby] = useState(true)
+  if (!show) {
+    return (
+      <button
+        type="button"
+        onClick={(e) => {
+          onToggle?.()
+          e.currentTarget.blur()
+        }}
+        className="mb-2 cursor-pointer border-2 border-dashed border-gray-300 px-6 py-1 text-sm text-gray-400 transition-colors duration-300 hover:border-indigo-400 hover:text-indigo-500 focus:outline-none dark:border-gray-600 dark:text-gray-500"
+      >
+        假名已隐藏 · 点击显示
+      </button>
+    )
+  }
 
   return (
-    <div className="mx-auto flex flex-col items-center">
-      {/* 全局开关按钮 */}
-      <button className="mb-2 rounded border px-4 py-1" onClick={() => setShowRuby(!showRuby)}>
-        {showRuby ? '隐藏假名' : '显示假名'}
-      </button>
-
+    <div
+      className="mx-auto flex cursor-pointer flex-col items-center"
+      onClick={(e) => {
+        onToggle?.()
+        e.currentTarget.blur()
+      }}
+      title="点击隐藏假名"
+    >
       <div className="flex h-20 items-end">
         <ruby className="mb-1 p-0 font-mono text-5xl text-gray-900 dark:text-gray-300">
           {infos.map(({ word, phonetic }, index) => (
             <React.Fragment key={index}>
               {word}
-              {phonetic && phonetic.trim() !== '' && showRuby && <rt>{phonetic}</rt>}
+              {phonetic && phonetic.trim() !== '' && <rt>{phonetic}</rt>}
             </React.Fragment>
           ))}
         </ruby>

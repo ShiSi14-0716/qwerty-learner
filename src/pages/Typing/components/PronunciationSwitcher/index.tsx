@@ -5,7 +5,7 @@ import type { PronunciationType } from '@/typings'
 import { PRONUNCIATION_PHONETIC_MAP } from '@/typings'
 import { CTRL } from '@/utils'
 import { Listbox, Popover, Switch, Transition } from '@headlessui/react'
-import { useAtom, useAtomValue } from 'jotai'
+import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import { Fragment, useCallback, useEffect, useMemo } from 'react'
 import IconCheck from '~icons/tabler/check'
 import IconChevronDown from '~icons/tabler/chevron-down'
@@ -13,7 +13,7 @@ import IconChevronDown from '~icons/tabler/chevron-down'
 const PronunciationSwitcher = () => {
   const currentDictInfo = useAtomValue(currentDictInfoAtom)
   const [pronunciationConfig, setPronunciationConfig] = useAtom(pronunciationConfigAtom)
-  const [phoneticConfig, setPhoneticConfig] = useAtom(phoneticConfigAtom)
+  const setPhoneticConfig = useSetAtom(phoneticConfigAtom)
   const pronunciationList = useMemo(() => LANG_PRON_MAP[currentDictInfo.language].pronunciation, [currentDictInfo.language])
 
   useEffect(() => {
@@ -72,16 +72,6 @@ const PronunciationSwitcher = () => {
     [setPronunciationConfig],
   )
 
-  const onChangePhoneticIsOpen = useCallback(
-    (value: boolean) => {
-      setPhoneticConfig((old) => ({
-        ...old,
-        isOpen: value,
-      }))
-    },
-    [setPhoneticConfig],
-  )
-
   const onChangePronunciationType = useCallback(
     (value: PronunciationType) => {
       const item = pronunciationList.find((item) => item.pron === value)
@@ -130,17 +120,6 @@ const PronunciationSwitcher = () => {
           >
             <Popover.Panel className="absolute left-1/2 z-20 mt-2 flex max-w-max -translate-x-1/2 px-4 ">
               <div className="shadow-upper box-border flex w-60 select-none flex-col items-center justify-center gap-4 rounded-xl bg-white p-4 drop-shadow transition duration-1000 ease-in-out dark:bg-gray-800">
-                <div className="flex w-full  flex-col  items-start gap-2 py-0">
-                  <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">开关音标显示</span>
-                  <div className="flex w-full flex-row items-center justify-between">
-                    <Switch checked={phoneticConfig.isOpen} onChange={onChangePhoneticIsOpen} className="switch-root">
-                      <span aria-hidden="true" className="switch-thumb" />
-                    </Switch>
-                    <span className="text-right text-xs font-normal leading-tight text-gray-600">{`音标已${
-                      phoneticConfig.isOpen ? '开启' : '关闭'
-                    }`}</span>
-                  </div>
-                </div>
                 <div className="flex w-full  flex-col  items-start gap-2 py-0">
                   <span className="text-sm font-normal leading-5 text-gray-900 dark:text-white dark:text-opacity-60">开关单词发音</span>
                   <div className="flex w-full flex-row items-center justify-between">

@@ -1,16 +1,13 @@
-import { TypingContext, TypingStateActionType } from '../../store'
 import AnalysisButton from '../AnalysisButton'
 import ErrorBookButton from '../ErrorBookButton'
 import HandPositionIllustration from '../HandPositionIllustration'
 import LoopWordSwitcher from '../LoopWordSwitcher'
 import Setting from '../Setting'
 import SoundSwitcher from '../SoundSwitcher'
-import WordDictationSwitcher from '../WordDictationSwitcher'
 import Tooltip from '@/components/Tooltip'
-import { isOpenDarkModeAtom } from '@/store'
-import { CTRL } from '@/utils'
+import { isOpenDarkModeAtom, wordDictationConfigAtom, wordDisplayConfigAtom } from '@/store'
 import { useAtom } from 'jotai'
-import { useContext } from 'react'
+import { useCallback } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import IconMoon from '~icons/heroicons/moon-solid'
 import IconSun from '~icons/heroicons/sun-solid'
@@ -19,25 +16,33 @@ import IconLanguageOff from '~icons/tabler/language-off'
 
 export default function Switcher() {
   const [isOpenDarkMode, setIsOpenDarkMode] = useAtom(isOpenDarkModeAtom)
-  const { state, dispatch } = useContext(TypingContext) ?? {}
+  const [wordDisplayConfig, setWordDisplayConfig] = useAtom(wordDisplayConfigAtom)
+  const [wordDictationConfig, setWordDictationConfig] = useAtom(wordDictationConfigAtom)
 
   const changeDarkModeState = () => {
     setIsOpenDarkMode((old) => !old)
   }
 
-  const changeTransVisibleState = () => {
-    if (dispatch) {
-      dispatch({ type: TypingStateActionType.TOGGLE_TRANS_VISIBLE })
+  // 看释义默写模式：放大中文释义，隐藏假名与单词，凭中文回想输入罗马音
+  const isDictationTranslateMode = wordDisplayConfig.enlargeTranslation && wordDictationConfig.isOpen
+
+  const toggleDictationTranslateMode = useCallback(() => {
+    if (isDictationTranslateMode) {
+      setWordDisplayConfig((old) => ({ ...old, enlargeTranslation: false }))
+      setWordDictationConfig((old) => ({ ...old, isOpen: false }))
+    } else {
+      setWordDisplayConfig((old) => ({ ...old, showNotation: false, showTranslation: true, enlargeTranslation: true }))
+      setWordDictationConfig((old) => ({ ...old, isOpen: true, type: 'hideAll' }))
     }
-  }
+  }, [isDictationTranslateMode, setWordDisplayConfig, setWordDictationConfig])
 
   useHotkeys(
     'ctrl+shift+v',
     () => {
-      changeTransVisibleState()
+      toggleDictationTranslateMode()
     },
     { enableOnFormTags: true, preventDefault: true },
-    [],
+    [toggleDictationTranslateMode],
   )
 
   return (
@@ -50,20 +55,17 @@ export default function Switcher() {
         <LoopWordSwitcher />
       </Tooltip>
 
-      <Tooltip className="h-7 w-7" content={`开关默写模式（${CTRL} + V）`}>
-        <WordDictationSwitcher />
-      </Tooltip>
-      <Tooltip className="h-7 w-7" content={`开关释义显示（${CTRL} + Shift + V）`}>
+      <Tooltip className="h-7 w-7" content={`看释义默写：放大中文释义，隐藏假名与单词（${'Ctrl'} + Shift + V）`}>
         <button
-          className={`p-[2px] ${state?.isTransVisible ? 'text-indigo-500' : 'text-gray-500'} text-lg focus:outline-none`}
+          className={`p-[2px] ${isDictationTranslateMode ? 'text-indigo-500' : 'text-gray-500'} text-lg focus:outline-none`}
           type="button"
           onClick={(e) => {
-            changeTransVisibleState()
+            toggleDictationTranslateMode()
             e.currentTarget.blur()
           }}
-          aria-label={`开关释义显示（${CTRL} + Shift + V）`}
+          aria-label="开关看释义默写模式"
         >
-          {state?.isTransVisible ? <IconLanguage /> : <IconLanguageOff />}
+          {isDictationTranslateMode ? <IconLanguage /> : <IconLanguageOff />}
         </button>
       </Tooltip>
 

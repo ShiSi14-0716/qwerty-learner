@@ -15,6 +15,7 @@ export default function WordPanel() {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
   const { state, dispatch } = useContext(TypingContext)!
   const phoneticConfig = useAtomValue(phoneticConfigAtom)
+  const setPhoneticConfig = useSetAtom(phoneticConfigAtom)
   const isShowPrevAndNextWord = useAtomValue(isShowPrevAndNextWordAtom)
   const [wordComponentKey, setWordComponentKey] = useState(0)
   const [currentWordExerciseCount, setCurrentWordExerciseCount] = useState(0)
@@ -24,6 +25,17 @@ export default function WordPanel() {
 
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
+
+  // 当前词是否含音标数据（英语词典）；日语词典无音标则不渲染音标区块
+  const hasPhonetic = useMemo(
+    () =>
+      !!currentWord && ((currentWord.usphone && currentWord.usphone.length > 1) || (currentWord.ukphone && currentWord.ukphone.length > 1)),
+    [currentWord],
+  )
+
+  const togglePhonetic = useCallback(() => {
+    setPhoneticConfig((old) => ({ ...old, isOpen: !old.isOpen }))
+  }, [setPhoneticConfig])
 
   const prevIndex = useMemo(() => {
     const newIndex = state.chapterData.index - 1
@@ -119,33 +131,6 @@ export default function WordPanel() {
     },
     { preventDefault: true },
   )
-  const [isShowTranslation, setIsHoveringTranslation] = useState(false)
-
-  const handleShowTranslation = useCallback((checked: boolean) => {
-    setIsHoveringTranslation(checked)
-  }, [])
-
-  useHotkeys(
-    'tab',
-    () => {
-      handleShowTranslation(true)
-    },
-    { enableOnFormTags: true, preventDefault: true },
-    [],
-  )
-
-  useHotkeys(
-    'tab',
-    () => {
-      handleShowTranslation(false)
-    },
-    { enableOnFormTags: true, keyup: true, preventDefault: true },
-    [],
-  )
-
-  const shouldShowTranslation = useMemo(() => {
-    return isShowTranslation || state.isTransVisible
-  }, [isShowTranslation, state.isTransVisible])
 
   return (
     <div className="container flex h-full w-full flex-col items-center justify-center">
@@ -171,7 +156,20 @@ export default function WordPanel() {
             )}
             <div className="relative">
               <WordComponent word={currentWord} onFinish={onFinish} key={wordComponentKey} />
-              {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
+              {hasPhonetic &&
+                (phoneticConfig.isOpen ? (
+                  <div onClick={togglePhonetic} title="点击隐藏音标" className="cursor-pointer">
+                    <Phonetic word={currentWord} />
+                  </div>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={togglePhonetic}
+                    className="mt-1 cursor-pointer border-2 border-dashed border-gray-300 px-4 py-0.5 text-xs text-gray-400 transition-colors duration-300 hover:border-indigo-400 hover:text-indigo-500 focus:outline-none dark:border-gray-600 dark:text-gray-500"
+                  >
+                    音标已隐藏 · 点击显示
+                  </button>
+                ))}
             </div>
           </div>
         )}

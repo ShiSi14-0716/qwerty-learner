@@ -21,11 +21,12 @@ import {
   isTextSelectableAtom,
   pronunciationIsOpenAtom,
   wordDictationConfigAtom,
+  wordDisplayConfigAtom,
 } from '@/store'
 import type { Word } from '@/typings'
 import { CTRL, getUtcStringForMixpanel } from '@/utils'
 import { useSaveWordRecord } from '@/utils/db'
-import { useAtomValue } from 'jotai'
+import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useImmer } from 'use-immer'
@@ -38,6 +39,8 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const [wordState, setWordState] = useImmer<WordState>(structuredClone(initialWordState))
 
   const wordDictationConfig = useAtomValue(wordDictationConfigAtom)
+  const setWordDictationConfig = useSetAtom(wordDictationConfigAtom)
+  const [wordDisplayConfig, setWordDisplayConfig] = useAtom(wordDisplayConfigAtom)
   const isTextSelectable = useAtomValue(isTextSelectableAtom)
   const isIgnoreCase = useAtomValue(isIgnoreCaseAtom)
   const isShowAnswerOnHover = useAtomValue(isShowAnswerOnHoverAtom)
@@ -100,6 +103,25 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const handleHoverWord = useCallback((checked: boolean) => {
     setIsHoveringWord(checked)
   }, [])
+
+  // 点击各区块切换显示/隐藏（持久化在 wordDisplayConfig）
+  const toggleNotation = useCallback(() => {
+    setWordDisplayConfig((old) => ({ ...old, showNotation: !old.showNotation }))
+  }, [setWordDisplayConfig])
+
+  const toggleTranslation = useCallback(() => {
+    setWordDisplayConfig((old) => ({ ...old, showTranslation: !old.showTranslation }))
+  }, [setWordDisplayConfig])
+
+  // 点击单词（罗马音）区块：切换默写模式（全部隐藏）
+  const toggleDictation = useCallback(() => {
+    setWordDictationConfig((old) => {
+      if (!old.isOpen) {
+        return { ...old, isOpen: true, type: 'hideAll', openBy: 'user' }
+      }
+      return { ...old, isOpen: false }
+    })
+  }, [setWordDictationConfig])
 
   useHotkeys(
     'tab',
@@ -288,8 +310,24 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         lang={currentLanguageCategory !== 'code' ? currentLanguageCategory : 'en'}
         className="flex flex-col items-center justify-center pb-1 pt-4"
       >
-        {['romaji', 'hapin'].includes(currentLanguage) && word.notation && <Notation notation={word.notation} />}
-        {state.isTransVisible && word.trans.length > 0 && <Translation trans={word.trans.join('；')} />}
+        {['romaji', 'hapin'].includes(currentLanguage) && word.notation && (
+          <Notation notation={word.notation} show={wordDisplayConfig.showNotation} onToggle={toggleNotation} />
+        )}
+        {wordDisplayConfig.showTranslation && word.trans.length > 0 && (
+          <Translation trans={word.trans.join('；')} enlarge={wordDisplayConfig.enlargeTranslation} onClick={toggleTranslation} />
+        )}
+        {!wordDisplayConfig.showTranslation && word.trans.length > 0 && (
+          <button
+            type="button"
+            onClick={(e) => {
+              toggleTranslation()
+              e.currentTarget.blur()
+            }}
+            className="cursor-pointer border-2 border-dashed border-gray-300 px-6 py-1 text-sm text-gray-400 transition-colors duration-300 hover:border-indigo-400 hover:text-indigo-500 focus:outline-none dark:border-gray-600 dark:text-gray-500"
+          >
+            释义已隐藏 · 点击显示
+          </button>
+        )}
         <div
           className={`tooltip-info relative w-fit bg-transparent p-0 leading-normal shadow-none dark:bg-transparent ${
             wordDictationConfig.isOpen ? 'tooltip' : ''
@@ -299,7 +337,14 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           <div
             onMouseEnter={() => handleHoverWord(true)}
             onMouseLeave={() => handleHoverWord(false)}
-            className={`flex items-center ${isTextSelectable && 'select-all'} justify-center ${wordState.hasWrong ? style.wrong : ''}`}
+            onClick={(e) => {
+              toggleDictation()
+              e.currentTarget.blur()
+            }}
+            title={wordDictationConfig.isOpen ? '点击恢复显示单词' : '点击隐藏单词（默写）'}
+            className={`flex cursor-pointer items-center ${isTextSelectable && 'select-all'} justify-center ${
+              wordState.hasWrong ? style.wrong : ''
+            }`}
           >
             {wordState.displayWord.split('').map((t, index) => {
               return <Letter key={`${index}-${t}`} letter={t} visible={getLetterVisible(index)} state={wordState.letterStates[index]} />
