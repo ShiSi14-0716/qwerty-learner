@@ -12,6 +12,7 @@ import type { WordPronunciationIconRef } from '@/components/WordPronunciationIco
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import { EXPLICIT_SPACE } from '@/constants'
 import useKeySounds from '@/hooks/useKeySounds'
+import usePronunciationSound from '@/hooks/usePronunciation'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import {
   currentChapterAtom,
@@ -27,7 +28,7 @@ import type { Word } from '@/typings'
 import { CTRL, getUtcStringForMixpanel } from '@/utils'
 import { useSaveWordRecord } from '@/utils/db'
 import { useAtom, useAtomValue } from 'jotai'
-import { useCallback, useContext, useEffect, useRef, useState } from 'react'
+import { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useImmer } from 'use-immer'
 
@@ -51,6 +52,19 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const currentLanguage = useAtomValue(currentDictInfoAtom).language
   const currentLanguageCategory = useAtomValue(currentDictInfoAtom).languageCategory
   const currentChapter = useAtomValue(currentChapterAtom)
+
+  // 释义默写模式完成时播放音频用的发音词（与发音图标一致：日语用带汉字的原文，TTS 读得更准）
+  const pronunciationWord = useMemo(() => {
+    if (currentLanguage === 'romaji' || currentLanguage === 'ja') {
+      const cleaned = (word.notation || '').replace(/[（(][^）)]*[）)]/g, '').trim()
+      if (cleaned) return cleaned
+      const kanaMatch = (word.notation || '').match(/\(([^)]+)\)/)
+      return (kanaMatch && kanaMatch[1]) || word.name
+    }
+    return word.name
+  }, [currentLanguage, word])
+  // 独立于音量图标挂载状态的发音实例：音量开关关闭时也能在默写完成后播放
+  const { play: playFlashPronunciation } = usePronunciationSound(pronunciationWord)
 
   const [showTipAlert, setShowTipAlert] = useState(false)
   // 看释义默写模式下完成输入后，短暂显示词汇的标记
@@ -299,9 +313,10 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         letterMistake: wordState.letterMistake,
       })
 
-      // 看释义默写模式下：完成输入后短暂显示词汇 1 秒，再进入下一个词
+      // 看释义默写模式下：完成输入后短暂显示词汇 1 秒并同步播放音频，再进入下一个词
       if (isDictationTranslateMode) {
         setShowAnswerFlash(true)
+        playFlashPronunciation()
         const timer = setTimeout(() => {
           onFinish()
         }, 1000)
