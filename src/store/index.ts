@@ -107,6 +107,7 @@ export const wordDisplayConfigAtom = atomWithStorage<WordDisplayConfig>('wordDis
   showNotation: true,
   showTranslation: true,
   enlargeTranslation: false,
+  showWord: false,
 })
 
 export const dismissStartCardDateAtom = atomWithStorage<Date | null>(DISMISS_START_CARD_DATE_KEY, null)

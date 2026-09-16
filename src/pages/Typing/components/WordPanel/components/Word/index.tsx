@@ -26,7 +26,7 @@ import {
 import type { Word } from '@/typings'
 import { CTRL, getUtcStringForMixpanel } from '@/utils'
 import { useSaveWordRecord } from '@/utils/db'
-import { useAtom, useAtomValue, useSetAtom } from 'jotai'
+import { useAtom, useAtomValue } from 'jotai'
 import { useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useImmer } from 'use-immer'
@@ -39,7 +39,6 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const [wordState, setWordState] = useImmer<WordState>(structuredClone(initialWordState))
 
   const wordDictationConfig = useAtomValue(wordDictationConfigAtom)
-  const setWordDictationConfig = useSetAtom(wordDictationConfigAtom)
   const [wordDisplayConfig, setWordDisplayConfig] = useAtom(wordDisplayConfigAtom)
   const isTextSelectable = useAtomValue(isTextSelectableAtom)
   const isIgnoreCase = useAtomValue(isIgnoreCaseAtom)
@@ -119,15 +118,10 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     setWordDisplayConfig((old) => ({ ...old, showTranslation: !old.showTranslation }))
   }, [setWordDisplayConfig])
 
-  // 点击单词（罗马音）区块：切换默写模式（全部隐藏）
-  const toggleDictation = useCallback(() => {
-    setWordDictationConfig((old) => {
-      if (!old.isOpen) {
-        return { ...old, isOpen: true, type: 'hideAll', openBy: 'user' }
-      }
-      return { ...old, isOpen: false }
-    })
-  }, [setWordDictationConfig])
+  // 点击单词（罗马音）区块：切换罗马音显示/隐藏（原文模式默认自动隐藏）
+  const toggleShowWord = useCallback(() => {
+    setWordDisplayConfig((old) => ({ ...old, showWord: !old.showWord }))
+  }, [setWordDisplayConfig])
 
   useHotkeys(
     'tab',
@@ -181,13 +175,20 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           return wordState.randomLetterVisible[index]
         }
       }
+      // 原文模式：日语（罗马音/拼音）默认自动隐藏罗马音，由 showWord 控制；其他语言单词始终显示
+      // 注意：必须返回严格布尔，undefined 会被 Letter 组件的 visible 默认值( true )当成显示
+      if (currentLanguage === 'romaji' || currentLanguage === 'hapin') {
+        return wordDisplayConfig.showWord === true
+      }
       return true
     },
     [
+      currentLanguage,
       isHoveringWord,
       isShowAnswerOnHover,
       wordDictationConfig.isOpen,
       wordDictationConfig.type,
+      wordDisplayConfig.showWord,
       wordState.displayWord,
       wordState.letterStates,
       wordState.randomLetterVisible,
@@ -353,10 +354,10 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
             onMouseEnter={() => handleHoverWord(true)}
             onMouseLeave={() => handleHoverWord(false)}
             onClick={(e) => {
-              toggleDictation()
+              toggleShowWord()
               e.currentTarget.blur()
             }}
-            title={wordDictationConfig.isOpen ? '点击恢复显示单词' : '点击隐藏单词（默写）'}
+            title={wordDisplayConfig.showWord ? '点击隐藏单词' : '点击显示单词'}
             className={`flex cursor-pointer items-center ${isTextSelectable && 'select-all'} justify-center ${
               wordState.hasWrong ? style.wrong : ''
             }`}

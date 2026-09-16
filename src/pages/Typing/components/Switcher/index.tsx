@@ -27,13 +27,25 @@ export default function Switcher() {
   // 看释义默写模式与原文模式之间切换，各自按默认显示/发音设置
   const toggleDictationTranslateMode = useCallback(() => {
     if (isDictationTranslateMode) {
-      // 退出：回到原文模式，默认显示原文+释义，默认发音
-      setWordDisplayConfig((old) => ({ ...old, showNotation: true, showTranslation: true, enlargeTranslation: false }))
+      // 退出：回到原文模式，默认显示原文+释义，罗马音自动隐藏，默认发音
+      setWordDisplayConfig((old) => ({
+        ...old,
+        showNotation: true,
+        showTranslation: true,
+        enlargeTranslation: false,
+        showWord: false,
+      }))
       setWordDictationConfig((old) => ({ ...old, isOpen: false }))
       setPronunciationConfig((old) => ({ ...old, isOpen: true }))
     } else {
       // 进入：看释义默写，隐藏原文与罗马音，不发音
-      setWordDisplayConfig((old) => ({ ...old, showNotation: false, showTranslation: true, enlargeTranslation: true }))
+      setWordDisplayConfig((old) => ({
+        ...old,
+        showNotation: false,
+        showTranslation: true,
+        enlargeTranslation: true,
+        showWord: false,
+      }))
       setWordDictationConfig((old) => ({ ...old, isOpen: true, type: 'hideAll' }))
       setPronunciationConfig((old) => ({ ...old, isOpen: false }))
     }

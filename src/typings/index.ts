@@ -48,9 +48,11 @@ export type WordDictationOpenBy = 'user' | 'auto'
  * - showNotation: 是否显示汉字注音/假名区块
  * - showTranslation: 是否显示中文释义区块
  * - enlargeTranslation: 是否放大中文释义（看释义默写模式）
+ * - showWord: 是否显示罗马音（原文模式默认自动隐藏，输入正确字母会亮起）
  */
 export type WordDisplayConfig = {
   showNotation: boolean
   showTranslation: boolean
   enlargeTranslation: boolean
+  showWord: boolean
 }
