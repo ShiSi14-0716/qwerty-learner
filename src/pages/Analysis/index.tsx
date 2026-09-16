@@ -43,7 +43,17 @@ const Analysis = () => {
   return (
     <Layout>
       <div className="flex w-full flex-1 flex-col overflow-y-auto pl-20 pr-20 pt-20">
-        <IconX className="absolute right-20 top-10 mr-2 h-7 w-7 cursor-pointer text-gray-400" onClick={onBack} />
+        <div className="absolute right-20 top-10 mr-2 flex items-center gap-3">
+          <button
+            type="button"
+            onClick={() => navigate('/error-book')}
+            className="rounded-lg border border-gray-300 px-4 py-2 text-sm text-gray-600 transition-colors hover:bg-gray-100 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
+            title="查看错题本"
+          >
+            错题本
+          </button>
+          <IconX className="h-7 w-7 cursor-pointer text-gray-400" onClick={onBack} />
+        </div>
         <ScrollArea.Root className="flex-1 overflow-y-auto">
           <ScrollArea.Viewport className="h-full w-auto pb-[20rem] [&>div]:!block">
             {isEmpty ? (

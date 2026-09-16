@@ -54,7 +54,12 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const currentChapter = useAtomValue(currentChapterAtom)
 
   const [showTipAlert, setShowTipAlert] = useState(false)
+  // 看释义默写模式下完成输入后，短暂显示词汇的标记
+  const [showAnswerFlash, setShowAnswerFlash] = useState(false)
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null)
+
+  // 看释义默写模式：放大释义 + 隐藏假名 + 隐藏单词
+  const isDictationTranslateMode = wordDisplayConfig.enlargeTranslation && wordDictationConfig.isOpen
 
   useEffect(() => {
     // run only when word changes
@@ -73,6 +78,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     newWordState.startTime = getUtcStringForMixpanel()
     newWordState.randomLetterVisible = headword.split('').map(() => Math.random() > 0.4)
     setWordState(newWordState)
+    setShowAnswerFlash(false)
   }, [word, setWordState])
 
   const updateInput = useCallback(
@@ -152,10 +158,10 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   )
 
   useEffect(() => {
-    if (wordState.inputWord.length === 0 && state.isTyping) {
+    if (wordState.inputWord.length === 0 && state.isTyping && !isDictationTranslateMode) {
       wordPronunciationIconRef.current?.play && wordPronunciationIconRef.current?.play()
     }
-  }, [state.isTyping, wordState.inputWord.length, wordPronunciationIconRef.current?.play])
+  }, [state.isTyping, wordState.inputWord.length, wordPronunciationIconRef.current?.play, isDictationTranslateMode])
 
   const getLetterVisible = useCallback(
     (index: number) => {
@@ -292,10 +298,19 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         letterMistake: wordState.letterMistake,
       })
 
+      // 看释义默写模式下：完成输入后短暂显示词汇 1 秒，再进入下一个词
+      if (isDictationTranslateMode) {
+        setShowAnswerFlash(true)
+        const timer = setTimeout(() => {
+          onFinish()
+        }, 1000)
+        return () => clearTimeout(timer)
+      }
+
       onFinish()
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [wordState.isFinished])
+  }, [wordState.isFinished, isDictationTranslateMode])
 
   useEffect(() => {
     if (wordState.wrongCount >= 4) {
@@ -311,7 +326,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         className="flex flex-col items-center justify-center pb-1 pt-4"
       >
         {['romaji', 'hapin'].includes(currentLanguage) && word.notation && (
-          <Notation notation={word.notation} show={wordDisplayConfig.showNotation} onToggle={toggleNotation} />
+          <Notation notation={word.notation} show={wordDisplayConfig.showNotation || showAnswerFlash} onToggle={toggleNotation} />
         )}
         {wordDisplayConfig.showTranslation && word.trans.length > 0 && (
           <Translation trans={word.trans.join('；')} enlarge={wordDisplayConfig.enlargeTranslation} onClick={toggleTranslation} />

@@ -1,6 +1,8 @@
 import styles from './index.module.css'
 import { defaultFontSizeConfig } from '@/constants'
-import { fontSizeConfigAtom } from '@/store'
+import HandPositionIllustration from '@/pages/Typing/components/HandPositionIllustration'
+import { fontSizeConfigAtom, isOpenDarkModeAtom } from '@/store'
+import { Switch } from '@headlessui/react'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import * as Slider from '@radix-ui/react-slider'
 import { useAtom } from 'jotai'
@@ -8,6 +10,14 @@ import { useCallback } from 'react'
 
 export default function ViewSetting() {
   const [fontSizeConfig, setFontsizeConfig] = useAtom(fontSizeConfigAtom)
+  const [isOpenDarkMode, setIsOpenDarkMode] = useAtom(isOpenDarkModeAtom)
+
+  const onChangeDarkMode = useCallback(
+    (checked: boolean) => {
+      setIsOpenDarkMode(checked)
+    },
+    [setIsOpenDarkMode],
+  )
 
   const onChangeForeignFontSize = useCallback(
     (value: [number]) => {
@@ -77,6 +87,21 @@ export default function ViewSetting() {
                 </Slider.Root>
                 <span className="ml-4 w-10 text-xs font-normal text-gray-600">{fontSizeConfig.translateFont}px</span>
               </div>
+            </div>
+          </div>
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>显示设置</span>
+            <div className={styles.switchBlock}>
+              <Switch checked={isOpenDarkMode} onChange={onChangeDarkMode} className="switch-root">
+                <span aria-hidden="true" className="switch-thumb" />
+              </Switch>
+              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`深色模式已${
+                isOpenDarkMode ? '开启' : '关闭'
+              }`}</span>
+            </div>
+            <div className={styles.block}>
+              <span className={styles.blockLabel}>指法图示</span>
+              <HandPositionIllustration asTextButton />
             </div>
           </div>
           <button className="my-btn-primary ml-4 disabled:bg-gray-300" type="button" onClick={onResetFontSize} title="重置字体设置">

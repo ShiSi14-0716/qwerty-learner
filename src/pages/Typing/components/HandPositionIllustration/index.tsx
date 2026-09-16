@@ -4,7 +4,7 @@ import { Fragment, useState } from 'react'
 import IconKeyboard from '~icons/ic/round-keyboard'
 import IconX from '~icons/tabler/x'
 
-export default function HandPositionIllustration() {
+export default function HandPositionIllustration({ asTextButton = false }: { asTextButton?: boolean }) {
   const [isOpen, setIsOpen] = useState(false)
 
   function closeModal() {
@@ -17,18 +17,24 @@ export default function HandPositionIllustration() {
 
   return (
     <>
-      <button
-        type="button"
-        onClick={openModal}
-        className={`flex items-center justify-center rounded p-[2px] text-lg text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
-          isOpen && 'bg-indigo-500 text-white'
-        }`}
-      >
-        <IconKeyboard className="icon"></IconKeyboard>
-      </button>
+      {asTextButton ? (
+        <button type="button" onClick={openModal} className="my-btn-primary disabled:bg-gray-300" title="查看指法图示">
+          查看指法图示
+        </button>
+      ) : (
+        <button
+          type="button"
+          onClick={openModal}
+          className={`flex items-center justify-center rounded p-[2px] text-lg text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
+            isOpen && 'bg-indigo-500 text-white'
+          }`}
+        >
+          <IconKeyboard className="icon"></IconKeyboard>
+        </button>
+      )}
 
       <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={closeModal}>
+        <Dialog as="div" className="relative z-[60]" onClose={closeModal}>
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"

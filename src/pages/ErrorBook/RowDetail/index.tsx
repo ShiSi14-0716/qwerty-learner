@@ -10,7 +10,8 @@ import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import Phonetic from '@/pages/Typing/components/WordPanel/components/Phonetic'
 import Letter from '@/pages/Typing/components/WordPanel/components/Word/Letter'
 import { idDictionaryMap } from '@/resources/dictionary'
-import { useSetAtom } from 'jotai'
+import { fontSizeConfigAtom } from '@/store'
+import { useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useMemo, useRef } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import HashtagIcon from '~icons/heroicons/chart-pie-20-solid'
@@ -26,6 +27,7 @@ type RowDetailProps = {
 
 const RowDetail: React.FC<RowDetailProps> = ({ currentRowDetail, allRecords }) => {
   const setCurrentRowDetail = useSetAtom(currentRowDetailAtom)
+  const fontSizeConfig = useAtomValue(fontSizeConfigAtom)
 
   const dictInfo = idDictionaryMap[currentRowDetail.dict]
   const { word, isLoading, hasError } = useGetWord(currentRowDetail.word, dictInfo)
@@ -71,9 +73,16 @@ const RowDetail: React.FC<RowDetailProps> = ({ currentRowDetail, allRecords }) =
         <IconX className="absolute right-3 top-3  h-6 w-6 cursor-pointer text-gray-400" onClick={onClose} />
         <div className="flex flex-col items-center justify-start">
           <div>
-            {currentRowDetail.word.split('').map((t, index) => (
-              <Letter key={`${index}-${t}`} letter={t} visible state="normal" />
-            ))}
+            {word && dictInfo?.language === 'romaji' && word.notation ? (
+              <span
+                className="font-normal leading-relaxed text-gray-800 dark:text-white dark:text-opacity-80"
+                style={{ fontSize: fontSizeConfig.foreignFont.toString() + 'px' }}
+              >
+                {word.notation}
+              </span>
+            ) : (
+              currentRowDetail.word.split('').map((t, index) => <Letter key={`${index}-${t}`} letter={t} visible state="normal" />)
+            )}
           </div>
           <div className="relative flex h-8 items-center">
             {word ? <Phonetic word={word} /> : <LoadingWordUI isLoading={isLoading} hasError={hasError} />}

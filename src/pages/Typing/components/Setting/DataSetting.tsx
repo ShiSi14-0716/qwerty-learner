@@ -306,11 +306,13 @@ export default function DataSetting() {
               <button
                 type="button"
                 onClick={() => handleAutoSyncToggle(!autoSync)}
-                className={`relative h-6 w-11 rounded-full transition-colors duration-200 ${autoSync ? 'bg-indigo-500' : 'bg-gray-300'}`}
+                className={`relative h-6 w-11 shrink-0 rounded-full transition-colors duration-200 ${
+                  autoSync ? 'bg-indigo-500' : 'bg-gray-300'
+                }`}
               >
                 <span
-                  className={`absolute top-0.5 h-5 w-5 rounded-full bg-white shadow transition-transform duration-200 ${
-                    autoSync ? 'translate-x-5' : 'translate-x-0.5'
+                  className={`absolute left-0.5 top-0.5 h-5 w-5 rounded-full bg-white shadow transition-transform duration-200 ${
+                    autoSync ? 'translate-x-5' : ''
                   }`}
                 />
               </button>
@@ -325,11 +327,13 @@ export default function DataSetting() {
               <button
                 type="button"
                 onClick={() => handleAutoUploadToggle(!autoUpload)}
-                className={`relative h-6 w-11 rounded-full transition-colors duration-200 ${autoUpload ? 'bg-indigo-500' : 'bg-gray-300'}`}
+                className={`relative h-6 w-11 shrink-0 rounded-full transition-colors duration-200 ${
+                  autoUpload ? 'bg-indigo-500' : 'bg-gray-300'
+                }`}
               >
                 <span
-                  className={`absolute top-0.5 h-5 w-5 rounded-full bg-white shadow transition-transform duration-200 ${
-                    autoUpload ? 'translate-x-5' : 'translate-x-0.5'
+                  className={`absolute left-0.5 top-0.5 h-5 w-5 rounded-full bg-white shadow transition-transform duration-200 ${
+                    autoUpload ? 'translate-x-5' : ''
                   }`}
                 />
               </button>
