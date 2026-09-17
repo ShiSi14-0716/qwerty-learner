@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "name": "nai",
         "trans": [
@@ -252,13 +252,6 @@
         "notation": "無限(むげん)"
     },
     {
-        "name": "muji",
-        "trans": [
-            "① 名  素色；无花纹"
-        ],
-        "notation": "無地(むじ)"
-    },
-    {
         "name": "mujaki",
         "trans": [
             "① 名·ナ形  天真，单纯"
@@ -299,13 +292,6 @@
             "① 副  硬来，强迫"
         ],
         "notation": "無理矢理(むりやり)"
-    },
-    {
-        "name": "kaimu",
-        "trans": [
-            "① 名·ナ形  毫无，全无"
-        ],
-        "notation": "皆無(かいむ)"
     },
     {
         "name": "kannmuryou",
